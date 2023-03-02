@@ -11,14 +11,14 @@
 
 ## 설치 방법
 ### ⬦ 기존 커스텀 펌웨어 이용 유저의 경우
-- [ASAP-Updater](https://github.com/Asadayot/ASAP-updater/releases)의 `Asano-updater_X.XX.X.zip` [Latest](https://github.com/Asadayot/ASAP-updater/releases/latest)를 내려받습니다.
+- [ASAP-Updater](https://github.com/Asadayot/ASAP-updater)의 `Asano-updater_X.XX.X.zip` [Latest](https://github.com/Asadayot/ASAP-updater/releases/latest)를 내려받습니다.
 - 압축 해제 후 디렉토리를 `sd:/` 최상위 경로로 붙여넣습니다.
 - 스위치를 커스텀 펌웨어로 기동 후, `hbmenu` 진입, `ASAP-Updater`를 실행합니다.
 - `ASAP 업데이트` 항목에서 해당 사항을 선택하여 다운로드합니다.
 - 다운로드 후, `뒤로` 선택하여 재기동 하며 자동 설치를 진행합니다.
 
 ### ⬦ 새 Micro SD Card 를 이용하여 설치하는 경우
-- [ASAP](https://github.com/Asadayot/ASAP/releases)의 `Install Supporter` [Latest](https://github.com/Asadayot/ASAP/releases/latest)를 내려받습니다.
+- [ASAP](https://github.com/Asadayot/ASAP)의 `Install Supporter` [Latest](https://github.com/Asadayot/ASAP/releases/latest)를 내려받습니다.
 - 압축 해제 후 `install.bat` 배치 파일을 실행합니다.
   - Windows의 PC 보호 팝업창이 생성되면 추가정보 → 실행 선택 후, CMD 창의 안내에 따라 진행하세요.
   - 혹은 디렉토리를 `sd:/` 최상위 경로로 모두 붙여넣습니다.
