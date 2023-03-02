@@ -16,7 +16,7 @@
   - exosphere 경로 변경 : `sd:/atmosphere/config`
   - 시리얼 변조 코드 변경 : `XAW` → `XAJ`(유럽/일본)
 - Boot.dat & Boot.ini
-  - SX OS / 모드칩 전용 필수 로더 및 
+  - SX OS / 모드칩 전용 필수 로더 및 설정
 
 ### ⬦ 홈브류 메뉴/로더
 - [nx-hbmenu](https://github.com/Asadayot/nx-hbmenu) & [nx-hbloader](https://github.com/Asadayot/nx-hbloader)
