@@ -2,7 +2,7 @@
 ![Image of ASAP](https://user-images.githubusercontent.com/89662125/222437596-ec56021f-bbf4-4326-916b-8abaa23049cd.png)
 
 
-- NX-Atmosphère 팀의 [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere) 에서 분기한 [Asanosphère](https://github.com/Asadayot/Asanosphere) 와 CTCaer 팀의 [Hekate](https://github.com/CTCaer/hekate) 를 베이스로 한 초보자용 올인원 패키지입니다.
+- NX-Atmosphère 팀의 [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere)에서 분기한 [Asanosphère](https://github.com/Asadayot/Asanosphere)와 CTCaer 팀의 [Hekate](https://github.com/CTCaer/hekate)를 베이스로 한 초보자용 올인원 패키지입니다.
 
 - ASAP 은 Asa - Starter All-in-one Package 의 약자로 As Soon As Possible (최대한 빠르게) 의 이중적 의미를 갖습니다.
 
@@ -11,7 +11,7 @@
 
 ## 설치 방법
 ### ⬦ 기존 커스텀 펌웨어 이용 유저의 경우
-- [ASAP-Updater](https://github.com/Asadayot/ASAP-updater/releases) 의 `Asano-updater_X.XX.X.zip` [Latest](https://github.com/Asadayot/ASAP-updater/releases/latest)를 내려받습니다.
+- [ASAP-Updater](https://github.com/Asadayot/ASAP-updater/releases)의 `Asano-updater_X.XX.X.zip` [Latest](https://github.com/Asadayot/ASAP-updater/releases/latest)를 내려받습니다.
 - 압축 해제 후 디렉토리를 `sd:/` 최상위 경로로 붙여넣습니다.
 - 스위치를 커스텀 펌웨어로 기동 후 `hbmenu` 진입, `ASAP-Updater` 실행하여 `ASAP 업데이트` 항목에서 해당 사항을 선택하세요.
 - 다운로드 후 `뒤로` 선택하여 재기동 하며 자동 설치를 진행합니다.
