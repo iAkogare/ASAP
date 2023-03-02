@@ -99,9 +99,21 @@
 ## Screenshots
 <details><summary>Expand to view the screenshots</summary>
 
-![ams_tab](https://user-images.githubusercontent.com/61667930/193625554-ad9a8a5a-72ad-462e-95d9-94979c9750ac.jpg)
-![cheats_tab](https://user-images.githubusercontent.com/61667930/193625551-9912210a-c99c-434f-ab5e-b468a698ddcf.jpg)
-![individual_cheats](https://user-images.githubusercontent.com/61667930/193625547-18bff50c-1985-4ce5-aadf-2394fa5d29ca.jpg)
-![tools_tab](https://user-images.githubusercontent.com/61667930/193625542-4722690a-a86f-48d1-8935-367b16f355f8.jpg)
+![1](https://user-images.githubusercontent.com/89662125/222483463-2504129c-09e8-464d-80eb-b51397d1556b.jpg)
+![2](https://user-images.githubusercontent.com/89662125/222483471-7005b38c-e9cf-4148-87bb-dc6059e9bf7b.jpg)
+![3](https://user-images.githubusercontent.com/89662125/222483481-45e95eb4-c723-405d-a1d7-30368fcc6f54.jpg)
+![4](https://user-images.githubusercontent.com/89662125/222483526-38d4ac45-37f4-4db8-8516-2f5ecb7ef655.jpg)
+![5](https://user-images.githubusercontent.com/89662125/222483540-e9bdb9a5-6b2a-469d-9919-efc86a5239cd.jpg)
+![6](https://user-images.githubusercontent.com/89662125/222483557-b8f6dfbf-ce01-4566-8b1a-b7ac19c644e4.jpg)
+![7](https://user-images.githubusercontent.com/89662125/222483568-07d7e32c-560c-4a0f-bebb-7da1c99387d1.jpg)
+![8](https://user-images.githubusercontent.com/89662125/222483583-1d41ebd1-3cc5-4136-a731-077e93c6bd37.jpg)
+![9](https://user-images.githubusercontent.com/89662125/222483594-0c738b3c-8c00-4356-8641-715f05a498a9.jpg)
+![10](https://user-images.githubusercontent.com/89662125/222483708-68230b7b-97b5-4329-b25d-b587ae8d327c.jpg)
+![11](https://user-images.githubusercontent.com/89662125/222483718-91a2ffa1-8022-4007-b911-b76f03f97fb4.jpg)
+![12](https://user-images.githubusercontent.com/89662125/222483729-e9399261-b2eb-4af4-880e-217980faa047.jpg)
+![13](https://user-images.githubusercontent.com/89662125/222483738-b10c9844-351b-4abd-8a73-a533881f5a4f.jpg)
+![14](https://user-images.githubusercontent.com/89662125/222483759-ae856d50-81b0-4e39-9743-51e7af41f6fd.jpg)
+![15](https://user-images.githubusercontent.com/89662125/222483793-c8a87a5c-508b-42cb-8294-bdc94a5ac356.jpg)
+![16](https://user-images.githubusercontent.com/89662125/222483816-f3ad4b3a-be0f-41e0-8001-ccbd4e2e16a3.jpg)
 
 </details>
