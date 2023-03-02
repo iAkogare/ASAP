@@ -22,8 +22,10 @@
 - 압축 해제 후 `install.bat` 배치 파일을 실행합니다.
   - Windows의 PC 보호 팝업창이 생성되면 `추가정보` → `실행` 선택 후, CMD 창의 안내에 따라 진행하세요.
   - 혹은 디렉토리를 `sd:/` 최상위 경로로 모두 붙여넣습니다.
-- Hekate 로 기동 `Tools` → `Partition SD Card` → `OK` → `emuMMC(RAW)-12GiB` → `Next Step` 순으로 선택하여 파티션을 생성합니다.
-  - 파일 기반
+- Hekate 로 기동 하여 에뮤낸드를 생성합니다.
+  - 파티션 기반 : `Tools`→`Partition SD Card`→`OK`→`emuMMC(RAW)-12GiB`→`Next Step`→`Start`→`전원버튼`→`OK` 순으로 선택하여 파티션을 생성합니다.
+  - 파일 기반 : 파티션 생성 부분을 건너 뜁니다.
+  - 
 - 스위치를 커스텀 펌웨어로 기동 후, `hbmenu` 진입, `ASAP-Updater`를 실행합니다.
 - `ASAP 업데이트` 항목에서 해당 사항을 선택하여 다운로드합니다.
 - 다운로드 후, `뒤로` 선택하여 재기동 하며 자동 설치를 진행합니다.
