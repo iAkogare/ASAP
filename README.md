@@ -24,10 +24,10 @@
 - [fusse.bin](https://github.com/Asadayot/Asanosphere)
 - [TegraExplorer](https://github.com/Asadayot/TegraExplorer) : 4.5.0-ASAP
   - TegraExplorer 폴더 삭제, Exit/Scripts 수정, 덤프 경로 변경.
-  - 스크린샷:`sd:/bootloader/screenshots`, HOS 덤프:`sd:/Firmware`, 기타:`sd:/backup`
+  - 스크린샷 : `sd:/bootloader/screenshots`, HOS 덤프 : `sd:/Firmware`, 기타 : `sd:/backup`
 - [Lockpick_RCM](https://github.com/Asadayot/Lockpick_RCM) : 1.9.11
   - 덤프 경로 변경.
-  - 스크린샷:`sd:/bootloader/screenshots`, keys:`sd:/backup/keys`
+  - 스크린샷 : `sd:/bootloader/screenshots`, keys : `sd:/backup/keys`
 - [hwfly-toolbox](https://github.com/Asadayot/hwfly-toolbox) : 1.1.1, 버전 표기 오류 수정.
 
 ### ⬦ 시그패치
