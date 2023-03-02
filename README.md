@@ -2,9 +2,13 @@
 <img src = "https://user-images.githubusercontent.com/89662125/222407976-6d71fd42-47e5-465a-b5e7-d90092a8b29f.png"\><br>
 </p>
 
-A Nintendo Switch homebrew app to download and update CFWs, FWs and cheat codes. Supports Atmosphère, ReiNX and SXOS.
 
-Works on **unpatched** (Erista) and **patched** (v2/Mariko) Switches.
+## ASAP
+
+Asa - Starter All-in-one Package 의 약자로 As Soon As Possible (최대한 빠르게) 의 이중적 의미를 갖습니다.
+
+ASAP 은 [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere) 에서 분기한 [Asanosphère](https://github.com/Asadayot/Asanosphere)와 [Hekate](https://github.com/CTCaer/hekate)를 베이스로 한 올인원 패키지입니다.
+
 ㄴㄴ
 ## How to install
 Copy the `aio-switch-updater/` directory to `/switch/` on your sdcard.
