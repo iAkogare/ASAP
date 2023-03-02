@@ -44,7 +44,7 @@
   - ASAP-Updater → 추가 구성 다운로드 → hekate_ipl.ini, hwfly firmware.bin / sdloader.enc 선택 다운로드.
   - ASAP-Updater → Horizon OS 다운로드 → [ HOS ] XX.X.X, [ HOS ] XX.X.X (Rebootless Update) 선택 다운로드. 
   - ASAP-Updater → 버전교체/시그패치/ETC. → Signature Patches, Tesla, Sysmodule, Homebrew 선택 다운로드.
-  - 
+
 ## Features
 ### ⬦ Update CFW
 - Update the Atmosphère Switch Custom Firmware. AIO-Switch-Updater uses a custom RCM payload to finalise the install as it can't be performed while HOS is running.
