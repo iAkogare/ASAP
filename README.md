@@ -5,7 +5,7 @@
 
 ## ASAP
 <br>
-ASAP 은 [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere) 에서 분기한 [Asanosphère](https://github.com/Asadayot/Asanosphere), [Hekate](https://github.com/CTCaer/hekate)를 베이스로 한 올인원 패키지입니다.
+ASAP 은 [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere) 에서 분기한 [Asanosphère](https://github.com/Asadayot/Asanosphere) [Hekate](https://github.com/CTCaer/hekate)를 베이스로 한 올인원 패키지입니다.
 <br>
 Asa - Starter All-in-one Package 의 약자로 As Soon As Possible (최대한 빠르게) 의 이중적 의미를 갖습니다.
 
