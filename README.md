@@ -1,5 +1,5 @@
 <p align="center">
-<img src = "https://user-images.githubusercontent.com/61667930/93691188-7833f000-fad1-11ea-866d-42e19be54425.jpg"\><br>
+<img src = "https://user-images.githubusercontent.com/89662125/222407976-6d71fd42-47e5-465a-b5e7-d90092a8b29f.png"\><br>
 </p>
 
 A Nintendo Switch homebrew app to download and update CFWs, FWs and cheat codes. Supports Atmosphère, ReiNX and SXOS.
