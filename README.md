@@ -96,8 +96,8 @@
   - ASAP-Updater → Horizon OS 다운로드 → '[ HOS ] XX.X.X', '[ HOS ] XX.X.X (Rebootless Update)' 선택 다운로드. 
   - ASAP-Updater → 버전교체/시그패치/ETC. → 'Signature Patches', 'Tinfoil DB', 'Tesla', 'Sysmodule', 'Homebrew' 선택 다운로드.
 
-## Screenshots
-<details><summary>Expand to view the screenshots</summary>
+## 스크린샷
+<details><summary>미리보기</summary>
 
 ![1](https://user-images.githubusercontent.com/89662125/222483463-2504129c-09e8-464d-80eb-b51397d1556b.jpg)
 ![2](https://user-images.githubusercontent.com/89662125/222483471-7005b38c-e9cf-4148-87bb-dc6059e9bf7b.jpg)
