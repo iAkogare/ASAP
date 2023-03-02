@@ -36,6 +36,9 @@
 ### ⬦ 시그패치
 - ASAP 용 기본 설치, 이후 ASAP-Updater 를 통하여 업데이트 가능
 
+### ⬦ Warmboot Mariko 캐시
+- Mariko 기기용 웜부트 캐시 `wb_0c.bin ~ wb_12.bin`
+
 ### ⬦ 홈브류
 - [ASAP-Updater](https://github.com/Asadayot/ASAP-updater) : 2.21.4-ASAP
   - 오탈자 수정, 내용 변경, 연결 링크 변경, 16.0.0 지원, Tesla 및 홈브류/시스모듈 항목 추가.
