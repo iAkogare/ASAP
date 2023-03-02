@@ -27,11 +27,11 @@
   - 설정→데이터 관리→저장 데이터 맡기기→온라인 가입자 선택→설정→저장 데이터 자동 백업/다운로드 OFF 순으로 설정합니다.
   - 설정→본체→소프트웨어 자동 업데이트 OFF→에러 정보 송신 OFF 순으로 설정합니다.
 - `파티션 기반` 에뮤낸드를 생성합니다. (선택사항)
-  - 부팅화면이 표기되면 `-볼륨버튼` 선택하여 Hekate로 진입합니다. 
+  - 부팅화면이 표기되면 `- 볼륨 버튼` 선택하여 Hekate로 진입합니다. 
   - Tools→Partition SD Card→OK→emuMMC(RAW)-12GiB→Next Step→Start→전원버튼→OK 순으로 선택하여 파티션을 분할합니다.
   - Hekate 홈메뉴로 돌아가 emuMMC→Create emuMMC→SD Partition→Part X 순으로 선택하여 자동 생성합니다.
 - `파일 기반` 에뮤낸드를 생성합니다. (선택사항)
-  - 부팅화면이 표기되면 `-볼륨버튼` 선택하여 Hekate로 진입합니다. 
+  - 부팅화면이 표기되면 `- 볼륨 버튼` 선택하여 Hekate로 진입합니다. 
   - Tools→Partition SD Card→OK→Next Step→Start→전원버튼→OK 순으로 선택하여 FAT32로 포맷합니다.
   - Hekate 홈메뉴로 돌아가 emuMMC→Create emuMMC→SD Partition→SD File 순으로 선택하여 자동 포맷합니다.
 - Launch 메뉴의 `Atmosphere (fusee.bin)`로 기동 후, hbmenu `앨범+R+A` 진입하여 ASAP-Updater를 실행합니다.
