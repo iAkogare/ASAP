@@ -4,9 +4,7 @@
 
 
 ![License](https://img.shields.io/badge/License-GPLv2-blue.svg)
-<p align="center">
-<img src = "https://user-images.githubusercontent.com/89662125/222431993-869110b4-0edd-41ec-963e-000f71a69203.png"\><br>
-</p>
+(https://user-images.githubusercontent.com/89662125/222431993-869110b4-0edd-41ec-963e-000f71a69203.png)
 
 
 ## ASAP
