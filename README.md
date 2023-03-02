@@ -24,7 +24,7 @@
   - 고정 위치 변경 : `sd:/atmosphere/hb` 
 
 ### ⬦ 페이로드
-- [fusse.bin](https://github.com/Asadayot/Asanosphere)
+- [fusee.bin](https://github.com/Asadayot/Asanosphere)
 - [TegraExplorer](https://github.com/Asadayot/TegraExplorer) : 4.5.0-ASAP
   - TegraExplorer 폴더 삭제, Exit/Scripts 수정, 덤프 경로 변경.
   - 스크린샷 : `sd:/bootloader/screenshots`, HOS 덤프 : `sd:/Firmware`, 기타 : `sd:/backup`
