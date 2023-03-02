@@ -92,7 +92,7 @@
   - Hekate 홈메뉴로 돌아가 emuMMC→Create emuMMC→SD Partition→SD File 순으로 선택하여 자동 포맷합니다.
 - Launch 메뉴의 `Atmosphere (fusee.bin)`로 기동 후, hbmenu `앨범+R+A` 진입하여 ASAP-Updater를 실행합니다.
 - 'ASAP 업데이트' 항목에서 해당 사항을 선택하여 다운로드합니다.
-- 다운로드 후, '뒤로' 선택하여 재기동 하며 자동 설치를 진행합니다.
+- 다운로드 후, `뒤로` 선택하여 재기동 하며 자동 설치를 진행합니다.
 
 ### ⬦ 추가 사항 설치
 - `ASAP-Updater` 혹은 `Install Supporter` 를 이용한 ASAP 설치 완료 후 기호에 따라 추가 파일을 설치합니다.
