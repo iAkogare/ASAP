@@ -38,6 +38,13 @@
 - 'ASAP 업데이트' 항목에서 해당 사항을 선택하여 다운로드합니다.
 - 다운로드 후, '뒤로' 선택하여 재기동 하며 자동 설치를 진행합니다.
 
+### ⬦ 추가 사항 설치
+- `ASAP-Updater` 혹은 `Install Supporter` 를 이용한 ASAP 설치 완료 후 기호에 따라 추가 파일을 설치합니다.
+  - ASAP-Updater → 추가 구성 다운로드 → [ Mariko 유저 ] OLED 모델 전용 필수 추가파일 선택 다운로드.
+  - ASAP-Updater → 추가 구성 다운로드 → hekate_ipl.ini, hwfly firmware.bin / sdloader.enc 선택 다운로드.
+  - ASAP-Updater → Horizon OS 다운로드 → [ HOS ] XX.X.X, [ HOS ] XX.X.X (Rebootless Update) 선택 다운로드. 
+  - ASAP-Updater → 버전교체/시그패치/ETC. → Signature Patches, Tesla, Sysmodule, Homebrew 선택 다운로드.
+  - 
 ## Features
 ### ⬦ Update CFW
 - Update the Atmosphère Switch Custom Firmware. AIO-Switch-Updater uses a custom RCM payload to finalise the install as it can't be performed while HOS is running.
