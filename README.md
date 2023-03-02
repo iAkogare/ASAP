@@ -1,9 +1,6 @@
-<p align="center">
-<img src = "https://user-images.githubusercontent.com/89662125/222431993-869110b4-0edd-41ec-963e-000f71a69203.png"\><br>
-</p>
-##
+# ASAP
+![Image of ASAP](https://user-images.githubusercontent.com/89662125/222431993-869110b4-0edd-41ec-963e-000f71a69203.png)
 
-## ASAP
 
 - ASAP 은 NX-Atmosphère 팀의 [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere) 에서 분기한 [Asanosphère](https://github.com/Asadayot/Asanosphere) 와 CTCaer 팀의 [Hekate](https://github.com/CTCaer/hekate) 를 베이스로 한 초보자용 올인원 패키지입니다.
 
