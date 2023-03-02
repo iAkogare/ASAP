@@ -21,7 +21,7 @@
 ### ⬦ 홈브류 메뉴/로더
 - [nx-hbmenu](https://github.com/Asadayot/nx-hbmenu) & [nx-hbloader](https://github.com/Asadayot/nx-hbloader)
   - 한글화.
-  - 고정 위치 변경 : `sd:/atmospheer/hb` 
+  - 고정 위치 변경 : `sd:/atmosphere/hb` 
 
 ### ⬦ 페이로드
 - [fusse.bin](https://github.com/Asadayot/Asanosphere)
