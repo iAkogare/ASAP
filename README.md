@@ -10,7 +10,8 @@
 
 
 ## 설치 방법
-1. Latest  `aio-switch-updater/` directory to `/switch/` on your sdcard.
+### ⬦ 기존 커스텀 펌웨어 이용 유저의 경우
+- [ASAP-Updater](https://github.com/Asadayot/ASAP-updater/releases) 에서 [Latest](https://github.com/Asadayot/ASAP-updater/releases/latest)  `aio-switch-updater/` directory to `/switch/` on your sdcard.
 
 ## Features
 ### ⬦ Update CFW
