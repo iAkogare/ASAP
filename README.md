@@ -9,7 +9,7 @@
 
 
 
-## 기본 제공
+## 기본 제공 / 변경 
 ### ⬦ CFW & 부트로더
 - [Asanosphère](https://github.com/Asadayot/Asanosphere) & [Hekate](https://github.com/CTCaer/hekate)
   - 버전 표기 변경 : `HOS VER│ASAP1.5.0-0302│S/E`
