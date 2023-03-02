@@ -2,7 +2,8 @@
 ![Image of ASAP](https://user-images.githubusercontent.com/89662125/222437596-ec56021f-bbf4-4326-916b-8abaa23049cd.png)
 
 
-- ASAP 은 NX-Atmosphère 팀의 [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere) 에서 분기한 [Asanosphère](https://github.com/Asadayot/Asanosphere) 와 CTCaer 팀의 [Hekate](https://github.com/CTCaer/hekate) 를 베이스로 한 초보자용 올인원 패키지입니다.
+- ASAP 은 NX-Atmosphère 팀의 [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere) 에서 분기한 [Asanosphère](https://github.com/Asadayot/Asanosphere) 와 CTCaer 팀의 [Hekate](https://github.com/CTCaer/hekate) 를 베이스로 한 
+ 커스텀 펌웨어 초보자용 올인원 패키지입니다.
 
 - Asa - Starter All-in-one Package 의 약자로 As Soon As Possible (최대한 빠르게) 의 이중적 의미를 갖습니다.
 ##
