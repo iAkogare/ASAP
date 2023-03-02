@@ -91,22 +91,3 @@ PRs and suggestions are encouraged! If you wish to help with the localization of
 
 ## Disclaimer
 I do not own, host nor distribute any of the files that can be downloaded with this homebrew tool. At the owner's request, I will immediately remove the ability to download any problematic file.
-
-## Special thanks
-- [natinusala](https://github.com/natinusala) for the Borealis library.
-- [tiansongyu](https://github.com/tiansongyu) for bringing support for multi-language and for his Chinese translation.
-- [yyoossk](https://github.com/yyoossk) for the Japanese locale.
-- [sergiou87](https://github.com/sergiou87) for the Spanish locale.
-- [pedruhb](https://github.com/pedruhb) for the Brazilian locale.
-- [AD2076](https://github.com/AD2076) for the Italian locale.
-- [qazrfv1234](https://github.com/qazrfv1234) for the Traditional Chinese locale.
-- [Nota Inutilis](https://github.com/NotaInutilis/) for the French locale.
-- [Team Neptune](https://github.com/Team-Neptune) whose rcm code I used.
-- [fennectech](https://github.com/fennectech) for helping test the app and providing suggestions.
-- Iliak for [Cheat Slips](https://www.cheatslips.com/).
-
-### Like the app?
-- Liberapay : <a href="https://liberapay.com/HamletDuFromage/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a>
-- BTC: 1CoFc1bY5AHLP6Noe1zmqnJnp7ZWBxyo79
-- ETH: 0xf68f568e21a15934e0e9a6949288c3ca009140ba
-- Monero (XMR): 88wjCuhHX3oNhVpEdYeUx3LvrkdTvcTHx7v7L5fQpjCg7QiAReJUVR4LPase5Byj2UhdVdLtvysJaXTFKq2EnuvuLjvQMGL
