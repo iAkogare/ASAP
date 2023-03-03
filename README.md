@@ -60,6 +60,7 @@
 - [EdiZon-Overlay](https://github.com/proferabg/EdiZon-Overlay) : 1.0.4
 - [MissionControl](https://github.com/ndeadly/MissionControl) : 0.9.0
 - [ldn_mitm](https://github.com/Asadayot/ldn_mitm) : 1.15.0-ASAP, 한글화
+- [QuickNTP](https://github.com/Asadayot/QuickNTP) : 1.2.7-ASAP, 한글화
 - [Status-Monitor-Overlay](https://github.com/Asadayot/Status-Monitor-Overlay) : 0.8.0-ASAP
 - [sys-clk](https://github.com/Asadayot/sys-clk) : 1.0.3-ASAP, 한글화
 - [sys-con](https://github.com/cathery/sys-con) : 0.6.4
