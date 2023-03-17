@@ -131,7 +131,7 @@ ASAP
 - 퓨즈가 연소되는 메이저 업데이트의 경우, 특정기기에서 많은 오류를 동반할 수 있으니 다음을 숙지하세요.
   - HOS 버전과 대응하는 CFW(ASAP)를 `ASAP-Updater` → `ASAP 업데이트`에서 우선적으로 업데이트.
   - 헤카테 `홈` → `재부팅` → `정펌`으로 HOS 기동 후 시스템 업데이트.
-  - fss0/Package3, fusee 체인로드를 통한 HOS 기동 후 `ASAP-Updater` → `Horizon OS 업데이트`에서 해당 펌웨어 다운로드 및 데이브레이크를 통한 업데이트.
+  - fss0/Package3, fusee 체인로드를 통한 HOS 기동 후 `ASAP-Updater` → `Horizon OS 업데이트`에서 에뮤낸드 업데이트.
   
   
 스크린샷
