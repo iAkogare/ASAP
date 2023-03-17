@@ -12,6 +12,7 @@
 
 
 ## 기본 제공 / 변경 로그
+<details><summary>미리보기</summary>
 ### ⬦ CFW & 부트로더
 - [Asanosphère](https://github.com/Asadayot/Asanosphere)
   - 버전 표기 변경 : `HOS VER│ASAP1.5.1-0318│S/E`
@@ -114,6 +115,8 @@
   - ASAP-Updater → Horizon OS 다운로드 → '[ HOS ] XX.X.X', '[ HOS ] XX.X.X (Rebootless Update)' 선택 다운로드. 
   - ASAP-Updater → 버전교체/시그패치/ETC. → 'Signature Patches', 'Tinfoil DB', 'Tesla', 'Sysmodule', 'Homebrew' 선택 다운로드.
 
+</details>
+  
 ## 스크린샷
 <details><summary>미리보기</summary>
 
