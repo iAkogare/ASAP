@@ -2,19 +2,27 @@
 ![Image of ASAP](https://user-images.githubusercontent.com/89662125/222437596-ec56021f-bbf4-4326-916b-8abaa23049cd.png)
 
 
-- NX-Atmosphère 팀의 [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere)에서 분기한 [Asanosphère](https://github.com/Asadayot/Asanosphere)와 CTCaer 팀의 [Hekate](https://github.com/CTCaer/hekate)를 베이스로 한 초보자용 올인원 패키지입니다.
+- NX-Atmosphère 팀의 [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere)에서 분기한 [Asanosphère](https://github.com/Asadayot/Asanosphere)와 CTCaer 팀의 [Hekate](https://github.com/CTCaer/hekate)에서 분기한 [Hekate×ASAP](https://github.com/Asadayot/hekate)을 베이스로 한 초보자용 올인원 패키지입니다.
 
-- ASAP 은 Asa - Starter All-in-one Package 의 약자로 As Soon As Possible (최대한 빠르게) 의 이중적 의미를 갖습니다.
+- ASAP 은 Asa's Switch All-in-one Package 의 약자로 As Soon As Possible (최대한 빠르게) 의 이중적 의미를 갖습니다.
+- ASAP 에 기본 포함된 [Asanosphère](https://github.com/Asadayot/Asanosphere), [Hekate×ASAP](https://github.com/Asadayot/hekate), 페이로드는 유기적인 관계로 이어져 있으며 기타 올인원과 혼합 사용시 이용하지 못하는 기능이 생기거나 치명적인 충돌이 일어날 수 있습니다, 혼합 사용을 피해주세요.
+- 기본 포함 팩을 제외한 홈브류 및 페이로드는 위 내용과 관련이 없으니 자유로이 설치 및 사용하셔도 무방합니다.
 
 
 
 
 ## 기본 제공 / 변경 로그
 ### ⬦ CFW & 부트로더
-- [Asanosphère](https://github.com/Asadayot/Asanosphere) & [Hekate](https://github.com/CTCaer/hekate)
-  - 버전 표기 변경 : `HOS VER│ASAP1.5.0-0302│S/E`
+- [Asanosphère](https://github.com/Asadayot/Asanosphere)
+  - 버전 표기 변경 : `HOS VER│ASAP1.5.1-0318│S/E`
   - exosphere 경로 변경 : `sd:/atmosphere/config`
+  - config 폴더의 .ini 파일 한글 부연 설명 추가(주석)
   - 시리얼 변조 코드 변경 : `XAW` → `XAJ`(유럽/일본)
+- [Hekate×ASAP](https://github.com/Asadayot/hekate)
+  - 한글화
+  - 덤프 경로 변경.
+  - 스크린샷 : `sd:/backup/screenshots`, 기타 : `sd:/backup`
+  - ASAP 이외의 CFW에서 이용제한(충돌 및 일부 서비스 이용 불가). 
 - Boot.dat & Boot.ini
   - SX OS / 모드칩 전용 필수 로더 및 설정
 
@@ -25,13 +33,17 @@
 
 ### ⬦ 페이로드
 - [fusee.bin](https://github.com/Asadayot/Asanosphere)
-- [TegraExplorer](https://github.com/Asadayot/TegraExplorer) : 4.5.0-ASAP
+- [TegraExplorer](https://github.com/Asadayot/TegraExplorer) : 4.0.1-ASAP
   - TegraExplorer 폴더 삭제, Exit/Scripts 수정, 덤프 경로 변경.
-  - 스크린샷 : `sd:/bootloader/screenshots`, HOS 덤프 : `sd:/Firmware`, 기타 : `sd:/backup`
-- [Lockpick_RCM](https://github.com/Asadayot/Lockpick_RCM) : 1.9.11
+  - 스크린샷 : `sd:/backup/screenshots`, HOS 덤프 : `sd:/Firmware`, 기타 : `sd:/backup`
+  - ASAP 이외의 CFW에서 일부 기능 이용제한.
+- [Lockpick_RCM](https://github.com/Asadayot/Lockpick_RCM) : 1.9.10-ASAP
+  - ASAP 설치시 최초 1회 prod.key 및 title.key 생성.
   - 덤프 경로 변경.
-  - 스크린샷 : `sd:/bootloader/screenshots`, keys : `sd:/backup/keys`
-- [hwfly-toolbox](https://github.com/Asadayot/hwfly-toolbox) : 1.1.1, 버전 표기 오류 수정.
+  - 스크린샷 : `sd:/backup/screenshots`, keys : `sd:/backup/keys`
+  - ASAP 이외의 CFW에서 일부 기능 이용제한.
+- [hwfly-toolbox](https://github.com/Asadayot/hwfly-toolbox) : 1.1.1 (버전 표기 오류 수정)
+  - ASAP 이외의 CFW에서 일부 기능 이용제한.
 
 ### ⬦ 시그패치
 - ASAP 용 기본 설치, 이후 ASAP-Updater 를 통하여 업데이트 가능
@@ -42,12 +54,12 @@
 ### ⬦ 홈브류
 - [ASAP-Updater](https://github.com/Asadayot/ASAP-updater) : 2.21.4-ASAP
   - 오탈자 수정, 내용 변경, 연결 링크 변경, 16.0.0 지원, Tesla 및 홈브류/시스모듈 항목 추가.
-- [DB Installer](https://github.com/rashevskyv/dbi) : 506, 바로가기 nsp
+- [DB Installer](https://github.com/rashevskyv/dbi) : 519, 바로가기 nsp
 - [hb-appstore](https://github.com/fortheusers/hb-appstore) : 2.2
 - [Hekate-Toolbox/Mariko 전용 설치](https://github.com/Asadayot/Hekate-Toolbox) : 4.0.3, 한글화, 바로가기 nsp
 - [JKSV](https://github.com/Asadayot/JKSV) : 2023.02.28, 한글화, 바로가기 nsp
 - [Linkalho](https://github.com/Asadayot/linkalho) : 2.0.2, 한글화, 바로가기 nsp
-- [NX-Activity-Log](https://github.com/Asadayot/NX-Activity-Log) : 1.5.0, 한글화, 바로가기 nsp
+- [NX-Activity-Log](https://github.com/Asadayot/NX-Activity-Log) : 1.5.0, 매끄러운 재번역, 바로가기 nsp
 - [Tinfoil](https://github.com/Asadayot/NX-Activity-Log) : 16.0 [v0], 바로가기 nsp
 - [vgedit](https://github.com/Asadayot/vgedit) : 2.2, 한글화, 바로가기 nsp
 - [Edizon/선택 설치](https://github.com/WerWolv/EdiZon) : 3.1.0, 바로가기 nsp
@@ -85,13 +97,13 @@
   - 설정→본체→소프트웨어 자동 업데이트 OFF→에러 정보 송신 OFF 순으로 설정합니다.
 - `파티션 기반` 에뮤낸드를 생성합니다. (선택사항)
   - 부팅화면이 표기되면 `- 볼륨 버튼` 선택하여 Hekate로 진입합니다. 
-  - Tools→Partition SD Card→OK→emuMMC(RAW)-12GiB→Next Step→Start→전원버튼→OK 순으로 선택하여 파티션을 분할합니다.
-  - Hekate 홈메뉴로 돌아가 emuMMC→Create emuMMC→SD Partition→Part X 순으로 선택하여 자동 생성합니다.
+  - 도구→SD 카드 파티션 분할→확인→에뮤낸드(RAW)-12 권장→포맷 및 분할 계속→시작→전원버튼→확인 순으로 선택하여 파티션을 분할합니다.
+  - Hekate 홈메뉴로 돌아가 에뮤낸드→에뮤낸드 생성→파티션 기반→파티션 X 순으로 선택하여 자동 생성합니다.
 - `파일 기반` 에뮤낸드를 생성합니다. (선택사항)
   - 부팅화면이 표기되면 `- 볼륨 버튼` 선택하여 Hekate로 진입합니다. 
-  - Tools→Partition SD Card→OK→Next Step→Start→전원버튼→OK 순으로 선택하여 FAT32로 포맷합니다.
-  - Hekate 홈메뉴로 돌아가 emuMMC→Create emuMMC→SD Partition→SD File 순으로 선택하여 자동 포맷합니다.
-- Launch 메뉴의 `Atmosphere (fusee.bin)`로 기동 후, hbmenu `앨범+R+A` 진입하여 ASAP-Updater를 실행합니다.
+  - 도구→SD 카드 파티션→확인→포맷 및 분할 계속→시작→전원버튼→확인 순으로 선택하여 FAT32로 포맷합니다.
+  - Hekate 홈메뉴로 돌아가 에뮤낸드→에뮤낸드 생성→파일 기반 순으로 선택하여 자동 생성합니다.
+- Launch 메뉴의 `Asanosphère (퓨즈 체인로드)`로 기동 후, hbmenu `앨범+R+A` 진입하여 ASAP-Updater를 실행합니다.
 - 'ASAP 업데이트' 항목에서 해당 사항을 선택하여 다운로드합니다.
 - 다운로드 후, `뒤로` 선택하여 재기동 하며 자동 설치를 진행합니다.
 
@@ -105,17 +117,17 @@
 ## 스크린샷
 <details><summary>미리보기</summary>
 
-![1](https://user-images.githubusercontent.com/89662125/222483463-2504129c-09e8-464d-80eb-b51397d1556b.jpg)
-![2](https://user-images.githubusercontent.com/89662125/222483471-7005b38c-e9cf-4148-87bb-dc6059e9bf7b.jpg)
-![3](https://user-images.githubusercontent.com/89662125/222483481-45e95eb4-c723-405d-a1d7-30368fcc6f54.jpg)
-![4](https://user-images.githubusercontent.com/89662125/222483526-38d4ac45-37f4-4db8-8516-2f5ecb7ef655.jpg)
-![5](https://user-images.githubusercontent.com/89662125/222483540-e9bdb9a5-6b2a-469d-9919-efc86a5239cd.jpg)
-![6](https://user-images.githubusercontent.com/89662125/222483557-b8f6dfbf-ce01-4566-8b1a-b7ac19c644e4.jpg)
-![7](https://user-images.githubusercontent.com/89662125/222483568-07d7e32c-560c-4a0f-bebb-7da1c99387d1.jpg)
+![1](https://user-images.githubusercontent.com/89662125/226023702-b8afd533-fafa-4dad-96d8-96f527a662d2.png)
+![2](https://user-images.githubusercontent.com/89662125/226023722-076486e0-47a7-43c6-99a2-06867d24f41e.png)
+![3](https://user-images.githubusercontent.com/89662125/226023728-58e07a1b-2a16-4f01-8f40-555e66b6cbd3.png)
+![4](https://user-images.githubusercontent.com/89662125/226023738-3d75c388-4599-4d90-8741-405ec1acc218.png)
+![5](https://user-images.githubusercontent.com/89662125/226023746-536241ec-50da-4906-96be-3762d95be952.png)
+![6](https://user-images.githubusercontent.com/89662125/226023756-eddbc432-f97d-4293-974b-ae35c31552cb.png)
+![7](https://user-images.githubusercontent.com/89662125/226023768-11a8a304-8799-41c3-ac26-572632eb3287.jpg)
 ![8](https://user-images.githubusercontent.com/89662125/222483583-1d41ebd1-3cc5-4136-a731-077e93c6bd37.jpg)
-![9](https://user-images.githubusercontent.com/89662125/222483594-0c738b3c-8c00-4356-8641-715f05a498a9.jpg)
+![9](https://user-images.githubusercontent.com/89662125/226023779-8a9576b6-55b2-4d95-b357-5720a5683edf.jpg)
 ![10](https://user-images.githubusercontent.com/89662125/222483708-68230b7b-97b5-4329-b25d-b587ae8d327c.jpg)
-![11](https://user-images.githubusercontent.com/89662125/222483718-91a2ffa1-8022-4007-b911-b76f03f97fb4.jpg)
+![11](https://user-images.githubusercontent.com/89662125/226023787-a2515c04-bab2-46d4-b10b-affdba80c1e6.jpg)
 ![12](https://user-images.githubusercontent.com/89662125/222483729-e9399261-b2eb-4af4-880e-217980faa047.jpg)
 ![13](https://user-images.githubusercontent.com/89662125/222483738-b10c9844-351b-4abd-8a73-a533881f5a4f.jpg)
 ![14](https://user-images.githubusercontent.com/89662125/222483759-ae856d50-81b0-4e39-9743-51e7af41f6fd.jpg)
