@@ -136,5 +136,5 @@
 
 </details>
 
-Credits
+크레딧
 =====
