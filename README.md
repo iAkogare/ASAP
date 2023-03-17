@@ -124,7 +124,8 @@ ASAP
 
 </details>
   
-## 스크린샷
+스크린샷
+=====
 <details><summary>미리보기</summary>
 
 ![1](https://user-images.githubusercontent.com/89662125/226023702-b8afd533-fafa-4dad-96d8-96f527a662d2.png)
