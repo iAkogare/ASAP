@@ -124,6 +124,17 @@ ASAP
   - ASAP-Updater → 버전교체/시그패치/ETC. → 'Signature Patches', 'Tinfoil DB', 'Tesla', 'Sysmodule', 'Homebrew' 선택 다운로드.
 
 </details>
+
+업데이트 순서
+=====
+<details><summary>자세히 보기</summary>
+  
+### ⬦ 업데이트 순서에 대하여...
+- 퓨즈가 연소되는 메이저 업데이트의 경우 특정기기에서 순서를 지키지 않고 업데이트할 시 많은 오류를 동반할 수 있으니 다음을 숙지하세요.
+  1. HOS 버전과 대응하는 CFW(ASAP)를 `ASAP-Updater` → `ASAP 업데이트`에서 호환 버전으로 우선 업데이트.
+  2. 정품 HOS 기동 후 시스템 업데이트.
+  3. fss0/Package3, fusee 체인로드를 통한 HOS 기동 후 `ASAP-Updater` → `Horizon OS 업데이트`에서 해당 펌웨어 다운로드 및 데이브레이크를 통한 업데이트.
+  
   
 스크린샷
 =====
