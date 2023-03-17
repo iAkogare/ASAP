@@ -22,6 +22,7 @@ ASAP
   - exosphere 경로 변경 : `sd:/atmosphere/config`
   - config 폴더의 .ini 파일 한글 부연 설명 추가(주석)
   - 시리얼 변조 코드 변경 : `XAW` → `XAJ`(유럽/일본)
+  - 더 많은 정보는 [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere/releases) 참고.
 - [Hekate×ASAP](https://github.com/Asadayot/hekate)
   - 한글화
   - 덤프 경로 변경.
@@ -61,7 +62,7 @@ ASAP
 - [DB Installer](https://github.com/rashevskyv/dbi) : 519, 바로가기 nsp
 - [hb-appstore](https://github.com/fortheusers/hb-appstore) : 2.2
 - [Hekate-Toolbox/Mariko 전용 설치](https://github.com/Asadayot/Hekate-Toolbox) : 4.0.3, 한글화, 바로가기 nsp
-- [JKSV](https://github.com/Asadayot/JKSV) : 2023.02.28, 한글화, 바로가기 nsp
+- [JKSV](https://github.com/Asadayot/JKSV) : 2023.02.28, 매끄럽게 재번역 및 언어, 바로가기 nsp
 - [Linkalho](https://github.com/Asadayot/linkalho) : 2.0.2, 한글화, 바로가기 nsp
 - [NX-Activity-Log](https://github.com/Asadayot/NX-Activity-Log) : 1.5.0, 매끄러운 재번역, 바로가기 nsp
 - [Tinfoil](https://github.com/Asadayot/NX-Activity-Log) : 16.0 [v0], 바로가기 nsp
