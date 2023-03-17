@@ -150,3 +150,26 @@ ASAP
 
 크레딧
 =====
+ASAP 을 구성하기 위해 이용한 멋진 개발자들과 앱.
+[Atmosphère-NX](https://github.com/Atmosphere-NX) - Atmosphère, Hbloader, Hbmenu
+[CTCaer](https://github.com/CTCaer) - Hekate & Nyx
+[ITotalJustice](https://github.com/ITotalJustice)
+[suchmememanyskill](https://github.com/suchmememanyskill) - TegraExplorer
+[shchmue](https://github.com/shchmue) - Lockpick RCM
+[Hwfly-NX](https://github.com/hwfly-nx) - Hwfly firmware, Hwfly Toolbox
+[HamletDuFromage](https://github.com/HamletDuFromage) - Aio-switch-updater
+[rashevskyv, duckbill](https://github.com/rashevskyv) - DBI
+[fortheusers](https://github.com/fortheusers) - hb-appstore
+[WerWolv](https://github.com/WerWolv) - Tesla menu, ovl-sysmodules, Edizon, Hekate-Toolbox
+[J-D-K](https://github.com/J-D-K) - JKSV
+[rdmrocha](https://github.com/rdmrocha) - Linkalho
+[tallbl0nde](https://github.com/tallbl0nde), [zdm65477730](https://github.com/zdm65477730) - NX-Activity-Log
+[blawar](https://github.com/blawar) - tinfoil
+[vgmoose](https://github.com/vgmoose) - vgedit
+[spacemeowx2](https://github.com/spacemeowx2) - ldn-mitm
+[retronx-team](https://github.com/retronx-team) - sys-clk manager
+[proferabg](https://github.com/proferabg) - Edizon-Overlay
+[ndeadly](https://github.com/ndeadly) - Mission Control
+[cathery](https://github.com/cathery) - sys-con, Hekate-Toolbox
+[nedex](https://github.com/nedex) - QuickNTP
+[masagrator](https://github.com/masagrator) - Status-Monitor-Overlay
