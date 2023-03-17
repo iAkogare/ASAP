@@ -150,7 +150,7 @@ ASAP
 
 크레딧
 =====
-ASAP 을 구성하기 위해 이용한 멋진 개발자들과 앱.
+ASAP 을 구성하기 위해 이용한 멋진 팀 및 개발자들과 앱.
   - [Atmosphère-NX](https://github.com/Atmosphere-NX) - Atmosphère, Hbloader, Hbmenu
   - [CTCaer](https://github.com/CTCaer) - Hekate & Nyx
   - [ITotalJustice](https://github.com/ITotalJustice)
