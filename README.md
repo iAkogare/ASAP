@@ -136,7 +136,6 @@ ASAP
   
 스크린샷
 =====
-<details><summary>미리보기</summary>
 
 ![1](https://user-images.githubusercontent.com/89662125/226023702-b8afd533-fafa-4dad-96d8-96f527a662d2.png)
 ![2](https://user-images.githubusercontent.com/89662125/226023722-076486e0-47a7-43c6-99a2-06867d24f41e.png)
@@ -154,8 +153,6 @@ ASAP
 ![14](https://user-images.githubusercontent.com/89662125/222483759-ae856d50-81b0-4e39-9743-51e7af41f6fd.jpg)
 ![15](https://user-images.githubusercontent.com/89662125/222483793-c8a87a5c-508b-42cb-8294-bdc94a5ac356.jpg)
 ![16](https://user-images.githubusercontent.com/89662125/222483816-f3ad4b3a-be0f-41e0-8001-ccbd4e2e16a3.jpg)
-
-</details>
 
 크레딧
 =====
