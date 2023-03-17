@@ -12,7 +12,7 @@
 
 
 ## 기본 제공 / 변경 로그
-<details><summary>미리보기</summary>
+<details><summary>자세히 </summary>
 ### ⬦ CFW & 부트로더
 - [Asanosphère](https://github.com/Asadayot/Asanosphere)
   - 버전 표기 변경 : `HOS VER│ASAP1.5.1-0318│S/E`
@@ -78,8 +78,10 @@
 - [sys-clk](https://github.com/Asadayot/sys-clk) : 1.0.3-ASAP, 한글화
 - [sys-con](https://github.com/cathery/sys-con) : 0.6.4
 
+</details>
 
 ## 설치 방법
+<details><summary>자세히 보기기</summary>
 ### ⬦ 기존 커스텀 펌웨어 이용 유저의 경우
 - [ASAP-Updater](https://github.com/Asadayot/ASAP-updater)의 `Asano-updater_X.XX.X.zip` [Latest](https://github.com/Asadayot/ASAP-updater/releases/latest)를 내려받습니다.
 - 압축 해제 후 디렉토리를 `sd:/` 최상위 경로로 붙여넣습니다.
