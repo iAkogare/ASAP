@@ -15,10 +15,16 @@ ASAP
 기본 제공 / 변경 로그
 =====
 <details><summary>자세히 보기</summary>
+
+### ⬦ ASAP-0319 주요 개선점
+- ASAP 0318 이하 버전에서 ASAP-Updater를 통하여 0318 버전 업데이트 시 발생하는 충돌 수정.
+  - 원인 : 오래된 Prod.keys 파일이 존재하는 경우 이를 마운트하여 자동화 스크립트의 충돌 발생.
+  - 개선 : 오래된 Prod.keys 파일을 제거 후 새로운 키 파일을 추출하여 마운트하도록 수정.
+  - 결과 : 안정.
   
 ### ⬦ CFW & 부트로더
 - [Asanosphère](https://github.com/Asadayot/Asanosphere)
-  - 버전 표기 변경 : `HOS VER│ASAP1.5.1-0318│S/E`
+  - 버전 표기 변경 : `HOS VER│ASAP1.5.1-0319│S/E`
   - exosphere 경로 변경 : `sd:/atmosphere/config`
   - config 폴더의 .ini 파일 한글 부연 설명 추가(주석)
   - 시리얼 변조 코드 변경 : `XAW` → `XAJ`(유럽/일본)
