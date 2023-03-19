@@ -21,7 +21,7 @@ ASAP
    - 개선 : 오래된 Prod.keys 파일을 제거 후 새로운 키 파일을 추출하여 마운트하도록 수정.
    - 결과 : 안정.
  - [Hekate×ASAP](https://github.com/Asadayot/hekate)
-   - 오탈자 수정, 이 후 발견시 [Asa's Atelier](https://asadayo.tistory.com) 블로그 톡에 보고 바람.
+   - 오탈자 수정, 이후 발견시 [Asa's Atelier](https://asadayo.tistory.com) 블로그 톡에 보고 바람.
  - ASAP-Cleaner
    - ASAP을 Install Supporter 구성으로 초기화하는 페이로드 추가.
  - TegraExplorer
