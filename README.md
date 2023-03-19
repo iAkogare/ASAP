@@ -26,7 +26,8 @@ ASAP
    - ASAP을 Install Supporter 구성으로 초기화하는 페이로드 추가.
  - TegraExplorer
    - 정펌부팅, 새로고침 기능 추가.
-
+ - Sigpatches
+   - 파일 업로드 서버 롤백으로 인한 시그패치 누락으로 인한 홈브류 기동 오류 수정.
 기본 제공 / 변경 로그
 =====
 <details><summary>자세히 보기</summary>
