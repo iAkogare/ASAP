@@ -13,16 +13,19 @@ ASAP
 
 
 
-새 버전의 주요 개선점
+새 버전 개선사항
 =====
 ### ⬦ ASAP-0319 주요 개선점
  - ASAP 0318 이하 버전에서 ASAP-Updater를 통하여 0318 버전 업데이트 시 발생하는 충돌 수정.
- - Install Supporter 이용 설치자 및 새 SD 카드 설치자 해당사항 없음. 
    - 원인 : 오래된 Prod.keys 파일이 존재하는 경우 이를 마운트하여 자동화 스크립트의 충돌 발생.
    - 개선 : 오래된 Prod.keys 파일을 제거 후 새로운 키 파일을 추출하여 마운트하도록 수정.
    - 결과 : 안정.
-
-## ⬦ 
+ - [Hekate×ASAP](https://github.com/Asadayot/hekate)
+   - 오탈자 수정, 이 후 발견시 [Asa's Atelier](https://asadayo.tistory.com) 블로그 톡에 보고 바람.
+ - ASAP-Cleaner
+   - ASAP을 Install Supporter 구성으로 초기화하는 페이로드 추가.
+ - TegraExplorer
+   - 정펌부팅, 새로고침 기능 추가.
 
 기본 제공 / 변경 로그
 =====
