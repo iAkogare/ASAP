@@ -62,13 +62,14 @@ ASAP
 - [Lockpick_RCM](https://github.com/Asadayot/Lockpick_RCM) : 1.9.10-ASAP
   - ASAP 설치시 최초 1회 prod.key 및 title.key 생성.
   - 덤프 경로 변경.
-  - 스크린샷 : `sd:/backup/screenshots`, keys : `sd:/backup/keys`
+  - 스크린샷 : `sd:/backup/screenshots`
+  - keys : `sd:/backup/keys`
   - ASAP 이외의 CFW에서 일부 기능 이용제한.
 - [hwfly-toolbox](https://github.com/Asadayot/hwfly-toolbox) : 1.1.1 (버전 표기 오류 수정)
   - ASAP 이외의 CFW에서 일부 기능 이용제한.
 
 ### ⬦ 시그패치
-- ASAP 용 기본 설치, 이후 ASAP-Updater 를 통하여 업데이트 가능
+- ASAP 용 기본 설치, 이후 ASAP-Updater 를 통하여 업데이트 가능.
 
 ### ⬦ Warmboot Mariko 캐시
 - Mariko 기기용 웜부트 캐시 `wb_0c.bin ~ wb_12.bin`
@@ -79,7 +80,7 @@ ASAP
 - [DB Installer](https://github.com/rashevskyv/dbi) : 519, 바로가기 nsp
 - [hb-appstore](https://github.com/fortheusers/hb-appstore) : 2.2
 - [Hekate-Toolbox/Mariko 전용 설치](https://github.com/Asadayot/Hekate-Toolbox) : 4.0.3, 한글화, 바로가기 nsp
-- [JKSV](https://github.com/Asadayot/JKSV) : 2023.02.28, 매끄럽게 재번역 및 언어, 바로가기 nsp
+- [JKSV](https://github.com/Asadayot/JKSV) : 2023.02.28, 매끄럽게 재번역 및 언어 고정, 바로가기 nsp
 - [Linkalho](https://github.com/Asadayot/linkalho) : 2.0.2, 한글화, 바로가기 nsp
 - [NX-Activity-Log](https://github.com/Asadayot/NX-Activity-Log) : 1.5.0, 매끄러운 재번역, 바로가기 nsp
 - [Tinfoil](https://github.com/Asadayot/NX-Activity-Log) : 16.0 [v0], 바로가기 nsp
