@@ -15,19 +15,25 @@ ASAP
 
 새 버전 개선사항
 =====
-### ⬦ ASAP-0319 주요 개선점
- - ASAP 0318 이하 버전에서 ASAP-Updater를 통하여 0318 버전 업데이트 시 발생하는 충돌 수정.
-   - 원인 : 오래된 Prod.keys 파일이 존재하는 경우 이를 마운트하여 자동화 스크립트의 충돌 발생.
-   - 개선 : 오래된 Prod.keys 파일을 제거 후 새로운 키 파일을 추출하여 마운트하도록 수정.
-   - 결과 : 안정.
+### ⬦ ASAP-0326 주요 개선점
  - Hekate×ASAP
-   - 오탈자 수정, 이후 발견시 [Asa's Atelier](https://asadayo.tistory.com) 블로그 톡에 보고 바람.
- - ASAP-Cleaner
-   - ASAP을 Install Supporter 구성으로 초기화하는 페이로드 추가.
- - TegraExplorer
-   - 정펌부팅, 새로고침 기능 추가.
+   - 오탈자 수정, 이후 발견시 [Asa's Atelier](https://asadayo.tistory.com) 블로그 톡에 보고 바람
+ - ASAP-Updater
+   - 2.21.4 → 2.21.5 안정성 업데이트
+   - ASAP 업데이트 : [ INSTINCT 모드칩 ], [ Picofly 모드칩 ] 추가
+   - Horizon OS 다운로드 : [ HOS ] 14.1.2 (Rebootless Update 3), [ HOS ] 15.0.0 제거 / [ HOS ] 16.0.1 추가
+ - hb-appstore
+   - 2.2 → 2.3.2
+   - 더 많은 정보는 [hb-appstore](https://github.com/fortheusers/hb-appstore/releases/tag/v2.3.2) 참고
+ - Tesla-Menu
+   - 1.0.7 → 1.2.1
+   - libtesla 업데이트
+ - ovl-Sysmodules
+   - 종속성 업데이트, 경고문 수정
+ - ldnmitm
+   - Atmosphere-libs, libtesla 업데이트
  - Sigpatches
-   - 파일 업로드 서버 롤백으로 인한 시그패치 누락 및 홈브류 기동 오류 수정.
+   - ASAP-0326 업데이트
 
 기본 제공 / 변경 로그
 =====
@@ -35,7 +41,7 @@ ASAP
 
 ### ⬦ CFW & 부트로더
 - [Asanosphère](https://github.com/Asadayot/Asanosphere)
-  - 버전 표기 변경 : `HOS VER│ASAP1.5.1-0319│S/E`
+  - 버전 표기 변경 : `HOS VER│ASAP1.5.1-0326│S/E`
   - exosphere 경로 변경 : `sd:/atmosphere/config`
   - config 폴더의 .ini 파일 한글 부연 설명 추가(주석)
   - 시리얼 변조 코드 변경 : `XAW` → `XAJ`(유럽/일본)
@@ -78,7 +84,7 @@ ASAP
 - [ASAP-Updater](https://github.com/Asadayot/ASAP-updater) : 2.21.4-ASAP
   - 오탈자 수정, 내용 변경, 연결 링크 변경, 16.0.0 지원, Tesla 및 홈브류/시스모듈 항목 추가.
 - [DB Installer](https://github.com/rashevskyv/dbi) : 519, 바로가기 nsp
-- [hb-appstore](https://github.com/fortheusers/hb-appstore) : 2.2
+- [hb-appstore](https://github.com/fortheusers/hb-appstore) : 2.3.2
 - [Hekate-Toolbox/Mariko 전용 설치](https://github.com/Asadayot/Hekate-Toolbox) : 4.0.3, 한글화, 바로가기 nsp
 - [JKSV](https://github.com/Asadayot/JKSV) : 2023.02.28, 매끄럽게 재번역 및 언어 고정, 바로가기 nsp
 - [Linkalho](https://github.com/Asadayot/linkalho) : 2.0.2, 한글화, 바로가기 nsp
@@ -90,7 +96,7 @@ ASAP
 - [sys-clk manager/선택 설치](https://github.com/Asadayot/sys-clk) : 1.0.3-ASAP, 한글화, 바로가기 nsp
 
 ### ⬦ 테슬라 & 시스모듈 (선택 설치)
-- [Tesla menu](https://github.com/Asadayot/Tesla-Menu) : 1.0.7-ASAP, 한글화
+- [Tesla menu](https://github.com/Asadayot/Tesla-Menu) : 1.2.1-ASAP, 한글화
 - [ovl-sysmodules](https://github.com/Asadayot/ovl-sysmodules) : 1.3.1-ASAP, 한글화
 - [EdiZon-Overlay](https://github.com/proferabg/EdiZon-Overlay) : 1.0.4
 - [MissionControl](https://github.com/ndeadly/MissionControl) : 0.9.0
