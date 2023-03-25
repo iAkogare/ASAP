@@ -20,8 +20,9 @@ ASAP
    - 오탈자 수정, 이후 발견시 [Asa's Atelier](https://asadayo.tistory.com) 블로그 톡에 보고 바람
  - ASAP-Updater
    - 2.21.4 → 2.21.5 안정성 업데이트
-   - ASAP 업데이트 : [ INSTINCT 모드칩 ], [ Picofly 모드칩 ] 추가
-   - Horizon OS 다운로드 : [ HOS ] 14.1.2 (Rebootless Update 3), [ HOS ] 15.0.0 제거 / [ HOS ] 16.0.1 추가
+   - ASAP 업데이트 : `[ INSTINCT 모드칩 ]`, `[ Picofly 모드칩 ]` 추가
+   - 추가 구성 다운로드 : `[ Picofly 유저 ] OLED 전용 필수 추가파일` 추가
+   - Horizon OS 다운로드 : `[ HOS ] 14.1.2 (Rebootless Update 3)`, `[ HOS ] 15.0.0` 제거 / `[ HOS ] 16.0.1` 추가
  - hb-appstore
    - 2.2 → 2.3.2
    - 더 많은 정보는 [hb-appstore](https://github.com/fortheusers/hb-appstore/releases/tag/v2.3.2) 참고
