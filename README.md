@@ -27,7 +27,7 @@ ASAP
    - 2.2 → 2.3.2
    - 더 많은 정보는 [hb-appstore](https://github.com/fortheusers/hb-appstore/releases/tag/v2.3.2) 참고
  - Tesla-Menu
-   - 1.0.7 → 1.2.1
+   - 1.2.0 → 1.2.1
    - libtesla 업데이트
  - ovl-Sysmodules
    - 종속성 업데이트, 경고문 수정
