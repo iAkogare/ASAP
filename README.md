@@ -36,8 +36,8 @@ ASAP
  - Sigpatches
    - ASAP-0326 업데이트
  - DBI (23.03.29)
-   - 519 → 527
-   - Activity Log 추가
+   - 519 → 527 ( Activity Log 추가 )
+   - 더 맣은 정보는 [DBI](https://github.com/rashevskyv/dbi/releases/tag/527) 고참고
    
 
 기본 제공 / 변경 로그
