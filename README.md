@@ -35,6 +35,10 @@ ASAP
    - Atmosphere-libs, libtesla 업데이트
  - Sigpatches
    - ASAP-0326 업데이트
+ - DBI (23.03.29)
+   - 519 → 527
+   - Activity Log 추가
+   
 
 기본 제공 / 변경 로그
 =====
@@ -84,7 +88,7 @@ ASAP
 ### ⬦ 홈브류
 - [ASAP-Updater](https://github.com/Asadayot/ASAP-updater) : 2.21.4-ASAP
   - 오탈자 수정, 내용 변경, 연결 링크 변경, 16.0.0 지원, Tesla 및 홈브류/시스모듈 항목 추가.
-- [DB Installer](https://github.com/rashevskyv/dbi) : 519, 바로가기 nsp
+- [DB Installer](https://github.com/rashevskyv/dbi) : 527, 바로가기 nsp
 - [hb-appstore](https://github.com/fortheusers/hb-appstore) : 2.3.2
 - [Hekate-Toolbox/Mariko 전용 설치](https://github.com/Asadayot/Hekate-Toolbox) : 4.0.3, 한글화, 바로가기 nsp
 - [JKSV](https://github.com/Asadayot/JKSV) : 2023.02.28, 매끄럽게 재번역 및 언어 고정, 바로가기 nsp
