@@ -42,8 +42,8 @@ ASAP
    - 1.0.4 → 1.0.5
    - libtesla 업데이트
    - 강조색 변경 (하늘색)
-  - Status-Monitor-Overlay (23.04.02)
-   - 0.8.1 → 0.8.2ㄿ
+ - Status-Monitor-Overlay (23.04.02)
+   - 0.8.1 → 0.8.
    - 핸들, 메모리 누수 수정
    - 독모드 충돌 임시 해결 
    
