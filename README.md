@@ -42,6 +42,10 @@ ASAP
    - 1.0.4 → 1.0.5
    - libtesla 업데이트
    - 강조색 변경 (하늘색)
+  - Status-Monitor-Overlay (23.04.02)
+   - 0.8.1 → 0.8.2
+   - 핸들, 메모리 누수 수정
+   - 독모드 충돌 임시 해결
    
 
 기본 제공 / 변경 로그
@@ -107,11 +111,11 @@ ASAP
 ### ⬦ 테슬라 & 시스모듈 (선택 설치)
 - [Tesla menu](https://github.com/Asadayot/Tesla-Menu) : 1.2.1-ASAP, 한글화
 - [ovl-sysmodules](https://github.com/Asadayot/ovl-sysmodules) : 1.3.1-ASAP, 한글화
-- [EdiZon-Overlay](https://github.com/proferabg/EdiZon-Overlay) : 1.0.4
+- [EdiZon-Overlay](https://github.com/proferabg/EdiZon-Overlay) : 1.0.5
 - [MissionControl](https://github.com/ndeadly/MissionControl) : 0.9.0
 - [ldn_mitm](https://github.com/Asadayot/ldn_mitm) : 1.15.0-ASAP, 한글화
 - [QuickNTP](https://github.com/Asadayot/QuickNTP) : 1.2.7-ASAP, 한글화
-- [Status-Monitor-Overlay](https://github.com/Asadayot/Status-Monitor-Overlay) : 0.8.1-ASAP
+- [Status-Monitor-Overlay](https://github.com/Asadayot/Status-Monitor-Overlay) : 0.8.2-ASAP
 - [sys-clk](https://github.com/Asadayot/sys-clk) : 1.0.3-ASAP, 한글화
 - [sys-con](https://github.com/cathery/sys-con) : 0.6.4
 
