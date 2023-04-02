@@ -38,6 +38,10 @@ ASAP
  - DBI (23.03.29)
    - 519 → 527 ( Activity Log 추가 )
    - 더 맣은 정보는 [DBI](https://github.com/rashevskyv/dbi/releases/tag/527) 참고
+ - Edizon Overlay (23.04.02)
+   - 1.0.4 → 1.0.5
+   - libtesla 업데이트
+   - 강조색 변경 (하늘색)
    
 
 기본 제공 / 변경 로그
