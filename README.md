@@ -16,6 +16,8 @@ ASAP
 새 버전 개선사항
 =====
 ### ⬦ ASAP-0326 주요 개선점
+ - Asanosphère
+   - e9b28ab 커밋
  - Hekate×ASAP
    - 오탈자 수정, 이후 발견시 [Asa's Atelier](https://asadayo.tistory.com) 블로그 톡에 보고 바람
  - ASAP-Updater
