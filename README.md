@@ -15,40 +15,21 @@ ASAP
 
 새 버전 개선사항
 =====
-### ⬦ ASAP-0326 주요 개선점
+### ⬦ ASAP-0404 주요 개선점
  - Asanosphère
-   - e9b28ab 커밋
+   - e9b28ab 커밋 (libmesosphere 기술적 문구 조정)
  - Hekate×ASAP
-   - 오탈자 수정, 이후 발견시 [Asa's Atelier](https://asadayo.tistory.com) 블로그 톡에 보고 바람
- - ASAP-Updater
-   - 2.21.4 → 2.21.5 안정성 업데이트
-   - ASAP 업데이트 : `[ INSTINCT 모드칩 ]`, `[ Picofly 모드칩 ]` 추가
-   - 추가 구성 다운로드 : `[ Picofly 유저 ] OLED 전용 필수 추가파일`, `unlock.bin` 추가
-   - Horizon OS 다운로드 : `[ HOS ] 14.1.2 (Rebootless Update 3)`, `[ HOS ] 15.0.0` 제거 / `[ HOS ] 16.0.1` 추가
- - hb-appstore
-   - 2.2 → 2.3.2
-   - 더 많은 정보는 [hb-appstore](https://github.com/fortheusers/hb-appstore/releases/tag/v2.3.2) 참고
- - Tesla-Menu
-   - 1.2.0 → 1.2.1
-   - libtesla 업데이트
- - ovl-Sysmodules
-   - 종속성 업데이트, 경고문 수정
- - ldnmitm
-   - Atmosphere-libs, libtesla 업데이트
+   - 22462e4 커밋 (bdk, bootloader, nyx - RTC, SD, Random Benchmark 최적화)
  - Sigpatches
-   - ASAP-0326 업데이트
- - DBI (23.03.29)
-   - 519 → 527 ( Activity Log 추가 )
-   - 더 맣은 정보는 [DBI](https://github.com/rashevskyv/dbi/releases/tag/527) 참고
- - Edizon Overlay (23.04.02)
-   - 1.0.4 → 1.0.5
-   - libtesla 업데이트
-   - 강조색 변경 (하늘색)
- - Status-Monitor-Overlay (23.04.02)
-   - 0.8.1 → 0.8.2
-   - 핸들, 메모리 누수 수정
-   - 독모드 충돌 임시 해결 
-   
+   - ASAP-0404 업데이트 ( e9b28ab & 22462e4 기반 시그패치 최신화)
+ - HB appstore
+   - e87e221 커밋 (로딩 커서 추가)
+ - Quick NTP
+   - 1.2.7 → 1.2.8 (libtesla 업데이트)
+ - Edizon Overlay
+   - 1.0.4 → 1.0.5 (libtesla 업데이트, 강조색 하늘색으로 변경)
+ - Status-Monitor-Overlay
+   - 0.8.1 → 0.8.2 (핸들 메모리 누수 수정, 독모드 충돌 임시 해결)
 
 기본 제공 / 변경 로그
 =====
@@ -56,7 +37,7 @@ ASAP
 
 ### ⬦ CFW & 부트로더
 - [Asanosphère](https://github.com/Asadayot/Asanosphere)
-  - 버전 표기 변경 : `HOS VER│ASAP1.5.1-0326│S/E`
+  - 버전 표기 변경 : `HOS VER│ASAP1.5.1-0404│S/E`
   - exosphere 경로 변경 : `sd:/atmosphere/config`
   - config 폴더의 .ini 파일 한글 부연 설명 추가(주석)
   - 시리얼 변조 코드 변경 : `XAW` → `XAJ`(유럽/일본)
