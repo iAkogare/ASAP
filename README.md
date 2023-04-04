@@ -17,19 +17,19 @@ ASAP
 =====
 ### ⬦ ASAP-0404 주요 개선점
  - Asanosphère
-   - e9b28ab 커밋 (libmesosphere 기술적 문구 조정)
+   - e9b28ab 커밋 ( libmesosphere 기술적 문구 조정 )
  - Hekate×ASAP
-   - 22462e4 커밋 (bdk, bootloader, nyx - RTC, SD, Random Benchmark 최적화)
+   - 22462e4 커밋 ( bdk, bootloader, nyx - RTC, SD, Random Benchmark 최적화 )
  - Sigpatches
-   - ASAP-0404 업데이트 ( e9b28ab & 22462e4 기반 시그패치 최신화)
+   - ASAP-0404 업데이트 ( e9b28ab & 22462e4 기반 시그패치 최신화 )
  - HB appstore
-   - e87e221 커밋 (로딩 커서 추가)
+   - e87e221 커밋 ( 로딩 커서 추가 )
  - Quick NTP
-   - 1.2.7 → 1.2.8 (libtesla 업데이트)
+   - 1.2.7 → 1.2.8 ( libtesla 업데이트 )
  - Edizon Overlay
-   - 1.0.4 → 1.0.5 (libtesla 업데이트, 강조색 하늘색으로 변경)
+   - 1.0.4 → 1.0.5 ( libtesla 업데이트, 강조색 하늘색으로 변경 )
  - Status-Monitor-Overlay
-   - 0.8.1 → 0.8.2 (핸들 메모리 누수 수정, 독모드 충돌 임시 해결)
+   - 0.8.1 → 0.8.2 ( 핸들 메모리 누수 수정, 독모드 충돌 임시 해결 )
 
 기본 제공 / 변경 로그
 =====
