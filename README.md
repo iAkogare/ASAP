@@ -23,7 +23,7 @@ ASAP
  - Sigpatches
    - ASAP-0404 업데이트 ( e9b28ab & 22462e4 기반 시그패치 최신화 )
  - HB appstore
-   - e87e221 커밋 ( 로딩 커서 추가 )
+   - e87e221 커밋 ( 한글화, 로딩 커서 추가 )
  - Quick NTP
    - 1.2.7 → 1.2.8 ( libtesla 업데이트 )
  - Edizon Overlay
@@ -80,7 +80,7 @@ ASAP
 - [ASAP-Updater](https://github.com/Asadayot/ASAP-updater) : 2.21.4-ASAP
   - 오탈자 수정, 내용 변경, 연결 링크 변경, 16.0.0 지원, Tesla 및 홈브류/시스모듈 항목 추가.
 - [DB Installer](https://github.com/rashevskyv/dbi) : 527, 바로가기 nsp
-- [hb-appstore](https://github.com/fortheusers/hb-appstore) : 2.3.2
+- [hb-appstore](https://github.com/fortheusers/hb-appstore) : 2.3.2, 한글화
 - [Hekate-Toolbox/Mariko 전용 설치](https://github.com/Asadayot/Hekate-Toolbox) : 4.0.3, 한글화, 바로가기 nsp
 - [JKSV](https://github.com/Asadayot/JKSV) : 2023.02.28, 매끄럽게 재번역 및 언어 고정, 바로가기 nsp
 - [Linkalho](https://github.com/Asadayot/linkalho) : 2.0.2, 한글화, 바로가기 nsp
