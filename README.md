@@ -33,8 +33,7 @@ ASAP
    - 1.0.4 → 1.0.5 ( libtesla 업데이트, 강조색 하늘색으로 변경 )
  - Status-Monitor-Overlay
    - 0.8.1 → 0.8.2 ( 핸들 메모리 누수 수정, 독모드 충돌 임시 해결 )
- - Picofly 전용 (23.04.08)
-   - picofly firmware - 2.5 → 2.6
+ - Picofly 모드칩 전용 (23.04.08)
    - picofly toolbox - 0.1 → 0.2
 
 기본 제공 / 변경 로그
