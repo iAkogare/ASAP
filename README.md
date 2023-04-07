@@ -83,8 +83,7 @@ ASAP
 - Mariko 기기용 웜부트 캐시 `wb_0c.bin ~ wb_12.bin`
 
 ### ⬦ 홈브류
-- [ASAP-Updater](https://github.com/Asadayot/ASAP-updater) : 2.21.4-ASAP
-  - 오탈자 수정, 내용 변경, 연결 링크 변경, 16.0.0 지원, Tesla 및 홈브류/시스모듈 항목 추가.
+- [ASAP-Updater](https://github.com/Asadayot/ASAP-updater) : 2.21.5-ASAP
 - [DB Installer](https://github.com/rashevskyv/dbi) : 527, 바로가기 nsp
 - [hb-appstore](https://github.com/fortheusers/hb-appstore) : 2.3.2, 한글화
 - [Hekate-Toolbox/Mariko 전용 설치](https://github.com/Asadayot/Hekate-Toolbox) : 4.0.3, 한글화, 바로가기 nsp
@@ -145,7 +144,7 @@ ASAP
 ### ⬦ 추가 사항 설치
 - `ASAP-Updater` 혹은 `Install Supporter` 를 이용한 ASAP 설치 완료 후 기호에 따라 추가 파일을 설치합니다.
   - ASAP-Updater → 추가 구성 다운로드 → '[ Mariko 유저 ] OLED 모델 전용 필수 추가파일' 선택 다운로드.
-  - ASAP-Updater → 추가 구성 다운로드 → 'hekate_ipl.ini', 'hwfly firmware.bin' / 'sdloader.enc' 선택 다운로드.
+  - ASAP-Updater → 추가 구성 다운로드 → 'hekate_ipl.ini', 'firmware.bin' / 'sdloader.enc', 'firmware.uf2' / 'sdloader.enc' / 'unlock.bin' 선택 다운로드.
   - ASAP-Updater → Horizon OS 다운로드 → '[ HOS ] XX.X.X', '[ HOS ] XX.X.X (Rebootless Update)' 선택 다운로드. 
   - ASAP-Updater → 버전교체/시그패치/ETC. → 'Signature Patches', 'Tinfoil DB', 'Tesla', 'Sysmodule', 'Homebrew' 선택 다운로드.
 
