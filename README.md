@@ -15,16 +15,20 @@ ASAP
 
 새 버전 개선사항
 =====
-### ⬦ ASAP-0404 주요 개선점
+### ⬦ ASAP-0410 주요 개선점
  - Asanosphère
    - e9b28ab 커밋 ( libmesosphere 기술적 문구 조정 )
- - Hekate×ASAP
-   - 22462e4 커밋 ( bdk, bootloader, nyx - RTC, SD, Random Benchmark 최적화 )
+ - Hekate×ASAP & Nyx
+   - 6.0.2 & 1.5.2 → 6.0.3 & 1.5.3
+   - 더 많은 정보는 [hekate](https://github.com/CTCaer/hekate/releases) 참고.
  - Sigpatches
-   - ASAP-0404 업데이트 ( e9b28ab & 22462e4 기반 시그패치 최신화 )
- - ASAP-Updater (23.04.10)
-   - picofly firmware - update.bin 추가
-   - picofly bootloader - sdloader.enc 추가
+   - ASAP-0410 업데이트 ( e9b28ab & ded959c 기반 시그패치 최신화 )
+ - ASAP-Updater
+   - 2.21.5 → 2.21.6 (PiCoFly 지원 업데이트)
+   - PiCoFly unlock - unlock.bin 추가
+   - PiCoFly firmware - update.bin 추가
+   - PiCoFly bootloader - sdloader.enc 추가
+   - PiCoFly toolbox - PiCoFly_toolbox.bin 추가
  - HB appstore
    - e87e221 커밋 ( 한글화, 로딩 커서 추가 )
  - Quick NTP
@@ -33,8 +37,6 @@ ASAP
    - 1.0.4 → 1.0.5 ( libtesla 업데이트, 강조색 하늘색으로 변경 )
  - Status-Monitor-Overlay
    - 0.8.1 → 0.8.2 ( 핸들 메모리 누수 수정, 독모드 충돌 임시 해결 )
- - Picofly 모드칩 전용 (23.04.10)
-   - picofly toolbox - 0.1 → 0.2
 
 기본 제공 / 변경 로그
 =====
@@ -42,7 +44,7 @@ ASAP
 
 ### ⬦ CFW & 부트로더
 - [Asanosphère](https://github.com/Asadayot/Asanosphere)
-  - 버전 표기 변경 : `HOS VER│ASAP1.5.1-0404│S/E`
+  - 버전 표기 변경 : `HOS VER│ASAP1.5.1-0410│S/E`
   - exosphere 경로 변경 : `sd:/atmosphere/config`
   - config 폴더의 .ini 파일 한글 부연 설명 추가(주석)
   - 시리얼 변조 코드 변경 : `XAW` → `XAJ`(유럽/일본)
@@ -101,7 +103,7 @@ ASAP
 - [EdiZon-Overlay](https://github.com/proferabg/EdiZon-Overlay) : 1.0.5
 - [MissionControl](https://github.com/ndeadly/MissionControl) : 0.9.0
 - [ldn_mitm](https://github.com/Asadayot/ldn_mitm) : 1.15.0-ASAP, 한글화
-- [QuickNTP](https://github.com/Asadayot/QuickNTP) : 1.2.7-ASAP, 한글화
+- [QuickNTP](https://github.com/Asadayot/QuickNTP) : 1.2.8-ASAP, 한글화
 - [Status-Monitor-Overlay](https://github.com/Asadayot/Status-Monitor-Overlay) : 0.8.2-ASAP
 - [sys-clk](https://github.com/Asadayot/sys-clk) : 1.0.3-ASAP, 한글화
 - [sys-con](https://github.com/cathery/sys-con) : 0.6.4
@@ -186,6 +188,7 @@ ASAP 을 구성하기 위해 이용한 멋진 팀 및 개발자들과 앱.
   - [suchmememanyskill](https://github.com/suchmememanyskill) :  TegraExplorer
   - [shchmue](https://github.com/shchmue) :  Lockpick RCM
   - [Hwfly-NX](https://github.com/hwfly-nx) :  Hwfly firmware, Hwfly Toolbox
+  - [Hwfly-NX](https://github.com/hwfly-nx) :  PiCoFly firmware, PiCoFly Toolbox
   - [HamletDuFromage](https://github.com/HamletDuFromage) :  Aio-switch-updater
   - [rashevskyv, duckbill](https://github.com/rashevskyv) :  DBI
   - [fortheusers](https://github.com/fortheusers) :  hb-appstore
