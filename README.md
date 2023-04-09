@@ -22,9 +22,9 @@ ASAP
    - 22462e4 커밋 ( bdk, bootloader, nyx - RTC, SD, Random Benchmark 최적화 )
  - Sigpatches
    - ASAP-0404 업데이트 ( e9b28ab & 22462e4 기반 시그패치 최신화 )
- - ASAP-Updater (23.04.08)
-   - picofly firmware 추가
-   - picofly sdloader 추가
+ - ASAP-Updater (23.04.10)
+   - picofly firmware - update.bin 추가
+   - picofly bootloader - sdloader.enc 추가
  - HB appstore
    - e87e221 커밋 ( 한글화, 로딩 커서 추가 )
  - Quick NTP
@@ -33,7 +33,7 @@ ASAP
    - 1.0.4 → 1.0.5 ( libtesla 업데이트, 강조색 하늘색으로 변경 )
  - Status-Monitor-Overlay
    - 0.8.1 → 0.8.2 ( 핸들 메모리 누수 수정, 독모드 충돌 임시 해결 )
- - Picofly 모드칩 전용 (23.04.08)
+ - Picofly 모드칩 전용 (23.04.10)
    - picofly toolbox - 0.1 → 0.2
 
 기본 제공 / 변경 로그
@@ -82,7 +82,7 @@ ASAP
 - Mariko 기기용 웜부트 캐시 `wb_0c.bin ~ wb_12.bin`
 
 ### ⬦ 홈브류
-- [ASAP-Updater](https://github.com/Asadayot/ASAP-updater) : 2.21.5-ASAP
+- [ASAP-Updater](https://github.com/Asadayot/ASAP-updater) : 2.21.6-ASAP
 - [DB Installer](https://github.com/rashevskyv/dbi) : 527, 바로가기 nsp
 - [hb-appstore](https://github.com/fortheusers/hb-appstore) : 2.3.2, 한글화
 - [Hekate-Toolbox/Mariko 전용 설치](https://github.com/Asadayot/Hekate-Toolbox) : 4.0.3, 한글화, 바로가기 nsp
