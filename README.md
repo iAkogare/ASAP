@@ -76,6 +76,7 @@ ASAP
   - ASAP 이외의 CFW에서 일부 기능 이용제한.
 - [hwfly-toolbox](https://github.com/Asadayot/hwfly-toolbox) : 1.1.1 (버전 표기 오류 수정)
   - ASAP 이외의 CFW에서 일부 기능 이용제한.
+- [PiCoFly-Toolbox](https://github.com/Ansem-SoD/Picofly) : 0.1, 0.2
 
 ### ⬦ 시그패치
 - ASAP 용 기본 설치, 이후 ASAP-Updater 를 통하여 업데이트 가능.
@@ -145,7 +146,7 @@ ASAP
 ### ⬦ 추가 사항 설치
 - `ASAP-Updater` 혹은 `Install Supporter` 를 이용한 ASAP 설치 완료 후 기호에 따라 추가 파일을 설치합니다.
   - ASAP-Updater → 추가 구성 다운로드 → '[ Mariko 유저 ] OLED 모델 전용 필수 추가파일' 선택 다운로드.
-  - ASAP-Updater → 추가 구성 다운로드 → 'hekate_ipl.ini', 'firmware.bin' / 'sdloader.enc', 'firmware.uf2' / 'sdloader.enc' / 'unlock.bin' 선택 다운로드.
+  - ASAP-Updater → 추가 구성 다운로드 → 'hekate_ipl.ini', 'firmware.bin' / 'sdloader.enc', 'update.bin' / 'sdloader.enc' / 'unlock.bin' 선택 다운로드.
   - ASAP-Updater → Horizon OS 다운로드 → '[ HOS ] XX.X.X', '[ HOS ] XX.X.X (Rebootless Update)' 선택 다운로드. 
   - ASAP-Updater → 버전교체/시그패치/ETC. → 'Signature Patches', 'Tinfoil DB', 'Tesla', 'Sysmodule', 'Homebrew' 선택 다운로드.
 
@@ -188,7 +189,7 @@ ASAP 을 구성하기 위해 이용한 멋진 팀 및 개발자들과 앱.
   - [suchmememanyskill](https://github.com/suchmememanyskill) :  TegraExplorer
   - [shchmue](https://github.com/shchmue) :  Lockpick RCM
   - [Hwfly-NX](https://github.com/hwfly-nx) :  Hwfly firmware, Hwfly Toolbox
-  - [Hwfly-NX](https://github.com/hwfly-nx) :  PiCoFly firmware, PiCoFly Toolbox
+  - [Ansem-SoD](https://github.com/Ansem-SoD) :  PiCoFly firmware, PiCoFly Toolbox
   - [HamletDuFromage](https://github.com/HamletDuFromage) :  Aio-switch-updater
   - [rashevskyv, duckbill](https://github.com/rashevskyv) :  DBI
   - [fortheusers](https://github.com/fortheusers) :  hb-appstore
