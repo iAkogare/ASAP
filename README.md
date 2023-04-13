@@ -30,6 +30,7 @@ ASAP
  - ASAP-Updater
    - 2.21.5 → 2.21.6 (PiCoFly 지원 업데이트)
    - PiCoFly unlock - unlock.bin 추가
+   - PiCoFly unlock toolbox - PiCoFly_HOS_Unlock.bin 추가
    - PiCoFly firmware - update.bin 추가
    - PiCoFly bootloader - sdloader.enc 추가
    - PiCoFly toolbox - PiCoFly_toolbox.bin 추가
