@@ -16,13 +16,17 @@ ASAP
 새 버전 개선사항
 =====
 ### ⬦ ASAP-0410 주요 개선점
+ - Install Supporter
+   - PiCoFly Toolbox(HOS 언락 - BEK Missing Fix), Unlock.bin 기본 파일로 추가
  - Asanosphère
    - e9b28ab 커밋 ( libmesosphere 기술적 문구 조정 )
  - Hekate×ASAP & Nyx
    - 6.0.2 & 1.5.2 → 6.0.3 & 1.5.3
-   - 더 많은 정보는 [hekate](https://github.com/CTCaer/hekate/releases) 참고.
+   - 더 많은 정보는 [hekate](https://github.com/CTCaer/hekate/releases) 참고
  - Sigpatches
    - ASAP-0410 업데이트 ( e9b28ab & ded959c 기반 시그패치 최신화 )
+ - ASAP-Cleaner
+   - bdk, lodaer 업데이트, 스크립트 변경 / OLED 기기 화면 지원
  - ASAP-Updater
    - 2.21.5 → 2.21.6 (PiCoFly 지원 업데이트)
    - PiCoFly unlock - unlock.bin 추가
@@ -74,7 +78,8 @@ ASAP
   - 스크린샷 : `sd:/backup/screenshots`
   - keys : `sd:/backup/keys`
   - ASAP 이외의 CFW에서 일부 기능 이용제한.
-- [hwfly-toolbox](https://github.com/Asadayot/hwfly-toolbox) : 1.1.1 (버전 표기 오류 수정)
+- [ASAP-Cleaner](https://github.com/Asadayot/CommonProblemResolver) : 1.0.1 (OLED 기기 화면 지원)
+- [Hwfly-Toolbox](https://github.com/Asadayot/hwfly-toolbox) : 1.1.1 (버전 표기 오류 수정)
   - ASAP 이외의 CFW에서 일부 기능 이용제한.
 - [PiCoFly-Toolbox](https://github.com/Ansem-SoD/Picofly) : 0.1, 0.2
 
@@ -143,6 +148,10 @@ ASAP
 - `ASAP 업데이트` 항목에서 해당 사항을 선택하여 다운로드합니다.
 - 다운로드 후, `뒤로` 선택하여 재기동 하며 자동 설치를 진행합니다.
 
+### ⬦ 이용 중 알 수 없는 충돌이 발생할 시
+  - Hekate×ASAP→기타런처or페이로드→`ASAP-Cleaner` 선택하여 ASAP을 `Install Supporter` 상태로 되돌립니다.
+  - 이 작업은 개인파일, backup 폴더를 제외한 거의 모든 파일을 삭제 및 초기화합니다.
+
 ### ⬦ 추가 사항 설치
 - `ASAP-Updater` 혹은 `Install Supporter` 를 이용한 ASAP 설치 완료 후 기호에 따라 추가 파일을 설치합니다.
   - ASAP-Updater → 추가 구성 다운로드 → '[ Mariko 유저 ] OLED 모델 전용 필수 추가파일' 선택 다운로드.
@@ -187,6 +196,7 @@ ASAP 을 구성하기 위해 이용한 멋진 팀 및 개발자들과 앱.
   - [CTCaer](https://github.com/CTCaer) :  Hekate & Nyx
   - [ITotalJustice](https://github.com/ITotalJustice)
   - [suchmememanyskill](https://github.com/suchmememanyskill) :  TegraExplorer
+  - [Team-Neptune](https://github.com/Team-Neptune) :  CPR
   - [shchmue](https://github.com/shchmue) :  Lockpick RCM
   - [Hwfly-NX](https://github.com/hwfly-nx) :  Hwfly firmware, Hwfly Toolbox
   - [Ansem-SoD](https://github.com/Ansem-SoD) :  PiCoFly firmware, PiCoFly Toolbox
