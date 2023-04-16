@@ -15,7 +15,7 @@ ASAP
 
 새 버전 개선사항
 =====
-### ⬦ ASAP-0410 주요 개선점
+### ⬦ ASAP-0410 (Silent Update 0417) 주요 개선점
  - Install Supporter
    - PiCoFly Toolbox(HOS 언락 - BEK Missing Fix), Unlock.bin 기본 파일로 추가
  - Asanosphère
@@ -36,12 +36,16 @@ ASAP
    - PiCoFly toolbox - PiCoFly_toolbox.bin 추가
  - HB appstore
    - e87e221 커밋 ( 한글화, 로딩 커서 추가 )
+ - JKSV
+   - 23.02.28 → 23.04.17
+   - 83228a2 커밋
  - Quick NTP
    - 1.2.7 → 1.2.8 ( libtesla 업데이트 )
  - Edizon Overlay
    - 1.0.4 → 1.0.5 ( libtesla 업데이트, 강조색 하늘색으로 변경 )
- - Status-Monitor-Overlay
-   - 0.8.1 → 0.8.2 ( 핸들 메모리 누수 수정, 독모드 충돌 임시 해결 )
+ - Status-Monitor-Overlay - 23.04.17
+   - 0.8.2 → 0.8.3
+   - 더 많은 정보는 [Status-Monitor-Overlay](https://github.com/masagrator/Status-Monitor-Overlay/releases) 참고
 
 기본 제공 / 변경 로그
 =====
@@ -95,7 +99,7 @@ ASAP
 - [DB Installer](https://github.com/rashevskyv/dbi) : 527, 바로가기 nsp
 - [hb-appstore](https://github.com/fortheusers/hb-appstore) : 2.3.2, 한글화
 - [Hekate-Toolbox/Mariko 전용 설치](https://github.com/Asadayot/Hekate-Toolbox) : 4.0.3, 한글화, 바로가기 nsp
-- [JKSV](https://github.com/Asadayot/JKSV) : 2023.02.28, 매끄럽게 재번역 및 언어 고정, 바로가기 nsp
+- [JKSV](https://github.com/Asadayot/JKSV) : 2023.04.17, 매끄럽게 재번역 및 언어 고정, 바로가기 nsp
 - [Linkalho](https://github.com/Asadayot/linkalho) : 2.0.2, 한글화, 바로가기 nsp
 - [NX-Activity-Log](https://github.com/Asadayot/NX-Activity-Log) : 1.5.0, 매끄러운 재번역, 바로가기 nsp
 - [Tinfoil](https://github.com/Asadayot/NX-Activity-Log) : 16.0 [v0], 바로가기 nsp
@@ -111,7 +115,7 @@ ASAP
 - [MissionControl](https://github.com/ndeadly/MissionControl) : 0.9.0
 - [ldn_mitm](https://github.com/Asadayot/ldn_mitm) : 1.15.0-ASAP, 한글화
 - [QuickNTP](https://github.com/Asadayot/QuickNTP) : 1.2.8-ASAP, 한글화
-- [Status-Monitor-Overlay](https://github.com/Asadayot/Status-Monitor-Overlay) : 0.8.2-ASAP
+- [Status-Monitor-Overlay](https://github.com/Asadayot/Status-Monitor-Overlay) : 0.8.3-ASAP
 - [sys-clk](https://github.com/Asadayot/sys-clk) : 1.0.3-ASAP, 한글화
 - [sys-con](https://github.com/cathery/sys-con) : 0.6.4
 
