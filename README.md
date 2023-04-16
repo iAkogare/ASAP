@@ -26,7 +26,7 @@ ASAP
  - Sigpatches
    - ASAP-0410 업데이트 ( e9b28ab & ded959c 기반 시그패치 최신화 )
  - ASAP-Cleaner
-   - bdk, lodaer 업데이트, 스크립트 변경 / OLED 기기 화면 지원
+   - bdk, loader 업데이트, 스크립트 변경 / OLED 기기 화면 지원
  - ASAP-Updater
    - 2.21.5 → 2.21.6 (PiCoFly 지원 업데이트)
    - PiCoFly unlock - unlock.bin 추가
