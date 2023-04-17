@@ -15,17 +15,13 @@ ASAP
 
 새 버전 개선사항
 =====
-### ⬦ ASAP-0410 (Silent Update 0417) 주요 개선점
- - Install Supporter
-   - PiCoFly Toolbox(HOS 언락 - BEK Missing Fix), Unlock.bin 기본 파일로 추가
- - Asanosphère
-   - e9b28ab 커밋 ( libmesosphere 기술적 문구 조정 )
- - Hekate×ASAP & Nyx - 23.04.17
+### ⬦ ASAP-0418 주요 개선점
+ - Hekate×ASAP & Nyx
    - 6.0.2 & 1.5.2 → 6.0.3 & 1.5.3
    - 더 많은 정보는 [hekate](https://github.com/CTCaer/hekate/releases) 참고
-   - 상세 정보: 유니코드 추가 및 한글화 
+   - ASAP 버전 변경 정보 : 상세 로그 유니코드, 폰트 추가 및 한글화.
  - Sigpatches
-   - ASAP-0410 업데이트 ( e9b28ab & ded959c 기반 시그패치 최신화 )
+   - ASAP-0418 업데이트 ( e9b28ab & ded959c 기반 시그패치 최신화 )
  - ASAP-Cleaner
    - bdk, loader 업데이트, 스크립트 변경 / OLED 기기 화면 지원
  - ASAP-Updater
@@ -44,7 +40,7 @@ ASAP
    - 1.2.7 → 1.2.8 ( libtesla 업데이트 )
  - Edizon Overlay
    - 1.0.4 → 1.0.5 ( libtesla 업데이트, 강조색 하늘색으로 변경 )
- - Status-Monitor-Overlay - 23.04.17
+ - Status-Monitor-Overlay
    - 0.8.2 → 0.8.3
    - 더 많은 정보는 [Status-Monitor-Overlay](https://github.com/masagrator/Status-Monitor-Overlay/releases) 참고
 
