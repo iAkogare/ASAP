@@ -20,9 +20,10 @@ ASAP
    - PiCoFly Toolbox(HOS 언락 - BEK Missing Fix), Unlock.bin 기본 파일로 추가
  - Asanosphère
    - e9b28ab 커밋 ( libmesosphere 기술적 문구 조정 )
- - Hekate×ASAP & Nyx
+ - Hekate×ASAP & Nyx - 23.04.17
    - 6.0.2 & 1.5.2 → 6.0.3 & 1.5.3
    - 더 많은 정보는 [hekate](https://github.com/CTCaer/hekate/releases) 참고
+   - 상세 정보: 유니코드 추가 및 한글화
  - Sigpatches
    - ASAP-0410 업데이트 ( e9b28ab & ded959c 기반 시그패치 최신화 )
  - ASAP-Cleaner
