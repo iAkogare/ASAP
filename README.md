@@ -36,7 +36,6 @@ ASAP
    - PiCoFly toolbox - PiCoFly_toolbox.bin 추가
    - Horizon OS 16.0.1 삭제
    - Horizon OS 16.0.2 추가
-   
  - HB appstore
    - e87e221 커밋 ( 한글화, 로딩 커서 추가 )
  - JKSV
