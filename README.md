@@ -16,12 +16,15 @@ ASAP
 새 버전 개선사항
 =====
 ### ⬦ ASAP-0418 주요 개선점
+ - Asanosphère
+   - 1.5.1 → 1.5.2
+   - 더 많은 정보는 [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere/releases) 참고
  - Hekate×ASAP & Nyx
    - 6.0.2 & 1.5.2 → 6.0.3 & 1.5.3
    - 더 많은 정보는 [hekate](https://github.com/CTCaer/hekate/releases) 참고
-   - ASAP 버전 변경 정보 : 상세 로그 유니코드, 폰트 추가 및 한글화.
+   - ASAP 버전 변경 정보 : 상세 로그 유니코드, 폰트 추가 및 한글화
  - Sigpatches
-   - ASAP-0418 업데이트 ( e9b28ab & ded959c 기반 시그패치 최신화 )
+   - ASAP-0418 업데이트 ( 9f83b3 & ded959c 기반 시그패치 최신화 )
  - ASAP-Cleaner
    - bdk, loader 업데이트, 스크립트 변경 / OLED 기기 화면 지원
  - ASAP-Updater
@@ -31,6 +34,9 @@ ASAP
    - PiCoFly firmware - update.bin 추가
    - PiCoFly bootloader - sdloader.enc 추가
    - PiCoFly toolbox - PiCoFly_toolbox.bin 추가
+   - Horizon OS 16.0.1 삭제
+   - Horizon OS 16.0.2 추가
+   
  - HB appstore
    - e87e221 커밋 ( 한글화, 로딩 커서 추가 )
  - JKSV
@@ -50,7 +56,7 @@ ASAP
 
 ### ⬦ CFW & 부트로더
 - [Asanosphère](https://github.com/Asadayot/Asanosphere)
-  - 버전 표기 변경 : `HOS VER│ASAP1.5.1-0410│S/E`
+  - 버전 표기 변경 : `HOS VER│ASAP1.5.2-0418│S/E`
   - exosphere 경로 변경 : `sd:/atmosphere/config`
   - config 폴더의 .ini 파일 한글 부연 설명 추가(주석)
   - 시리얼 변조 코드 변경 : `XAW` → `XAJ`(유럽/일본)
