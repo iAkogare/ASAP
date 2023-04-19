@@ -47,8 +47,8 @@ ASAP
  - Status-Monitor-Overlay
    - 0.8.2 → 0.8.3
    - 더 많은 정보는 [Status-Monitor-Overlay](https://github.com/masagrator/Status-Monitor-Overlay/releases) 참고
- - MissionControl 23.04.19
-   - 0.9.0 → 0.9.1 (듀얼쇼크3/Moucute53 지원 추가, 듀얼쇼크4 폴링 속도 제어/소니 컨트롤러 라이트바 제어 옵션 추가, Wiimote dpad 호환성)
+ - MissionControl
+   - 0.9.0 → 0.9.1 (23.04.19)
    - 더 많은 정보는 [MissionControl](https://github.com/ndeadly/MissionControl/releases) 참고
 
 기본 제공 / 변경 로그
