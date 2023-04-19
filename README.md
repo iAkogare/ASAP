@@ -47,6 +47,9 @@ ASAP
  - Status-Monitor-Overlay
    - 0.8.2 → 0.8.3
    - 더 많은 정보는 [Status-Monitor-Overlay](https://github.com/masagrator/Status-Monitor-Overlay/releases) 참고
+ - MissionControl 23.04.19
+   - 0.9.0 → 0.9.1 (듀얼쇼크3/Moucute53 지원 추가, 듀얼쇼크4 폴링 속도 제어/소니 컨트롤러 라이트바 제어 옵션 추가, Wiimote dpad 호환성)
+   - 더 많은 정보는 [MissionControl](https://github.com/ndeadly/MissionControl/releases) 참고
 
 기본 제공 / 변경 로그
 =====
@@ -113,7 +116,7 @@ ASAP
 - [Tesla menu](https://github.com/Asadayot/Tesla-Menu) : 1.2.1-ASAP, 한글화
 - [ovl-sysmodules](https://github.com/Asadayot/ovl-sysmodules) : 1.3.1-ASAP, 한글화
 - [EdiZon-Overlay](https://github.com/proferabg/EdiZon-Overlay) : 1.0.5
-- [MissionControl](https://github.com/ndeadly/MissionControl) : 0.9.0
+- [MissionControl](https://github.com/ndeadly/MissionControl) : 0.9.1
 - [ldn_mitm](https://github.com/Asadayot/ldn_mitm) : 1.15.0-ASAP, 한글화
 - [QuickNTP](https://github.com/Asadayot/QuickNTP) : 1.2.8-ASAP, 한글화
 - [Status-Monitor-Overlay](https://github.com/Asadayot/Status-Monitor-Overlay) : 0.8.3-ASAP
