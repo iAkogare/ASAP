@@ -48,7 +48,7 @@ ASAP
    - 0.8.2 → 0.8.3
    - 더 많은 정보는 [Status-Monitor-Overlay](https://github.com/masagrator/Status-Monitor-Overlay/releases) 참고
  - MissionControl
-   - 0.9.0 → 0.9.1 (23.04.19)
+   - 0.9.0 → 0.9.1 (23.04.19) 
    - 더 많은 정보는 [MissionControl](https://github.com/ndeadly/MissionControl/releases) 참고
 
 기본 제공 / 변경 로그
