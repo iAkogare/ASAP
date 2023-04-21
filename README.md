@@ -17,7 +17,7 @@ ASAP
 =====
 ### ⬦ ASAP-0418 주요 개선점
  - Asanosphère
-   - 1.5.1 → 1.5.2 (a7300b0 )
+   - 1.5.1 → 1.5.2 (a7300b0 커밋)
    - 더 많은 정보는 [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere/releases) 참고
    - Haze : 버그 픽스, 바로가기 nsp  (23.04.21)
  - Hekate×ASAP & Nyx
