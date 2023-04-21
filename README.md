@@ -36,6 +36,7 @@ ASAP
    - PiCoFly bootloader - sdloader.enc 추가
    - PiCoFly toolbox - PiCoFly_toolbox.bin 추가
    - Horizon OS 16.0.2 추가
+   - 버그픽스 - 1.5.2_fix1-0418(0421) 추가
  - HB appstore
    - e87e221 커밋 ( 한글화, 로딩 커서 추가 )
  - JKSV
