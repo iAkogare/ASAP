@@ -30,7 +30,7 @@ ASAP
    - 542 → 551
    - 더 많은 정보는 [DBI](https://github.com/rashevskyv/dbi/releases) 참고
  - HB appstore
-   - e87e221 커밋 ( 한글화, 로딩 커서 추가 )
+   - 3f0b9ab 커밋 ( 한글화, 로딩 커서 추가 )
  - JKSV
    - 23.02.28 → 23.04.17
    - 83228a2 커밋
