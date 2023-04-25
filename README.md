@@ -16,7 +16,7 @@ ASAP
 새 버전 개선사항
 =====
 ### ⬦ ASAP-0425 주요 개선점
- - Hekate×ASAP & Nyx
+ - Hekate & Nyx × ASAP
    - 한글화 폰트 간격, 오탈자 수정
  - Sigpatches
    - ASAP-0425 업데이트 ( a7300b0 & ded959c 기반 시그패치 최신화 )
