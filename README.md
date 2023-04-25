@@ -15,44 +15,32 @@ ASAP
 
 새 버전 개선사항
 =====
-### ⬦ ASAP-0418 주요 개선점
- - Asanosphère
-   - 1.5.1 → 1.5.2 (a7300b0 커밋)
-   - 더 많은 정보는 [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere/releases) 참고
-   - Haze : 버그 픽스, 바로가기 nsp  (23.04.21)
+### ⬦ ASAP-0425 주요 개선점
  - Hekate×ASAP & Nyx
-   - 6.0.2 & 1.5.2 → 6.0.3 & 1.5.3
-   - 더 많은 정보는 [hekate](https://github.com/CTCaer/hekate/releases) 참고
-   - ASAP 버전 변경 정보 : 상세 로그 유니코드, 폰트 추가 및 한글화
+   - 한글화 폰트 간격, 오탈자 수정
  - Sigpatches
-   - ASAP-0418 업데이트 ( a7300b0 & ded959c 기반 시그패치 최신화 )
- - ASAP-Cleaner
-   - bdk, loader 업데이트, 스크립트 변경 / OLED 기기 화면 지원
+   - ASAP-0425 업데이트 ( a7300b0 & ded959c 기반 시그패치 최신화 )
  - ASAP-Updater
-   - 2.21.5 → 2.21.6 (PiCoFly 지원 업데이트)
-   - PiCoFly unlock - unlock.bin 추가
-   - PiCoFly unlock toolbox - PiCoFly_HOS_Unlock.bin 추가
-   - PiCoFly firmware - update.bin 추가
-   - PiCoFly bootloader - sdloader.enc 추가
-   - PiCoFly toolbox - PiCoFly_toolbox.bin 추가
    - Horizon OS 16.0.2 추가
-   - 버그 픽스 - Asanosphère(1.5.2_fix1) 업데이트 추가
+   - 버그 픽스 - Asanosphère(1.5.2_fix1) 업데이트 제거
+ - Tinfoil
+   - 16.0[v0] → 16.0[v2]
+   - icon.db 업데이트
+ - DB Installer
+   - 542 → 551
+   - 더 많은 정보는 [DBI](https://github.com/rashevskyv/dbi/releases) 참고
  - HB appstore
    - e87e221 커밋 ( 한글화, 로딩 커서 추가 )
  - JKSV
    - 23.02.28 → 23.04.17
    - 83228a2 커밋
- - Linkalho (23.04.25)
-   - 클린 메이크
- - Quick NTP
-   - 1.2.7 → 1.2.8 ( libtesla 업데이트 )
- - Edizon Overlay
-   - 1.0.4 → 1.0.5 ( libtesla 업데이트, 강조색 하늘색으로 변경 )
+ - Linkalho
+   - 클린 메이크 빌드
  - Status-Monitor-Overlay
-   - 0.8.3 → 0.9.0 (23.04.25)
+   - 0.8.3 → 0.9.0
    - 더 많은 정보는 [Status-Monitor-Overlay](https://github.com/masagrator/Status-Monitor-Overlay/releases) 참고
  - MissionControl
-   - 0.9.0 → 0.9.1 (23.04.19) 
+   - 0.9.0 → 0.9.1 
    - 더 많은 정보는 [MissionControl](https://github.com/ndeadly/MissionControl/releases) 참고  
 
 기본 제공 / 변경 로그
@@ -61,7 +49,7 @@ ASAP
 
 ### ⬦ CFW & 부트로더
 - [Asanosphère](https://github.com/Asadayot/Asanosphere)
-  - 버전 표기 변경 : `HOS VER│ASAP1.5.2-0418│S/E`
+  - 버전 표기 변경 : `HOS VER│ASAP1.5.2-0425│S/E`
   - exosphere 경로 변경 : `sd:/atmosphere/config`
   - config 폴더의 .ini 파일 한글 부연 설명 추가(주석)
   - 시리얼 변조 코드 변경 : `XAW` → `XAJ`(유럽/일본)
@@ -104,13 +92,13 @@ ASAP
 
 ### ⬦ 홈브류
 - [ASAP-Updater](https://github.com/Asadayot/ASAP-updater) : 2.21.6-ASAP
-- [DB Installer](https://github.com/rashevskyv/dbi) : 527, 바로가기 nsp
+- [DB Installer](https://github.com/rashevskyv/dbi) : 551, 바로가기 nsp
 - [hb-appstore](https://github.com/fortheusers/hb-appstore) : 2.3.2, 한글화
 - [Hekate-Toolbox/Mariko 전용 설치](https://github.com/Asadayot/Hekate-Toolbox) : 4.0.3, 한글화, 바로가기 nsp
 - [JKSV](https://github.com/Asadayot/JKSV) : 2023.04.17, 매끄럽게 재번역 및 언어 고정, 바로가기 nsp
 - [Linkalho](https://github.com/Asadayot/linkalho) : 2.0.2, 한글화, 바로가기 nsp
 - [NX-Activity-Log](https://github.com/Asadayot/NX-Activity-Log) : 1.5.0, 매끄러운 재번역, 바로가기 nsp
-- [Tinfoil](https://github.com/Asadayot/NX-Activity-Log) : 16.0 [v0], 바로가기 nsp
+- [Tinfoil](https://github.com/Asadayot/NX-Activity-Log) : 16.0 [v2], 바로가기 nsp
 - [vgedit](https://github.com/Asadayot/vgedit) : 2.2, 한글화, 바로가기 nsp
 - [Edizon/선택 설치](https://github.com/WerWolv/EdiZon) : 3.1.0, 바로가기 nsp
 - [ldnmitm config/선택 설치](https://github.com/Asadayot/ldn_mitm) : 1.1.2
@@ -123,7 +111,7 @@ ASAP
 - [MissionControl](https://github.com/ndeadly/MissionControl) : 0.9.1
 - [ldn_mitm](https://github.com/Asadayot/ldn_mitm) : 1.15.0-ASAP, 한글화
 - [QuickNTP](https://github.com/Asadayot/QuickNTP) : 1.2.8-ASAP, 한글화
-- [Status-Monitor-Overlay](https://github.com/Asadayot/Status-Monitor-Overlay) : 0.8.3-ASAP
+- [Status-Monitor-Overlay](https://github.com/Asadayot/Status-Monitor-Overlay) : 0.9.0-ASAP
 - [sys-clk](https://github.com/Asadayot/sys-clk) : 1.0.3-ASAP, 한글화
 - [sys-con](https://github.com/cathery/sys-con) : 0.6.4
 
