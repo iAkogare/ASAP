@@ -42,16 +42,18 @@ ASAP
  - JKSV
    - 23.02.28 → 23.04.17
    - 83228a2 커밋
+ - Linkalho (23.04.25)
+   - 클린 메이크
  - Quick NTP
    - 1.2.7 → 1.2.8 ( libtesla 업데이트 )
  - Edizon Overlay
    - 1.0.4 → 1.0.5 ( libtesla 업데이트, 강조색 하늘색으로 변경 )
  - Status-Monitor-Overlay
-   - 0.8.2 → 0.8.3
+   - 0.8.3 → 0.9.0 (23.04.25)
    - 더 많은 정보는 [Status-Monitor-Overlay](https://github.com/masagrator/Status-Monitor-Overlay/releases) 참고
  - MissionControl
    - 0.9.0 → 0.9.1 (23.04.19) 
-   - 더 많은 정보는 [MissionControl](https://github.com/ndeadly/MissionControl/releases) 참고
+   - 더 많은 정보는 [MissionControl](https://github.com/ndeadly/MissionControl/releases) 참고  
 
 기본 제공 / 변경 로그
 =====
