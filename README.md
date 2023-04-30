@@ -19,7 +19,7 @@ ASAP
 
 | 대상  | 버전         | 커밋             | 변경사항                                      | 변동 | 
 | ----- | ---------- | -------------- | ----------------------------------------- | ------ | 
-| [ASAP](https://github.com/Asadayot/ASAP) | 0425(0501) | 21c176f | 필수 홈브류 외 선택사항으로 분리, 경량화(40mb) | 23.05.01 | 
+| [ASAP](https://github.com/Asadayot/ASAP) | 0425(0501) | 21c176f | 필수 홈브류 외 선택사항으로 분리, 경량화 (압축파일 약 40MB) | 23.05.01 | 
 | [Hekate & Nyx](https://github.com/Asadayot/hekate) | 6.0.3&1.5.3  | ded959c | 한글화 폰트 코딩용 폰트와 커스텀 / 자간, 오탈자 수정 | 23.05.01 | 
 | Sigpatches | 0425 |  | a7300b0 & ded959c 기반 시그패치 최신화 |  | 
 | [ASAP-Updater](https://github.com/Asadayot/ASAP-updater) | 2.21.6 | 082a450 | Horizon OS 16.0.2 추가, 다운로드 링크 일부 수정, icon.db 업데이트 | 23.05.01 | 
