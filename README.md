@@ -16,33 +16,19 @@ ASAP
 새 버전 개선사항
 =====
 ### ⬦ ASAP-0425 주요 개선점
- - Hekate & Nyx × ASAP
-   - 한글화 폰트 간격, 오탈자 수정
- - Sigpatches
-   - ASAP-0425 업데이트 ( a7300b0 & ded959c 기반 시그패치 최신화 )
- - ASAP-Updater
-   - Horizon OS 16.0.2 추가
-   - 버그 픽스 - Asanosphère(1.5.2_fix1) 업데이트 제거
-   - 다운로드 링크 일부 수정 (23.05.01)
- - Tinfoil
-   - 16.0[v0] → 16.0[v2]
-   - icon.db 업데이트
- - DB Installer
-   - 542 → 551
-   - 더 많은 정보는 [DBI](https://github.com/rashevskyv/dbi/releases) 참고
- - HB appstore
-   - 3f0b9ab 커밋 ( 한글화, 로딩 커서 추가 )
- - JKSV
-   - 23.02.28 → 23.04.17
-   - 83228a2 커밋
- - Linkalho
-   - 클린 메이크 빌드
- - Status-Monitor-Overlay
-   - 0.8.3 → 0.9.0
-   - 더 많은 정보는 [Status-Monitor-Overlay](https://github.com/masagrator/Status-Monitor-Overlay/releases) 참고
- - MissionControl
-   - 0.9.1 → 0.9.2 
-   - 더 많은 정보는 [MissionControl](https://github.com/ndeadly/MissionControl/releases) 참고  
+
+| 대상  | 버전         | 커밋/해시          | 변경사항                                      | 변동일자 | 
+| ----- | ---------- | -------------- | ----------------------------------------- | ------ | 
+| [Hekate×ASAP](https://github.com/Asadayot/hekate) | 6.0.3 & 1.5.4  | ded959c | 한글화 폰트 - 코딩용 폰트와 커스텀 / 자간, 오탈자 수정 | 23.05.01 | 
+| Sigpatches | ASAP-0425 |  | a7300b0 & ded959c 기반 시그패치 최신화 |  | 
+| [ASAP-Updater](https://github.com/Asadayot/ASAP-updater) | 2.21.6-ASAP | 082a450 | Horizon OS 16.0.2 추가, 다운로드 링크 일부 수정, icon.db 업데이트 | 23.05.01 | 
+| [Tinfoil](https://tinfoil.io/) | 16.0 [v2] |  | 버전 업데이트 |  | 
+| [DB Installer](https://github.com/rashevskyv/dbi) | 551 | b27c864 | [DBI](https://github.com/rashevskyv/dbi/releases) 참고 |  | 
+| [HB-appstore](https://github.com/Asadayot/hb-appstore) | 2.3.2 | 3f0b9ab | 한글화 |  | 
+| [JKSV](https://github.com/Asadayot/JKSV) | 23.04.17 | 83228a2 | Libnx 업데이트 |  | 
+| [Linkalho](https://github.com/Asadayot/linkalho) | 2.0.2 | 2a980d6 | 클린 메이크 빌드 |  | 
+| [Status-Monitor-Overlay](https://github.com/Asadayot/Status-Monitor-Overlay) | 0.9.0 | c1c3ae7 | [Status-Monitor-Overlay](https://github.com/masagrator/Status-Monitor-Overlay/releases) 참고 |  | 
+| [MissionControl](https://github.com/ndeadly/MissionControl) | 0.9.2 | fe31665 | [MissionControl](https://github.com/ndeadly/MissionControl/releases) 참고 | 23.05.01 | 
 
 기본 제공 / 변경 로그
 =====
@@ -54,7 +40,6 @@ ASAP
   - exosphere 경로 변경 : `sd:/atmosphere/config`
   - config 폴더의 .ini 파일 한글 부연 설명 추가(주석)
   - 시리얼 변조 코드 변경 : `XAW` → `XAJ`(유럽/일본)
-  - 더 많은 정보는 [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere/releases) 참고.
 - [Hekate×ASAP](https://github.com/Asadayot/hekate)
   - 한글화
   - 덤프 경로 변경.
@@ -71,49 +56,82 @@ ASAP
 ### ⬦ 페이로드
 - [fusee.bin](https://github.com/Asadayot/Asanosphere)
 - [TegraExplorer](https://github.com/Asadayot/TegraExplorer) : 4.0.1-ASAP
-  - TegraExplorer 폴더 삭제, Exit/Scripts 수정, 덤프 경로 변경.
-  - 스크린샷 : `sd:/backup/screenshots`, HOS 덤프 : `sd:/Firmware`, 기타 : `sd:/backup`
+  - TegraExplorer 폴더 삭제, Exit/Scripts 수정.
+  - 스크린샷 덤프 경로 변경: `sd:/backup/screenshots`
+  - HOS 덤프 경로 변경: `sd:/Firmware`
+  - 기타 덤프 경로 변경: `sd:/backup`
   - ASAP 이외의 CFW에서 일부 기능 이용제한.
 - [Lockpick_RCM](https://github.com/Asadayot/Lockpick_RCM) : 1.9.10-ASAP
-  - ASAP 설치시 최초 1회 prod.key 및 title.key 생성.
-  - 덤프 경로 변경.
-  - 스크린샷 : `sd:/backup/screenshots`
-  - keys : `sd:/backup/keys`
+  - ASAP 설치 및 업데이트시 최초 1회 prod.key 및 title.key 교체/생성.
+  - 스크린샷 덤프 경로 변경: `sd:/backup/screenshots`
+  - keys 덤프 경로 변경: `sd:/backup/keys`
   - ASAP 이외의 CFW에서 일부 기능 이용제한.
-- [ASAP-Cleaner](https://github.com/Asadayot/CommonProblemResolver) : 1.0.1 (OLED 기기 화면 지원)
-- [Hwfly-Toolbox](https://github.com/Asadayot/hwfly-toolbox) : 1.1.1 (버전 표기 오류 수정)
+- [ASAP-Cleaner](https://github.com/Asadayot/CommonProblemResolver) : 1.0.1
+  - OLED 기기 화면 지원.
+- [Hwfly-Toolbox](https://github.com/Asadayot/hwfly-toolbox) : 1.1.1
+  - 버전 표기 오류 수정
   - ASAP 이외의 CFW에서 일부 기능 이용제한.
-- [PiCoFly-Toolbox](https://github.com/Ansem-SoD/Picofly) : 0.1, 0.2
+- [PiCoFly-Toolbox](https://github.com/Ansem-SoD/Picofly) : 0.1(unlock 전용), 0.2
+  - Install Supporter에 언락 툴박스 기본 페이로드로 설치.
 
 ### ⬦ 시그패치
 - ASAP 용 기본 설치, 이후 ASAP-Updater 를 통하여 업데이트 가능.
 
 ### ⬦ Warmboot Mariko 캐시
 - Mariko 기기용 웜부트 캐시 `wb_0c.bin ~ wb_12.bin`
+  - 캐시 기본 제공으로 HOS 16.0.2 까지 정펌 및 HOS(Warmboot Error Fix)의 필수 기동 필요없음.
 
-### ⬦ 홈브류
+### ⬦ 홈브류 ()
 - [ASAP-Updater](https://github.com/Asadayot/ASAP-updater) : 2.21.6-ASAP
-- [DB Installer](https://github.com/rashevskyv/dbi) : 551, 바로가기 nsp
-- [hb-appstore](https://github.com/fortheusers/hb-appstore) : 2.3.2, 한글화
-- [Hekate-Toolbox/Mariko 전용 설치](https://github.com/Asadayot/Hekate-Toolbox) : 4.0.3, 한글화, 바로가기 nsp
-- [JKSV](https://github.com/Asadayot/JKSV) : 2023.04.17, 매끄럽게 재번역 및 언어 고정, 바로가기 nsp
-- [Linkalho](https://github.com/Asadayot/linkalho) : 2.0.2, 한글화, 바로가기 nsp
-- [NX-Activity-Log](https://github.com/Asadayot/NX-Activity-Log) : 1.5.0, 매끄러운 재번역, 바로가기 nsp
-- [Tinfoil](https://github.com/Asadayot/NX-Activity-Log) : 16.0 [v2], 바로가기 nsp
-- [vgedit](https://github.com/Asadayot/vgedit) : 2.2, 한글화, 바로가기 nsp
-- [Edizon/선택 설치](https://github.com/WerWolv/EdiZon) : 3.1.0, 바로가기 nsp
-- [ldnmitm config/선택 설치](https://github.com/Asadayot/ldn_mitm) : 1.1.2
-- [sys-clk manager/선택 설치](https://github.com/Asadayot/sys-clk) : 1.0.3-ASAP, 한글화, 바로가기 nsp
+  - 바로가기 NSP 설치 파일 제공.
+- [Daybreak](https://github.com/Asadayot/Asanosphere) : 1.0.0
+- [Reboot2payload](https://github.com/Asadayot/Asanosphere) : 1.0.0
+- [Haze](https://github.com/Asadayot/Asanosphere) : 1.0.0
+- [DB Installer](https://github.com/rashevskyv/dbi) : 551
+  - 바로가기 NSP 설치 파일 제공.
+- [Hekate-Toolbox/Mariko 전용 설치](https://github.com/Asadayot/Hekate-Toolbox) : 4.0.3
+  - 한글화.
+  - 바로가기 NSP 설치 파일 제공.
+- [Tinfoil](https://github.com/Asadayot/NX-Activity-Log) : 16.0 [v2]
+  - 바로가기 NSP 설치 파일 제공.
 
-### ⬦ 테슬라 & 시스모듈 (선택 설치)
-- [Tesla menu](https://github.com/Asadayot/Tesla-Menu) : 1.2.1-ASAP, 한글화
-- [ovl-sysmodules](https://github.com/Asadayot/ovl-sysmodules) : 1.3.1-ASAP, 한글화
+### ⬦ 테슬라 & 홈브류 & 시스모듈 (선택 설치)
+- [Tesla menu](https://github.com/Asadayot/Tesla-Menu) : 1.2.1
+  - 한글화.
+- [ovl-sysmodules](https://github.com/Asadayot/ovl-sysmodules) : 1.3.1
+  - 한글화.
+- [DB Installer](https://github.com/rashevskyv/dbi) : 551
+  - 바로가기 NSP 설치 파일 제공.
+- [HB-appstore](https://github.com/fortheusers/hb-appstore) : 2.3.2
+  - 한글화.
+- [JKSV](https://github.com/Asadayot/JKSV) : 2023.04.17
+  - 매끄럽게 재번역 및 언어 고정. 
+  - 바로가기 NSP 설치 파일 제공.
+- [Linkalho](https://github.com/Asadayot/linkalho) : 2.0.2
+  - 한글화.
+  - 바로가기 NSP 설치 파일 제공.
+- [NX-Activity-Log](https://github.com/Asadayot/NX-Activity-Log) : 1.5.0
+  - 매끄럽게 재번역 및 언어 고정. 
+  - 바로가기 NSP 설치 파일 제공.
+- [vgedit](https://github.com/Asadayot/vgedit) : 2.2
+  - 한글화.
+  - 바로가기 NSP 설치 파일 제공.
+- [ldnmitm config](https://github.com/Asadayot/ldn_mitm) : 1.1.2
+- [sys-clk manager](https://github.com/Asadayot/sys-clk) : 1.0.3
+  - 한글화.
+  - 바로가기 NSP 설치 파일 제공.
+- [Edizon](https://github.com/WerWolv/EdiZon) : 3.1.0
+  - 바로가기 NSP 설치 파일 제공.
 - [EdiZon-Overlay](https://github.com/proferabg/EdiZon-Overlay) : 1.0.5
 - [MissionControl](https://github.com/ndeadly/MissionControl) : 0.9.2
-- [ldn_mitm](https://github.com/Asadayot/ldn_mitm) : 1.15.0-ASAP, 한글화
-- [QuickNTP](https://github.com/Asadayot/QuickNTP) : 1.2.8-ASAP, 한글화
-- [Status-Monitor-Overlay](https://github.com/Asadayot/Status-Monitor-Overlay) : 0.9.0-ASAP
-- [sys-clk](https://github.com/Asadayot/sys-clk) : 1.0.3-ASAP, 한글화
+- [ldn_mitm](https://github.com/Asadayot/ldn_mitm) : 1.15.0
+  - 한글화.
+- [QuickNTP](https://github.com/Asadayot/QuickNTP) : 1.2.8
+  - 한글화.
+  - 한국 시간대 기본 템플릿에 추가.
+- [Status-Monitor-Overlay](https://github.com/Asadayot/Status-Monitor-Overlay) : 0.9.0
+- [sys-clk](https://github.com/Asadayot/sys-clk) : 1.0.3
+  - 한글화.
 - [sys-con](https://github.com/cathery/sys-con) : 0.6.4
 
 </details>
