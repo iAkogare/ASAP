@@ -17,9 +17,9 @@ ASAP
 =====
 ### ⬦ ASAP-0425 주요 개선점
 
-| 대상  | 버전         | 커밋             | 변경사항                                      | 변동일자 | 
+| 대상  | 버전         | 커밋             | 변경사항                                      | 변동 | 
 | ----- | ---------- | -------------- | ----------------------------------------- | ------ | 
-| [Hekate×ASAP](https://github.com/Asadayot/hekate) | 6.0.3 & 1.5.4  | ded959c | 한글화 폰트 - 코딩용 폰트와 커스텀 / 자간, 오탈자 수정 | 23.05.01 | 
+| [Hekate×ASAP](https://github.com/Asadayot/hekate) | 6.0.3 & 1.5.3  | ded959c | 한글화 폰트 - 코딩용 폰트와 커스텀 / 자간, 오탈자 수정 | 23.05.01 | 
 | Sigpatches | ASAP-0425 |  | a7300b0 & ded959c 기반 시그패치 최신화 |  | 
 | [ASAP-Updater](https://github.com/Asadayot/ASAP-updater) | 2.21.6-ASAP | 082a450 | Horizon OS 16.0.2 추가, 다운로드 링크 일부 수정, icon.db 업데이트 | 23.05.01 | 
 | [Tinfoil](https://tinfoil.io/) | 16.0 [v2] |  | 버전 업데이트 |  | 
