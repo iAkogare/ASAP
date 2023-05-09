@@ -15,21 +15,20 @@ ASAP
 
 새 버전 개선사항
 =====
-### ⬦ ASAP-0425 주요 개선점
+### ⬦ ASAP-0509 주요 개선점
 
 | 대상  | 버전         | 커밋             | 변경사항                                      | 변동 | 
 | ----- | ---------- | -------------- | ----------------------------------------- | ------ | 
-| [ASAP](https://github.com/Asadayot/ASAP) | 0425(0501) | 21c176f | 필수 홈브류 외 선택 사항으로 분리, 경량화 (압축파일 약 40MB) | 23.05.01 | 
-| [Hekate & Nyx](https://github.com/Asadayot/hekate) | 6.0.3&1.5.3  | ded959c | 한글화 폰트 코딩용 폰트와 커스텀 / 자간, 오탈자 수정 | 23.05.01 | 
-| Sigpatches | 0425 |  | a7300b0 & ded959c 기반 시그패치 최신화 |  | 
-| [ASAP-Updater](https://github.com/Asadayot/ASAP-updater) | 2.21.6 | 082a450 | Horizon OS 16.0.2 추가, 다운로드 링크 일부 수정, icon.db 업데이트 | 23.05.01 | 
-| [Tinfoil](https://tinfoil.io/) | 16.0 [v2] |  | 버전 업데이트 |  | 
-| [DB Installer](https://github.com/rashevskyv/dbi) | 551 | b27c864 | [DBI](https://github.com/rashevskyv/dbi/releases) 참고 |  | 
-| [HB-appstore](https://github.com/Asadayot/hb-appstore) | 2.3.2 | 3f0b9ab | 한글화 |  | 
-| [JKSV](https://github.com/Asadayot/JKSV) | 23.04.17 | 83228a2 | Libnx 업데이트 |  | 
-| [Linkalho](https://github.com/Asadayot/linkalho) | 2.0.2 | 2a980d6 | 클린 메이크 빌드 |  | 
-| [Status-Monitor-Overlay](https://github.com/Asadayot/Status-Monitor-Overlay) | 0.9.0 | c1c3ae7 | [Status-Monitor-Overlay](https://github.com/masagrator/Status-Monitor-Overlay/releases) 참고 |  | 
-| [MissionControl](https://github.com/ndeadly/MissionControl) | 0.9.2 | fe31665 | [MissionControl](https://github.com/ndeadly/MissionControl/releases) 참고 | 23.05.01 | 
+| [ASAP](https://github.com/Asadayot/ASAP) | 0509 | b9b71f2 |  |  | 
+| [Asanosphère](https://github.com/Asadayot/Asanosphere) | 1.5.3 | 85c23b5 | [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere/releases/tag/1.5.3) 참고 |  | 
+| Sigpatches | 0509 |  | 85c23b5 & ded959c 기반 시그패치 최신화 |  | 
+| [ASAP-Updater](https://github.com/Asadayot/ASAP-updater) | 2.21.7 | 9f3b00d | [aio-switch-updater](https://github.com/HamletDuFromage/aio-switch-updater/releases/tag/2.21.4) 참고, HOS 16.0.3 추가 |  | 
+| [Tesla-Menu](https://github.com/Asadayot/Tesla-Menu) | 1.2.1 | 97b9677 | libtesla 업데이트 |  | 
+| [ovl-sysmodules](https://github.com/Asadayot/ovl-sysmodules) | 1.3.1 | 9b114b3 | libtesla 업데이트 |  | 
+| [MissionControl](https://github.com/Asadayot/MissionControl) | 0.9.2 | fe31665 | Atmosphere-libs, libnx 업데이트 |  | 
+| [ldn_mitm](https://github.com/Asadayot/ldn_mitm) | 1.15.1 | b98d2c6 | Atmosphere-libs, libtesla 업데이트 |  | 
+| [QuickNTP](https://github.com/Asadayot/QuickNTP) | 1.2.8 | 11b9897 | libtesla 업데이트 |  | 
+| [Status-Monitor-Overlay](https://github.com/Asadayot/Status-Monitor-Overlay) | 0.9.0 | c1c3ae7 | Atmosphere-libs 업데이트 |  | 
 
 기본 제공 / 변경 로그
 =====
@@ -37,7 +36,7 @@ ASAP
 
 ### ⬦ CFW & 부트로더
 - [Asanosphère](https://github.com/Asadayot/Asanosphere)
-  - 버전 표기 변경 : `HOS VER│ASAP1.5.2-0425│S/E`
+  - 버전 표기 변경 : `HOS VER│ASAP1.5.3-0509│S/E`
   - exosphere 경로 변경 : `sd:/atmosphere/config`
   - config 폴더의 .ini 파일 한글 부연 설명 추가(주석)
   - 시리얼 변조 코드 변경 : `XAW` → `XAJ`(유럽/일본)
@@ -83,7 +82,7 @@ ASAP
   - 캐시 기본 제공으로 HOS 16.0.2 까지 정펌 및 HOS(Warmboot Error Fix)의 필수 기동 필요없음.
 
 ### ⬦ 홈브류 ()
-- [ASAP-Updater](https://github.com/Asadayot/ASAP-updater) : 2.21.6-ASAP
+- [ASAP-Updater](https://github.com/Asadayot/ASAP-updater) : 2.21.7-ASAP
   - 바로가기 NSP 설치 파일 제공.
 - [Daybreak](https://github.com/Asadayot/Asanosphere) : 1.0.0
 - [Reboot2payload](https://github.com/Asadayot/Asanosphere) : 1.0.0
