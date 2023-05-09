@@ -26,12 +26,12 @@ ASAP
 | [Hekate×ASAP](https://github.com/Asadayot/hekate) | 6.0.4 & 1.5.3 | 937ab53 | [hekate & nyx](https://github.com/CTCaer/hekate/releases) 참고, emuMMC 변경 |  | 
 | Sigpatches | 0509 |  | 85c23b5 & 937ab53 기반 시그패치 최신화 |  | 
 | [ASAP-Updater](https://github.com/Asadayot/ASAP-updater) | 2.21.7 | 9f3b00d | [aio-switch-updater](https://github.com/HamletDuFromage/aio-switch-updater/releases/tag/2.21.4) 참고, HOS 16.0.3 추가 |  | 
-| [Tesla-Menu](https://github.com/Asadayot/Tesla-Menu) | 1.2.1 | 97b9677 | libtesla 업데이트 |  | 
-| [ovl-sysmodules](https://github.com/Asadayot/ovl-sysmodules) | 1.3.1 | 9b114b3 | libtesla 업데이트 |  | 
-| [MissionControl](https://github.com/Asadayot/MissionControl) | 0.9.2 | fe31665 | Atmosphere-libs, libnx 업데이트 |  | 
-| [ldn_mitm](https://github.com/Asadayot/ldn_mitm) | 1.15.1 | b98d2c6 | Atmosphere-libs, libtesla 업데이트 |  | 
-| [QuickNTP](https://github.com/Asadayot/QuickNTP) | 1.2.8 | 11b9897 | libtesla 업데이트 |  | 
-| [Status-Monitor-Overlay](https://github.com/Asadayot/Status-Monitor-Overlay) | 0.9.0 | c1c3ae7 | Atmosphere-libs 업데이트 |  | 
+| [Tesla-Menu](https://github.com/Asadayot/Tesla-Menu) | 1.2.1 | 97b9677 | libtesla 업데이트 | 수정 중 | 
+| [ovl-sysmodules](https://github.com/Asadayot/ovl-sysmodules) | 1.3.1 | 9b114b3 | libtesla 업데이트 | 수정 중 | 
+| [MissionControl](https://github.com/Asadayot/MissionControl) | 0.9.2 | fe31665 | Atmosphere-libs, libnx 업데이트 | 수정 중 | 
+| [ldn_mitm](https://github.com/Asadayot/ldn_mitm) | 1.15.1 | b98d2c6 | Atmosphere-libs, libtesla 업데이트 | 수정 중 | 
+| [QuickNTP](https://github.com/Asadayot/QuickNTP) | 1.2.8 | 11b9897 | libtesla 업데이트 | 수정 중 | 
+| [Status-Monitor-Overlay](https://github.com/Asadayot/Status-Monitor-Overlay) | 0.9.0 | c1c3ae7 | Atmosphere-libs 업데이트 | 수정 중 | 
 
 기본 제공 / 변경 로그
 =====
