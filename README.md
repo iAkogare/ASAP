@@ -23,7 +23,7 @@ ASAP
 | [ASAP](https://github.com/Asadayot/ASAP) | 0509 | b9b71f2 |  |  | 
 | [Asanosphère](https://github.com/Asadayot/Asanosphere) | 1.5.3 | 85c23b5 | [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere/releases/tag/1.5.3) 참고 |  | 
 | [Hekate×ASAP](https://github.com/Asadayot/hekate) | 6.0.4 & 1.5.3 | 937ab53 | [hekate & nyx](https://github.com/CTCaer/hekate/releases) 참고, emuMMC 변경 |  | 
-| Sigpatches | 0509 |  | 85c23b5 & ded959c 기반 시그패치 최신화 |  | 
+| Sigpatches | 0509 |  | 85c23b5 & 937ab53 기반 시그패치 최신화 |  | 
 | [ASAP-Updater](https://github.com/Asadayot/ASAP-updater) | 2.21.7 | 9f3b00d | [aio-switch-updater](https://github.com/HamletDuFromage/aio-switch-updater/releases/tag/2.21.4) 참고, HOS 16.0.3 추가 |  | 
 | [Tesla-Menu](https://github.com/Asadayot/Tesla-Menu) | 1.2.1 | 97b9677 | libtesla 업데이트 |  | 
 | [ovl-sysmodules](https://github.com/Asadayot/ovl-sysmodules) | 1.3.1 | 9b114b3 | libtesla 업데이트 |  | 
