@@ -17,7 +17,6 @@ ASAP
 =====
 ### ⬦ ASAP-0511 주요 개선점
 
-안정화 작업 중
 
 | 대상  | 버전         | 커밋             | 변경사항                                      | 변동 | 
 | ----- | ---------- | -------------- | ----------------------------------------- | ------ | 
@@ -27,7 +26,7 @@ ASAP
 | Sigpatches | 0509 |  | 85c23b5 & 937ab53 기반 시그패치 최신화 |  | 
 | [ASAP-Updater](https://github.com/Asadayot/ASAP) | 2.21.7 | 9f3b00d | 설치도우미 버전 일부기능 잠금, 다운로드 링크 변경, 메뉴 수정 |  | 
 | [DB Installer](https://github.com/rashevskyv/dbi) | 563 | b27c864 | [DB Installer](https://github.com/rashevskyv/dbi/releases) 참고 |  | 
-| [Edizon-SE](https://github.com/WerWolv/EdiZon) | 3.8.36 | 171a71f | [Edizon-SE](https://github.com/tomvita/EdiZon-SE/releases) 로 변경 |  | 
+| [Edizon-SE](https://github.com/WerWolv/EdiZon) | 3.8.36 | 171a71f | [Edizon-SE](https://github.com/tomvita/EdiZon-SE/releases) 로 변경, Breeze 추가 |  | 
 
 기본 제공 / 변경 로그
 =====
