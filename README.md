@@ -138,7 +138,7 @@ ASAP
 <details><summary>자세히 보기</summary>
   
 ### ⬦ 기존 커스텀 펌웨어 이용 유저의 경우
-- [ASAP-Updater](https://github.com/Asadayot/ASAP-updater)의 `Asano-updater.zip` [Latest](https://github.com/Asadayot/ASAP/releases/latest)를 내려받습니다.
+- [ASAP-Updater](https://github.com/Asadayot/ASAP-updater)의 `ASAP-updater.zip` [Latest](https://github.com/Asadayot/ASAP/releases/latest)를 내려받습니다.
 - 압축 해제 후 디렉토리를 `sd:/` 최상위 경로로 붙여넣습니다.
 - 스위치를 커스텀 펌웨어로 기동 후, hbmenu `앨범+R+A` 진입, `ASAP-Updater`를 실행합니다.
 - `ASAP 업데이트` 항목에서 해당 사항을 선택하여 다운로드합니다.
@@ -161,7 +161,7 @@ ASAP
   - 부팅화면이 표기되면 `- 볼륨 버튼` 선택하여 Hekate×ASAP으로 진입합니다. 
   - 도구→SD 카드 파티션→확인→포맷 및 분할 계속→시작→전원버튼→확인 순으로 선택하여 FAT32로 포맷합니다.
   - 홈메뉴로 돌아가 에뮤낸드→에뮤낸드 생성→파일 기반 순으로 선택하여 자동 생성합니다.
-- 런치 메뉴의 `Asanosphère (퓨즈 체인로드)`로 기동 후, hbmenu `앨범+R+A` 진입하여 ASAP-Updater를 실행합니다.
+- 런치 메뉴의 `Asanosphère (시스/에뮤낸드)`로 기동 후, hbmenu `앨범+R+A` 진입하여 ASAP-Updater를 실행합니다.
 - `ASAP 업데이트` 항목에서 해당 사항을 선택하여 다운로드합니다.
 - 다운로드 후, `뒤로` 선택하여 재기동 하며 자동 설치를 진행합니다.
 
@@ -184,7 +184,7 @@ ASAP
 - 퓨즈가 연소되는 메이저 업데이트의 경우, 특정기기에서 많은 오류를 동반할 수 있으니 다음을 숙지하세요.
   - HOS 버전과 대응하는 CFW(ASAP)를 `ASAP-Updater` → `ASAP 업데이트`에서 우선적으로 업데이트.
   - 헤카테 `홈` → `재부팅` → `정펌`으로 HOS 기동 후 시스템 업데이트.
-  - fss0/Package3, fusee 체인로드를 통한 HOS 기동 후 `ASAP-Updater` → `Horizon OS 업데이트`에서 에뮤낸드 업데이트.
+  - Asanosphère (시스/에뮤낸드), (에뮤낸드) 를 통한 HOS 기동 후 `ASAP-Updater` → `Horizon OS 업데이트`에서 에뮤낸드 업데이트.
   
   
 스크린샷
