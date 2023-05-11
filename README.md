@@ -23,7 +23,7 @@ ASAP
 | [Asanosphère](https://github.com/Asadayot/Asanosphere) | 1.5.3 | 85c23b5 | [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere/releases/tag/1.5.3) 참고 |  | 
 | [Hekate×ASAP](https://github.com/Asadayot/hekate) | 6.0.4 & 1.5.3 | 937ab53 | [hekate & nyx](https://github.com/CTCaer/hekate/releases) 참고, emuMMC 변경 |  | 
 | Sigpatches | 0509 |  | 85c23b5 & 937ab53 기반 시그패치 최신화 |  | 
-| [ASAP-Updater](https://github.com/Asadayot/ASAP) | 2.21.7 | 9f3b00d | 서포터 일부기능 잠금, 다운로드 링크 변경, 메뉴 수정 |  | 
+| [ASAP-Updater](https://github.com/Asadayot/ASAP) | 2.21.7 | 9f3b00d | 설치도우미 버전 일부기능 잠금, 다운로드 링크 변경, 메뉴 수정 |  | 
 | [DB Installer](https://github.com/rashevskyv/dbi) | 563 | b27c864 | [DB Installer](https://github.com/rashevskyv/dbi/releases) 참고 |  | 
 | [Edizon-SE](https://github.com/WerWolv/EdiZon) | 3.8.36 | 171a71f | [Edizon-SE](https://github.com/tomvita/EdiZon-SE/releases) 로 변경 |  | 
 
@@ -78,7 +78,7 @@ ASAP
 - Mariko 기기용 웜부트 캐시 `wb_0c.bin ~ wb_12.bin`
   - 캐시 기본 제공으로 HOS 16.0.2 까지 정펌 및 HOS(Warmboot Error Fix)의 필수 기동 필요없음.
 
-### ⬦ 홈브류 ()
+### ⬦ 홈브류 (기본 설치)
 - [ASAP-Updater](https://github.com/Asadayot/ASAP-updater) : 2.21.7-ASAP
   - 바로가기 NSP 설치 파일 제공.
 - [Daybreak](https://github.com/Asadayot/Asanosphere) : 1.0.0
@@ -92,7 +92,7 @@ ASAP
 - [Tinfoil](https://github.com/Asadayot/NX-Activity-Log) : 16.0 [v2]
   - 바로가기 NSP 설치 파일 제공.
 
-### ⬦ 테슬라 & 홈브류 & 시스모듈 (선택 설치)
+### ⬦ 테슬라 & 홈브류 & 시스모듈 (선택 설치-재부팅 필요)
 - [Tesla menu](https://github.com/Asadayot/Tesla-Menu) : 1.2.1
   - 한글화.
 - [ovl-sysmodules](https://github.com/Asadayot/ovl-sysmodules) : 1.3.1
