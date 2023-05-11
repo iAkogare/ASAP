@@ -15,23 +15,17 @@ ASAP
 
 새 버전 개선사항
 =====
-### ⬦ ASAP-0509 주요 개선점
-
-수정 중 (홈브류,시스모듈 링크 해제)
+### ⬦ ASAP-0511 주요 개선점
 
 | 대상  | 버전         | 커밋             | 변경사항                                      | 변동 | 
 | ----- | ---------- | -------------- | ----------------------------------------- | ------ | 
-| [ASAP](https://github.com/Asadayot/ASAP) | 0509 | b9b71f2 |  |  | 
+| [ASAP](https://github.com/Asadayot/ASAP) | 0511 | 07426f8 |  |  | 
 | [Asanosphère](https://github.com/Asadayot/Asanosphere) | 1.5.3 | 85c23b5 | [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere/releases/tag/1.5.3) 참고 |  | 
 | [Hekate×ASAP](https://github.com/Asadayot/hekate) | 6.0.4 & 1.5.3 | 937ab53 | [hekate & nyx](https://github.com/CTCaer/hekate/releases) 참고, emuMMC 변경 |  | 
 | Sigpatches | 0509 |  | 85c23b5 & 937ab53 기반 시그패치 최신화 |  | 
-| [ASAP-Updater](https://github.com/Asadayot/ASAP-updater) | 2.21.7 | 9f3b00d | [aio-switch-updater](https://github.com/HamletDuFromage/aio-switch-updater/releases/tag/2.21.4) 참고, HOS 16.0.3 추가 |  | 
-| [Tesla-Menu](https://github.com/Asadayot/Tesla-Menu) | 1.2.1 | 97b9677 | libtesla 업데이트 | 수정 중 | 
-| [ovl-sysmodules](https://github.com/Asadayot/ovl-sysmodules) | 1.3.1 | 9b114b3 | libtesla 업데이트 | 수정 중 | 
-| [MissionControl](https://github.com/Asadayot/MissionControl) | 0.9.2 | fe31665 | Atmosphere-libs, libnx 업데이트 | 수정 중 | 
-| [ldn_mitm](https://github.com/Asadayot/ldn_mitm) | 1.15.1 | b98d2c6 | Atmosphere-libs, libtesla 업데이트 | 수정 중 | 
-| [QuickNTP](https://github.com/Asadayot/QuickNTP) | 1.2.8 | 11b9897 | libtesla 업데이트 | 수정 중 | 
-| [Status-Monitor-Overlay](https://github.com/Asadayot/Status-Monitor-Overlay) | 0.9.0 | c1c3ae7 | Atmosphere-libs 업데이트 | 수정 중 | 
+| [ASAP-Updater](https://github.com/Asadayot/ASAP) | 2.21.7 | 9f3b00d | 서포터 일부기능 잠금, 다운로드 링크 변경, 메뉴 수정 |  | 
+| [DB Installer](https://github.com/rashevskyv/dbi) | 563 | b27c864 | [DB Installer](https://github.com/rashevskyv/dbi/releases) 참고 |  | 
+| [Edizon-SE](https://github.com/WerWolv/EdiZon) | 3.8.36 | 171a71f | [Edizon-SE](https://github.com/tomvita/EdiZon-SE/releases) 로 변경 |  | 
 
 기본 제공 / 변경 로그
 =====
@@ -39,7 +33,7 @@ ASAP
 
 ### ⬦ CFW & 부트로더
 - [Asanosphère](https://github.com/Asadayot/Asanosphere)
-  - 버전 표기 변경 : `HOS VER│ASAP1.5.3-0509│S/E`
+  - 버전 표기 변경 : `HOS VER│ASAP1.5.3-0511│S/E`
   - exosphere 경로 변경 : `sd:/atmosphere/config`
   - config 폴더의 .ini 파일 한글 부연 설명 추가(주석)
   - 시리얼 변조 코드 변경 : `XAW` → `XAJ`(유럽/일본)
@@ -90,7 +84,7 @@ ASAP
 - [Daybreak](https://github.com/Asadayot/Asanosphere) : 1.0.0
 - [Reboot2payload](https://github.com/Asadayot/Asanosphere) : 1.0.0
 - [Haze](https://github.com/Asadayot/Asanosphere) : 1.0.0
-- [DB Installer](https://github.com/rashevskyv/dbi) : 551
+- [DB Installer](https://github.com/rashevskyv/dbi) : 563
   - 바로가기 NSP 설치 파일 제공.
 - [Hekate-Toolbox/Mariko 전용 설치](https://github.com/Asadayot/Hekate-Toolbox) : 4.0.3
   - 한글화.
@@ -123,7 +117,7 @@ ASAP
 - [sys-clk manager](https://github.com/Asadayot/sys-clk) : 1.0.3
   - 한글화.
   - 바로가기 NSP 설치 파일 제공.
-- [Edizon](https://github.com/WerWolv/EdiZon) : 3.1.0
+- [Edizon-SE](https://github.com/tomvita/EdiZon-SE/releases) : 3.8.36
   - 바로가기 NSP 설치 파일 제공.
 - [EdiZon-Overlay](https://github.com/proferabg/EdiZon-Overlay) : 1.0.5
 - [MissionControl](https://github.com/ndeadly/MissionControl) : 0.9.2
@@ -144,7 +138,7 @@ ASAP
 <details><summary>자세히 보기</summary>
   
 ### ⬦ 기존 커스텀 펌웨어 이용 유저의 경우
-- [ASAP-Updater](https://github.com/Asadayot/ASAP-updater)의 `Asano-updater_X.XX.X.zip` [Latest](https://github.com/Asadayot/ASAP-updater/releases/latest)를 내려받습니다.
+- [ASAP-Updater](https://github.com/Asadayot/ASAP-updater)의 `Asano-updater.zip` [Latest](https://github.com/Asadayot/ASAP/releases/latest)를 내려받습니다.
 - 압축 해제 후 디렉토리를 `sd:/` 최상위 경로로 붙여넣습니다.
 - 스위치를 커스텀 펌웨어로 기동 후, hbmenu `앨범+R+A` 진입, `ASAP-Updater`를 실행합니다.
 - `ASAP 업데이트` 항목에서 해당 사항을 선택하여 다운로드합니다.
@@ -177,10 +171,10 @@ ASAP
 
 ### ⬦ 추가 사항 설치
 - `ASAP-Updater` 혹은 `Install Supporter` 를 이용한 ASAP 설치 완료 후 기호에 따라 추가 파일을 설치합니다.
-  - ASAP-Updater → 추가 구성 다운로드 → '[ Mariko 유저 ] OLED 모델 전용 필수 추가파일' 선택 다운로드.
-  - ASAP-Updater → 추가 구성 다운로드 → 'hekate_ipl.ini', 'firmware.bin' / 'sdloader.enc', 'update.bin' / 'sdloader.enc' / 'unlock.bin' 선택 다운로드.
+  - ASAP-Updater → 추가 구성 다운로드 → '[ OLED 유저 ] OLED 모델 전용 필수 추가파일' 선택 다운로드.
+  - ASAP-Updater → 추가 구성 다운로드 → '[ Hwfly ]', '[ PiCoFly ]' 필요 파일 선택 다운로드.
   - ASAP-Updater → Horizon OS 다운로드 → '[ HOS ] XX.X.X', '[ HOS ] XX.X.X (Rebootless Update)' 선택 다운로드. 
-  - ASAP-Updater → 버전교체/시그패치/ETC. → 'Signature Patches', 'Tinfoil DB', 'Tesla', 'Sysmodule', 'Homebrew' 선택 다운로드.
+  - ASAP-Updater → 버전교체/추가설치 → 'Signature Patches', 'Tinfoil DB', 'Tesla', 'Sysmodule', 'Homebrew' 선택 다운로드.
 
 </details>
 
@@ -235,6 +229,7 @@ ASAP 을 구성하기 위해 이용한 멋진 팀 및 개발자들과 앱.
   - [spacemeowx2](https://github.com/spacemeowx2) :  ldn-mitm
   - [retronx-team](https://github.com/retronx-team) :  sys-clk manager
   - [proferabg](https://github.com/proferabg) :  Edizon-Overlay
+  - [tomvita](https://github.com/tomvita) :  Edizon-SE
   - [ndeadly](https://github.com/ndeadly) :  Mission Control
   - [cathery](https://github.com/cathery) :  sys-con, Hekate-Toolbox
   - [nedex](https://github.com/nedex) :  QuickNTP
