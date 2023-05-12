@@ -77,7 +77,7 @@ ASAP
 
 ### ⬦ Warmboot Mariko 캐시
 - Mariko 기기용 웜부트 캐시 `wb_0c.bin ~ wb_12.bin`
-  - 캐시 기본 제공으로 HOS 16.0.2 까지 정펌 및 HOS(Warmboot Error Fix)의 필수 기동 필요없음.
+  - 캐시 기본 제공으로 HOS 16.0.3 까지 정펌 및 HOS(Warmboot Error Fix)의 필수 기동 필요없음.
 
 ### ⬦ 홈브류 (기본 설치)
 - [ASAP-Updater](https://github.com/Asadayot/ASAP-updater) : 2.21.7-ASAP
