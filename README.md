@@ -20,7 +20,7 @@ ASAP
 
 | 대상  | 버전         | 커밋             | 변경사항                                      | 변동 | 
 | ----- | ---------- | -------------- | ----------------------------------------- | ------ | 
-| [ASAP](https://github.com/Asadayot/ASAP) | 0511 | 07426f8 |  |  | 
+| [ASAP](https://github.com/Asadayot/ASAP) | 0511 | 07416f8 |  |  | 
 | [Asanosphère](https://github.com/Asadayot/Asanosphere) | 1.5.3 | 85c23b5 | [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere/releases/tag/1.5.3) 참고 |  | 
 | [Hekate×ASAP](https://github.com/Asadayot/hekate) | 6.0.4 & 1.5.3 | 937ab53 | [hekate & nyx](https://github.com/CTCaer/hekate/releases) 참고, emuMMC 변경 |  | 
 | Sigpatches | 0509 |  | 85c23b5 & 937ab53 기반 시그패치 최신화 |  | 
