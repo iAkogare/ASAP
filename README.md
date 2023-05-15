@@ -17,13 +17,13 @@ ASAP
 =====
 ### ⬦ ASAP-0515 주요 개선점
 
-| 대상  | 버전         | 커밋             | 변경사항                                      | 기 | 
+| 대상  | 버전         | 커밋             | 변경사항                                      | 비고 | 
 | ----- | ---------- | -------------- | ----------------------------------------- | ------ | 
-| [ASAP](https://github.com/Asadayot/ASAP) | 0515 | a60862c | [지그/로더] sx로더 지원 (boot.dat/boot.ini) 기본 추가, 사진 설명서 추가 |  | 
+| [ASAP](https://github.com/Asadayot/ASAP) | 0515 | a60862c | [지그/로더] SXOS-boot.dat, boot.ini 파일 추가<br>사진 설명서 추가 |  | 
 | [Asanosphère](https://github.com/Asadayot/Asanosphere) | 1.5.4 | 3cb54e2 | [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere/releases) 참고 | 시험판 | 
 | [Hekate×ASAP](https://github.com/Asadayot/hekate) | 6.0.4 & 1.5.3 | 937ab53 | 오탈자 수정 |  | 
 | Sigpatches | 0515 |  | 3cb54e2 & 937ab53 기반 시그패치 최신화 |  | 
-| [ASAP-Updater](https://github.com/Asadayot/ASAP) | 2.21.7 | 012b89e | SXOS 동글 페이로드 링크 추가, [012b89e](https://github.com/HamletDuFromage/aio-switch-updater) 커밋 |  |
+| [ASAP-Updater](https://github.com/Asadayot/ASAP) | 2.21.7 | [012b89e](https://github.com/HamletDuFromage/aio-switch-updater) | SXOS 동글 페이로드 링크 추가 |  |
 | [RetroArch](https://www.retroarch.com/) | 1.15.0 |  | 요청에 따른 선택설치 홈브류 추가 |  | 
 | [Edizon](https://github.com/WerWolv/EdiZon) | 3.1.0 | dc14c3a | 요청에 따른 선택설치 원본 홈브류 추가 |  | 
 | [emuiibo](https://github.com/Asadayot/emuiibo) | 1.0.0 | 97326a0 | 요청에 따른 선택설치 시스모듈 추가 |  | 
@@ -38,106 +38,81 @@ ASAP
 <details><summary>자세히 보기</summary>
 
 ### ⬦ CFW & 부트로더
-- [Asanosphère](https://github.com/Asadayot/Asanosphere)
-  - 버전 표기 변경 : `HOS VER│ASAP1.5.4-0515│S/E`
-  - exosphere 경로 변경 : `sd:/atmosphere/config`
-  - config 폴더의 .ini 파일 한글 부연 설명 추가(주석)
-  - 시리얼 변조 코드 변경 : `XAW` → `XAJ`(유럽/일본)
-- [Hekate×ASAP](https://github.com/Asadayot/hekate)
-  - 한글화
-  - 덤프 경로 변경.
-  - 스크린샷 : `sd:/backup/screenshots`, 기타 : `sd:/backup`
-  - ASAP 이외의 CFW에서 이용제한(충돌 및 일부 서비스 이용 불가). 
-- Boot.dat & Boot.ini
-  - SX OS / 모드칩 전용 필수 로더 및 설정
+
+| 대상 | 버전 | 설명 or 변경사항 |
+| ----- | ----- |  ----------------------------------------- | 
+| [Asanosphère](https://github.com/Asadayot/Asanosphere) | HOS｜ASAP1.5.4-0515｜S/E | - 커스텀 펌웨어<br>- exosphere 경로 변경 : `sd:/atmosphere/config`<br>- config 폴더의 .ini 파일 한글 부연 설명 추가(주석)<br>- 시리얼 변조 코드 변경 : `XAW` → `XAJ`(유럽/일본) |
+| [Hekate×ASAP](https://github.com/Asadayot/hekate) | 6.0.4 & 1.5.3 × 0515 | - ASAP 전용 올인원 부트로더<br>- 한글화<br>- 스크린샷 덤프 경로 변경: `sd:/backup/screenshots`<br>- 기타 덤프 경로 변경 : `sd:/backup` |
+| Boot.dat<br>Boot.ini | 1.1 | - SXOS / 모드칩 SX펌웨어 전용 필수 로더 및 설정 |
 
 ### ⬦ 홈브류 메뉴/로더
-- [nx-hbmenu](https://github.com/Asadayot/nx-hbmenu) & [nx-hbloader](https://github.com/Asadayot/nx-hbloader)
-  - 한글화.
-  - 고정 위치 변경 : `sd:/atmosphere/hb` 
+
+| 대상 | 버전 | 설명 or 변경사항 |
+| ----- | ----- |  ----------------------------------------- | 
+| [nx-hbmenu](https://github.com/Asadayot/nx-hbmenu) | 3.5.1 | - 홈브류 메뉴<br>- 한글화<br>- 고정 경로 변경: `sd:/atmosphere/hb` |
+| [nx-hbloader](https://github.com/Asadayot/nx-hbloader) | 2.4.3 | - 홈브류 로더<br>- 한글화<br>- 고정 경로 변경: `sd:/atmosphere/hb` |
 
 ### ⬦ 페이로드
-- [fusee.bin](https://github.com/Asadayot/Asanosphere)
-- [TegraExplorer](https://github.com/Asadayot/TegraExplorer) : 4.0.1
-  - TegraExplorer 폴더 삭제, Exit/Scripts 수정.
-  - 스크린샷 덤프 경로 변경: `sd:/backup/screenshots`
-  - HOS 덤프 경로 변경: `sd:/Firmware`
-  - 기타 덤프 경로 변경: `sd:/backup`
-  - ASAP 이외의 CFW에서 일부 기능 이용제한.
-- [Lockpick_RCM](https://github.com/Asadayot/Lockpick_RCM) : 1.9.10
-  - ASAP 설치 및 업데이트시 최초 1회 prod.key 및 title.key 교체/생성.
-  - 스크린샷 덤프 경로 변경: `sd:/backup/screenshots`
-  - keys 덤프 경로 변경: `sd:/backup/keys`
-  - ASAP 이외의 CFW에서 일부 기능 이용제한.
-- [ASAP-Cleaner](https://github.com/Asadayot/CommonProblemResolver) : 1.0.1
-  - OLED 기기 화면 지원.
-- [Hwfly-Toolbox](https://github.com/Asadayot/hwfly-toolbox) : 1.1.1
-  - 버전 표기 오류 수정
-  - ASAP 이외의 CFW에서 일부 기능 이용제한.
-- [PiCoFly-Toolbox](https://github.com/Ansem-SoD/Picofly) : 0.1(unlock 전용), 0.2
-  - Install Supporter에 언락 툴박스 기본 페이로드로 설치.
+  
+| 대상 | 버전 | 설명 or 변경사항 |
+| ----- | ----- |  ----------------------------------------- |
+| [fusee.bin](https://github.com/Asadayot/Asanosphere) | 1.5.4 | - [Asanosphère](https://github.com/Asadayot/Asanosphere) 페이로드 |
+| [TegraExplorer](https://github.com/Asadayot/TegraExplorer) | 4.0.1 | - 파일, 페이로드 관리 및 덤프<br>- TegraExplorer 폴더 삭제, Exit/Scripts 수정<br>- 스크린샷 덤프 경로 변경: `sd:/backup/screenshots`<br>- HOS 덤프 경로 변경: `sd:/Firmware`<br>- 기타 덤프 경로 변경: `sd:/backup` |
+| [Lockpick_RCM](https://github.com/Asadayot/Lockpick_RCM) | 1.9.10 | - Key 파일 추출 페이로드<br>- ASAP 설치 및 업데이트시 최초 1회 prod.key 및 title.key 교체/생성<br>- 스크린샷 덤프 경로 변경: `sd:/backup/screenshots`<br>- keys 덤프 경로 변경: `sd:/backup/keys` |
+| [ASAP-Cleaner](https://github.com/Asadayot/CommonProblemResolver) | 1.0.1 | - ASAP 파일 클리너 페이로드<br>- OLED 기기 화면 지원 |
+| [Hwfly-Toolbox](https://github.com/Asadayot/hwfly-toolbox) | 1.1.1 | - Hwfly 모드칩 전용 툴박스 페이로드<br>- 버전 표기 오류 수정 |
+| [PiCoFly-Toolbox](https://github.com/Ansem-SoD/Picofly) | 0.1 | - PiCoFly 언락 전용 툴박스 페이로드<br>- unlock.bin과 함께 제공<br>- Install Supporter에 언락 툴박스 기본 페이로드로 설치 |
+| [PiCoFly-Toolbox](https://github.com/Ansem-SoD/Picofly) | 0.2 | - PiCoFly 2.6 이상 버전 전용 툴박스 페이로드 |
 
 ### ⬦ 시그패치
-- ASAP 용 기본 설치, 이후 ASAP-Updater 를 통하여 업데이트 가능.
+  
+| 대상 | 버전 | 설명 or 변경사항 |
+| ----- | ----- |  ----------------------------------------- |  
+| Signature Patches | 0515 | - ASAP 전용 [3cb54e2](https://github.com/Asadayot/Asanosphere) & [937ab53](https://github.com/Asadayot/hekate) 기반 시그패치 |  
 
 ### ⬦ Warmboot Mariko 캐시
-- Mariko 기기용 웜부트 캐시 `wb_0c.bin ~ wb_12.bin`
-  - 캐시 기본 제공으로 HOS 16.0.3 까지 정펌 및 HOS(Warmboot Error Fix)의 필수 기동 필요없음.
+
+| 대상 | 버전 | 설명 or 변경사항 |
+| ----- | ----- |  ----------------------------------------- |  
+| wb_0c.bin<br>wb_0d.bin<br>wb_0e.bin<br>wb_0f.bin<br>wb_10.bin<br>wb_11.bin<br>wb_12.bin | 9.1.0 ~ 9.2.0 지원<br>10.0.0 ~10.2.0 지원<br>11.0.0 ~ 12.0.1 지원<br>12.0.2 ~ 13.1.0 지원<br>13.2.1 ~ 14.1.2 지원<br>15.0.0 ~ 15.0.1 지원<br>16.0.0 ~ 16.0.3 지원 | - HOS 16.0.3 까지 정펌 및 HOS(Warmboot Error Fix)의 필수 기동 필요없음 |
 
 ### ⬦ 홈브류 (기본 설치)
-- [ASAP-Updater](https://github.com/Asadayot/ASAP-updater) : 2.21.7-ASAP
-  - 바로가기 NSP 설치 파일 제공.
-- [Daybreak](https://github.com/Asadayot/Asanosphere) : 1.0.0
-- [Reboot2payload](https://github.com/Asadayot/Asanosphere) : 1.0.0
-- [Haze](https://github.com/Asadayot/Asanosphere) : 1.0.0
-- [DB Installer](https://github.com/rashevskyv/dbi) : 563
-  - 바로가기 NSP 설치 파일 제공.
-- [Hekate-Toolbox/Mariko 전용 설치](https://github.com/Asadayot/Hekate-Toolbox) : 4.0.3
-  - 한글화.
-  - 바로가기 NSP 설치 파일 제공.
-- [Tinfoil](https://github.com/Asadayot/NX-Activity-Log) : 16.0 [v2]
-  - 바로가기 NSP 설치 파일 제공.
+  
+| 대상 | 버전 | 설명 or 변경사항 |
+| ----- | ----- |  ----------------------------------------- | 
+| [ASAP-Updater](https://github.com/Asadayot/ASAP-updater) | 2.21.7 | - ASAP, HOS, Homebrew, Sysmodule, etc. 업데이터<br>- 바로가기 NSP 설치 파일 제공 |
+| [Daybreak](https://github.com/Asadayot/Asanosphere) | 1.0.0 | - [Asanosphère](https://github.com/Asadayot/Asanosphere) HOS 업데이터 홈브류  | 
+| [Reboot2payload](https://github.com/Asadayot/Asanosphere) | 1.0.0 | - [Asanosphère](https://github.com/Asadayot/Asanosphere) 구형 전용 페이로드 재부팅 홈브류 | 
+| [Haze](https://github.com/Asadayot/Asanosphere) | 1.0.0 | - [Asanosphère](https://github.com/Asadayot/Asanosphere) PTP/MTP USB 전송 홈브류 | 
+| [DB Installer](https://github.com/rashevskyv/dbi) | 563 | - 파일 전송, 설치 및 추가기능 홈브류<br>- 바로가기 NSP 설치 파일 제공 | 
+| [Hekate-Toolbox](https://github.com/Asadayot/Hekate-Toolbox) | 4.0.3 | - 타이틀 오버라이드, 페이로드 재부팅 설정 홈브류<br>- 모드칩 기기 전용 페이로드 재부팅 홈브류<br>- 한글화 | 
+| [Tinfoil](https://github.com/Asadayot/NX-Activity-Log) | 16.0 [v2] | - 파일 전송, 설치 및 추가기능 홈브류<br>- 바로가기 NSP 설치 파일 제공 | 
 
 ### ⬦ 테슬라 & 홈브류 & 시스모듈 (선택 설치-재부팅 필요)
-- [Tesla menu](https://github.com/Asadayot/Tesla-Menu) : 1.2.2
-  - 한글화.
-- [ovl-sysmodules](https://github.com/Asadayot/ovl-sysmodules) : 1.3.1
-  - 한글화.
-- [DB Installer](https://github.com/rashevskyv/dbi) : 551
-  - 바로가기 NSP 설치 파일 제공.
-- [HB-appstore](https://github.com/fortheusers/hb-appstore) : 2.3.2
-  - 한글화.
-- [JKSV](https://github.com/Asadayot/JKSV) : 2023.04.17
-  - 매끄럽게 재번역 및 언어 고정. 
-  - 바로가기 NSP 설치 파일 제공.
-- [Linkalho](https://github.com/Asadayot/linkalho) : 2.0.2
-  - 한글화.
-  - 바로가기 NSP 설치 파일 제공.
-- [NX-Activity-Log](https://github.com/Asadayot/NX-Activity-Log) : 1.5.0
-  - 매끄럽게 재번역 및 언어 고정. 
-  - 바로가기 NSP 설치 파일 제공.
-- [vgedit](https://github.com/Asadayot/vgedit) : 2.2
-  - 한글화.
-  - 바로가기 NSP 설치 파일 제공.
-- [ldnmitm config](https://github.com/Asadayot/ldn_mitm) : 1.1.2
-- [sys-clk manager](https://github.com/Asadayot/sys-clk) : 1.0.3
-  - 한글화.
-  - 바로가기 NSP 설치 파일 제공.
-- [Edizon](https://github.com/WerWolv/EdiZon) : 3.1.0
-  - 바로가기 NSP 설치 파일 제공.  
-- [Edizon-SE](https://github.com/tomvita/EdiZon-SE/releases) : 3.8.36
-  - 바로가기 NSP 설치 파일 제공. 
-- [EdiZon-Overlay](https://github.com/proferabg/EdiZon-Overlay) : 1.0.5
-- [MissionControl](https://github.com/ndeadly/MissionControl) : 0.9.2
-- [ldn_mitm](https://github.com/Asadayot/ldn_mitm) : 1.15.0
-  - 한글화.
-- [QuickNTP](https://github.com/Asadayot/QuickNTP) : 1.2.8
-  - 한글화.
-  - 한국 시간대 기본 템플릿에 추가.
-- [Status-Monitor-Overlay](https://github.com/Asadayot/Status-Monitor-Overlay) : 0.9.0
-- [sys-clk](https://github.com/Asadayot/sys-clk) : 1.0.3
-  - 한글화.
-- [sys-con](https://github.com/cathery/sys-con) : 0.6.4
+  
+| 대상 | 버전 | 설명 or 변경사항 |
+| ----- | ----- |  ----------------------------------------- | 
+| [Tesla menu](https://github.com/Asadayot/Tesla-Menu) | 1.2.2 | - 테슬라 오버레이 메뉴<br>- 한글화 |  
+| [ovl-sysmodules](https://github.com/Asadayot/ovl-sysmodules) | 1.3.1 | - 테슬라 시스모듈 오버레이<br>- 한글화 |
+| [DB Installer](https://github.com/rashevskyv/dbi) | 563 | - 파일 전송, 설치 및 추가기능 홈브류<br>- 바로가기 NSP 설치 파일 제공 |
+| [HB-appstore](https://github.com/fortheusers/hb-appstore) | 2.3.2 | - 홈브류, 시스모듈 앱 스토어<br>- 한글화 |
+| [JKSV](https://github.com/Asadayot/JKSV) | 2023.04.17 | - 세이브 데이터 관리 홈브류<br>- 매끄럽게 재번역 및 언어 고정<br>- 바로가기 NSP 설치 파일 제공 |
+| [Linkalho](https://github.com/Asadayot/linkalho) | 2.0.2 | - 닌텐도 어카운트 관리 홈브류<br>- 한글화<br>- 바로가기 NSP 설치 파일 제공 |
+| [NX-Activity-Log](https://github.com/Asadayot/NX-Activity-Log) | 1.5.0 | - 활동 기록 관리 홈브류<br>- 매끄럽게 재번역 및 언어 고정<br>- 바로가기 NSP 설치 파일 제공 |
+| [vgedit](https://github.com/Asadayot/vgedit) | 2.2 | - 텍스트 파일 관리 홈브류<br>- 한글화<br>- 바로가기 NSP 설치 파일 제공 |
+| [ldnmitm config](https://github.com/Asadayot/ldn_mitm) | 1.1.3 | - LAN 플레이 관리 홈브류 |
+| [ldn_mitm](https://github.com/Asadayot/ldn_mitm) | 1.15.0 | - LAN 플레이 관리 시스모듈<br>- 한글화 |  
+| [sys-clk manager](https://github.com/Asadayot/sys-clk) | 1.0.3 | - 오버클럭 관리 홈브류<br>- 한글화<br>- 바로가기 NSP 설치 파일 제공 |
+| [RetroArch](https://www.retroarch.com/) | 1.15.0 | - 콘솔 에뮬레이터 홈브류<br>- 바로가기 NSP 설치 파일 제공 |
+| [emuiibo](https://github.com/Asadayot/emuiibo) | 1.0.0 | - 가상 아미보 관리 시스모듈 |
+| [Edizon](https://github.com/WerWolv/EdiZon) | 3.1.0 | - 치트 관리 홈브류<br>- 바로가기 NSP 설치 파일 제공 |
+| [Edizon-SE](https://github.com/tomvita/EdiZon-SE/releases) | 3.8.36 | - 치트 관리 홈브류<br>- 바로가기 NSP 설치 파일 제공 |
+| [EdiZon-Overlay](https://github.com/proferabg/EdiZon-Overlay) | 1.0.5 | - 치트 관리 시스모듈 |
+| [MissionControl](https://github.com/ndeadly/MissionControl) | 0.9.2 | 타사 컨트롤러 무선 지원 시스모듈 |
+| [QuickNTP](https://github.com/Asadayot/QuickNTP) | 1.2.8 | - 네트워크 시간 설정 시스모듈<br>- 한글화<br>- 한국 시간대 기본 템플릿에 추가 |
+| [Status-Monitor-Overlay](https://github.com/Asadayot/Status-Monitor-Overlay) | 0.9.0 | - 상태 모니터 확인 시스모듈 |
+| [sys-clk](https://github.com/Asadayot/sys-clk) | 1.0.3 | - 오버클럭 관리 시스모듈<br>- 한글화 |
+| [sys-con](https://github.com/cathery/sys-con) | 0.6.4 | - 타사 컨트롤러 유선 지원 시스모듈 |
 
 </details>
 
@@ -199,6 +174,7 @@ ASAP
   
 스크린샷
 =====
+<details><summary>자세히 보기</summary>
 
 ![01](https://user-images.githubusercontent.com/89662125/232354082-3dcc1999-0125-4dd0-9473-ac5fa91c780a.jpg)
 ![02](https://user-images.githubusercontent.com/89662125/232354085-933490ea-8ad4-4dff-bd6d-afdbb2426568.jpg)
@@ -216,9 +192,12 @@ ASAP
 ![14](https://user-images.githubusercontent.com/89662125/232354105-615e8384-8269-4692-94f1-80305f1f87c5.jpg)
 ![15](https://user-images.githubusercontent.com/89662125/232354107-5bcb4e52-49d1-46e8-910e-15f4944aff04.jpg)
 
+</details>  
+  
 크레딧
 =====
 ASAP 을 구성하기 위해 이용한 멋진 팀 및 개발자들과 앱.
+<details><summary>자세히 보기</summary>
   - [Atmosphère-NX](https://github.com/Atmosphere-NX) :  Atmosphère, hbloader, hbmenu
   - [CTCaer](https://github.com/CTCaer) :  Hekate & Nyx
   - [ITotalJustice](https://github.com/ITotalJustice)
@@ -246,3 +225,4 @@ ASAP 을 구성하기 위해 이용한 멋진 팀 및 개발자들과 앱.
   - [cathery](https://github.com/cathery) :  sys-con, Hekate-Toolbox
   - [nedex](https://github.com/nedex) :  QuickNTP
   - [masagrator](https://github.com/masagrator) :  Status-Monitor-Overlay
+</details>
