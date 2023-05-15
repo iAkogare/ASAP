@@ -123,6 +123,8 @@ ASAP
 - [sys-clk manager](https://github.com/Asadayot/sys-clk) : 1.0.3
   - 한글화.
   - 바로가기 NSP 설치 파일 제공.
+- [Edizon](https://github.com/WerWolv/EdiZon) : 3.1.0
+  - 바로가기 NSP 설치 파일 제공.  
 - [Edizon-SE](https://github.com/tomvita/EdiZon-SE/releases) : 3.8.36
   - 바로가기 NSP 설치 파일 제공. 
 - [EdiZon-Overlay](https://github.com/proferabg/EdiZon-Overlay) : 1.0.5
@@ -238,6 +240,8 @@ ASAP 을 구성하기 위해 이용한 멋진 팀 및 개발자들과 앱.
   - [retronx-team](https://github.com/retronx-team) :  sys-clk manager
   - [proferabg](https://github.com/proferabg) :  Edizon-Overlay
   - [tomvita](https://github.com/tomvita) :  Edizon-SE
+  - [XorTroll](https://github.com/XorTroll) : emuiibo
+  - [libretro](https://www.libretro.com/) : RetroArch
   - [ndeadly](https://github.com/ndeadly) :  Mission Control
   - [cathery](https://github.com/cathery) :  sys-con, Hekate-Toolbox
   - [nedex](https://github.com/nedex) :  QuickNTP
