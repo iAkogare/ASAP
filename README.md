@@ -146,7 +146,7 @@ ASAP
 <details><summary>자세히 보기</summary>
   
 ### ⬦ 기존 커스텀 펌웨어 이용 유저의 경우
-- [ASAP-Updater](https://github.com/Asadayot/ASAP-updater)의 `ASAP-updater.zip` [Latest](https://github.com/Asadayot/ASAP/releases/latest)를 내려받습니다.
+- [ASAP-Updater](https://github.com/Asadayot/ASAP)의 `ASAP-updater.zip` [Latest](https://github.com/Asadayot/ASAP/releases/latest)를 내려받습니다.
 - 압축 해제 후 디렉토리를 `sd:/` 최상위 경로로 붙여넣습니다.
 - 스위치를 커스텀 펌웨어로 기동 후, hbmenu `앨범+R+A` 진입, `ASAP-Updater`를 실행합니다.
 - `ASAP 업데이트` 항목에서 해당 사항을 선택하여 다운로드합니다.
