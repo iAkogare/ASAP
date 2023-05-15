@@ -26,7 +26,7 @@ ASAP
 | [ASAP-Updater](https://github.com/Asadayot/ASAP) | 2.21.7 | 012b89e | SXOS 동글 페이로드 링크 추가, [012b89e](https://github.com/HamletDuFromage/aio-switch-updater) 커밋, 변경로그 웹 확인 변경(시험판-기능불가) |  |
 | [RetroArch](https://www.retroarch.com/) | 1.15.0 |  | 요청에 따른 선택설치 홈브류 추가 |  | 
 | [Edizon](https://github.com/WerWolv/EdiZon) | 3.1.0 | dc14c3a | 요청에 따른 선택설치 원본 홈브류 추가 |  | 
-| [emuiibo](https://github.com/Asadayot/emuiibo) | 1.0.0 | 97326a0 | 선택설치 시스모듈 추가 |  | 
+| [emuiibo](https://github.com/Asadayot/emuiibo) | 1.0.0 | 97326a0 | 요청에 따른 선택설치 시스모듈 추가 |  | 
 | [ldn_mitm](https://github.com/Asadayot/ldn_mitm) | 1.15.0 | b98d2c6 | Atmosphere-libs 업데이트 |  | 
 | [Tesla menu](https://github.com/Asadayot/Tesla-Menu) | 1.2.2 | 97b9677 | libtesla 업데이트 |  | 
 | [MissionControl](https://github.com/Asadayot/MissionControl) | 0.9.2 | fe31665 | Atmosphere-libs, libnx 업데이트 |  | 
