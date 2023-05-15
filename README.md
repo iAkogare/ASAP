@@ -19,7 +19,7 @@ ASAP
 
 | 대상  | 버전         | 커밋             | 변경사항                                      | 기 | 
 | ----- | ---------- | -------------- | ----------------------------------------- | ------ | 
-| [ASAP](https://github.com/Asadayot/ASAP) | 0515 | 07416f8 | [지그/로더] sx로더 지원 (boot.dat/boot.ini) 기본 추가, 사진 설명서 추가 |  | 
+| [ASAP](https://github.com/Asadayot/ASAP) | 0515 | a60862c | [지그/로더] sx로더 지원 (boot.dat/boot.ini) 기본 추가, 사진 설명서 추가 |  | 
 | [Asanosphère](https://github.com/Asadayot/Asanosphere) | 1.5.4 | 3cb54e2 | [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere/releases) 참고 | 시험판 | 
 | [Hekate×ASAP](https://github.com/Asadayot/hekate) | 6.0.4 & 1.5.3 | 937ab53 | 오탈자 수정 |  | 
 | Sigpatches | 0515 |  | 3cb54e2 & 937ab53 기반 시그패치 최신화 |  | 
