@@ -15,18 +15,23 @@ ASAP
 
 새 버전 개선사항
 =====
-### ⬦ ASAP-0511 주요 개선점
+### ⬦ ASAP-0515 주요 개선점
 
-
-| 대상  | 버전         | 커밋             | 변경사항                                      | 변동 | 
+| 대상  | 버전         | 커밋             | 변경사항                                      | 기 | 
 | ----- | ---------- | -------------- | ----------------------------------------- | ------ | 
-| [ASAP](https://github.com/Asadayot/ASAP) | 0511 | 07416f8 |  |  | 
-| [Asanosphère](https://github.com/Asadayot/Asanosphere) | 1.5.3 | 85c23b5 | [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere/releases/tag/1.5.3) 참고 |  | 
-| [Hekate×ASAP](https://github.com/Asadayot/hekate) | 6.0.4 & 1.5.3 | 937ab53 | [hekate & nyx](https://github.com/CTCaer/hekate/releases) 참고, emuMMC 변경 |  | 
-| Sigpatches | 0509 |  | 85c23b5 & 937ab53 기반 시그패치 최신화 |  | 
-| [ASAP-Updater](https://github.com/Asadayot/ASAP) | 2.21.7 | 9f3b00d | 설치도우미 버전 일부기능 잠금, 다운로드 링크 변경, 메뉴 수정 |  | 
-| [DB Installer](https://github.com/rashevskyv/dbi) | 563 | b27c864 | [DB Installer](https://github.com/rashevskyv/dbi/releases) 참고 |  | 
-| [Edizon-SE](https://github.com/WerWolv/EdiZon) | 3.8.36 | 171a71f | [Edizon-SE](https://github.com/tomvita/EdiZon-SE/releases) 로 변경, Breeze 추가 |  | 
+| [ASAP](https://github.com/Asadayot/ASAP) | 0515 | 07416f8 | [지그/로더] sx로더 지원 (boot.dat/boot.ini) 기본 추가, 사진 설명서 추가 |  | 
+| [Asanosphère](https://github.com/Asadayot/Asanosphere) | 1.5.4 | 3cb54e2 | [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere/releases) 참고 | 시험판 | 
+| [Hekate×ASAP](https://github.com/Asadayot/hekate) | 6.0.4 & 1.5.3 | 937ab53 | 오탈자 수정 |  | 
+| Sigpatches | 0515 |  | 3cb54e2 & 937ab53 기반 시그패치 최신화 |  | 
+| [ASAP-Updater](https://github.com/Asadayot/ASAP) | 2.21.7 | 012b89e | SXOS 동글 페이로드 링크 추가, [012b89e](https://github.com/HamletDuFromage/aio-switch-updater) 커밋, 변경로그 웹 확인 변경(시험판-기능불가) |  |
+| [RetroArch](https://www.retroarch.com/) | 1.15.0 |  | 요청에 따른 선택설치 홈브류 추가 |  | 
+| [Edizon](https://github.com/WerWolv/EdiZon) | 3.1.0 | dc14c3a | 요청에 따른 선택설치 원본 홈브류 추가 |  | 
+| [emuiibo](https://github.com/Asadayot/emuiibo) | 1.0.0 | 97326a0 | 선택설치 시스모듈 추가 |  | 
+| [ldn_mitm](https://github.com/Asadayot/ldn_mitm) | 1.15.0 | b98d2c6 | Atmosphere-libs 업데이트 |  | 
+| [Tesla menu](https://github.com/Asadayot/Tesla-Menu) | 1.2.2 | 97b9677 | libtesla 업데이트 |  | 
+| [MissionControl](https://github.com/Asadayot/MissionControl) | 0.9.2 | fe31665 | Atmosphere-libs, libnx 업데이트 |  | 
+| [Status-Monitor-Overlay](https://github.com/Asadayot/Status-Monitor-Overlay) | 0.9.0 | 4bf7b23 | 글자 깨짐 수정 |  | 
+| [Quick-NTP](https://github.com/Asadayot/QuickNTP) | 1.2.8 | 11b9897 | libtesla 업데이트 |  | 
 
 기본 제공 / 변경 로그
 =====
@@ -34,7 +39,7 @@ ASAP
 
 ### ⬦ CFW & 부트로더
 - [Asanosphère](https://github.com/Asadayot/Asanosphere)
-  - 버전 표기 변경 : `HOS VER│ASAP1.5.3-0511│S/E`
+  - 버전 표기 변경 : `HOS VER│ASAP1.5.4-0515│S/E`
   - exosphere 경로 변경 : `sd:/atmosphere/config`
   - config 폴더의 .ini 파일 한글 부연 설명 추가(주석)
   - 시리얼 변조 코드 변경 : `XAW` → `XAJ`(유럽/일본)
@@ -53,13 +58,13 @@ ASAP
 
 ### ⬦ 페이로드
 - [fusee.bin](https://github.com/Asadayot/Asanosphere)
-- [TegraExplorer](https://github.com/Asadayot/TegraExplorer) : 4.0.1-ASAP
+- [TegraExplorer](https://github.com/Asadayot/TegraExplorer) : 4.0.1
   - TegraExplorer 폴더 삭제, Exit/Scripts 수정.
   - 스크린샷 덤프 경로 변경: `sd:/backup/screenshots`
   - HOS 덤프 경로 변경: `sd:/Firmware`
   - 기타 덤프 경로 변경: `sd:/backup`
   - ASAP 이외의 CFW에서 일부 기능 이용제한.
-- [Lockpick_RCM](https://github.com/Asadayot/Lockpick_RCM) : 1.9.10-ASAP
+- [Lockpick_RCM](https://github.com/Asadayot/Lockpick_RCM) : 1.9.10
   - ASAP 설치 및 업데이트시 최초 1회 prod.key 및 title.key 교체/생성.
   - 스크린샷 덤프 경로 변경: `sd:/backup/screenshots`
   - keys 덤프 경로 변경: `sd:/backup/keys`
@@ -94,7 +99,7 @@ ASAP
   - 바로가기 NSP 설치 파일 제공.
 
 ### ⬦ 테슬라 & 홈브류 & 시스모듈 (선택 설치-재부팅 필요)
-- [Tesla menu](https://github.com/Asadayot/Tesla-Menu) : 1.2.1
+- [Tesla menu](https://github.com/Asadayot/Tesla-Menu) : 1.2.2
   - 한글화.
 - [ovl-sysmodules](https://github.com/Asadayot/ovl-sysmodules) : 1.3.1
   - 한글화.
@@ -119,7 +124,7 @@ ASAP
   - 한글화.
   - 바로가기 NSP 설치 파일 제공.
 - [Edizon-SE](https://github.com/tomvita/EdiZon-SE/releases) : 3.8.36
-  - 바로가기 NSP 설치 파일 제공.
+  - 바로가기 NSP 설치 파일 제공. 
 - [EdiZon-Overlay](https://github.com/proferabg/EdiZon-Overlay) : 1.0.5
 - [MissionControl](https://github.com/ndeadly/MissionControl) : 0.9.2
 - [ldn_mitm](https://github.com/Asadayot/ldn_mitm) : 1.15.0
@@ -144,11 +149,13 @@ ASAP
 - 스위치를 커스텀 펌웨어로 기동 후, hbmenu `앨범+R+A` 진입, `ASAP-Updater`를 실행합니다.
 - `ASAP 업데이트` 항목에서 해당 사항을 선택하여 다운로드합니다.
 - 다운로드 후, `뒤로` 선택하여 재기동 하며 자동 설치를 진행합니다.
+- `자동 설치가 진행되며 폴더를 지정하지 않은 홈브류, 다른 올인원 팩의 구성요소를 모두 제거합니다.`
 
 ### ⬦ 새 Micro SD Card 를 이용하여 설치하는 경우
 - [ASAP](https://github.com/Asadayot/ASAP)의 `Install_Supporter.zip` [Latest](https://github.com/Asadayot/ASAP/releases/latest)를 내려받습니다.
 - 압축 해제 후 `install.bat` 배치 파일을 실행합니다.
   - Windows의 PC 보호 팝업창이 생성되면 추가정보 → 실행 선택 후, CMD 창의 안내에 따라 진행하세요.
+  - `자동 설치가 진행되며 폴더를 지정하지 않은 홈브류, 다른 올인원 팩의 구성요소를 모두 제거합니다.`
   - 혹은 디렉토리를 `sd:/` 최상위 경로로 모두 붙여넣습니다.
 - 닌텐도 온라인 가입자 설정을 진행합니다. (선택사항)
   - 부팅화면이 표기되면 `- 볼륨 버튼` 선택하여 Hekate×ASAP으로 기동 하여 런치 메뉴로 진입, `HOS (웜부트 오류 수정)` 로 부팅합니다.
@@ -168,7 +175,7 @@ ASAP
 
 ### ⬦ 이용 중 알 수 없는 충돌이 발생할 시
   - Hekate×ASAP→기타런처or페이로드→`ASAP-Cleaner` 선택하여 ASAP을 `Install Supporter` 상태로 되돌립니다.
-  - 이 작업은 개인파일, backup 폴더를 제외한 거의 모든 파일을 삭제 및 초기화합니다.
+  - 이 작업은 개인파일, backup 폴더, 홈브류를 제외한 거의 모든 파일을 삭제 및 초기화합니다.
 
 ### ⬦ 추가 사항 설치
 - `ASAP-Updater` 혹은 `Install Supporter` 를 이용한 ASAP 설치 완료 후 기호에 따라 추가 파일을 설치합니다.
