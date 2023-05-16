@@ -81,7 +81,7 @@ ASAP
   
 | 대상 | 버전 | 설명 or 변경사항 |
 | ----- | ----- |  ----------------------------------------- | 
-| [ASAP-Updater](https://github.com/Asadayot/ASAP/releases) | 2.21.8 | - ASAP, HOS, Homebrew, Sysmodule, etc. 업데이터<br>- 바로가기 NSP 설치 파일 제공 |
+| [ASAP-Updater](https://github.com/Asadayot/ASAP/releases) | 2.22.0 | - ASAP, HOS, Homebrew, Sysmodule, etc. 업데이터<br>- 바로가기 NSP 설치 파일 제공 |
 | [Daybreak](https://github.com/Asadayot/Asanosphere) | 1.0.0 | - [Asanosphère](https://github.com/Asadayot/Asanosphere) HOS 업데이터 홈브류  | 
 | [Reboot2payload](https://github.com/Asadayot/Asanosphere) | 1.0.0 | - [Asanosphère](https://github.com/Asadayot/Asanosphere) 구형 전용 페이로드 재부팅 홈브류 | 
 | [Haze](https://github.com/Asadayot/Asanosphere) | 1.0.0 | - [Asanosphère](https://github.com/Asadayot/Asanosphere) PTP/MTP USB 전송 홈브류 | 
