@@ -25,7 +25,7 @@ ASAP-Updater 유지 보수 업데이트 중 링크 연결 일부 변동되어 �
 | [Asanosphère](https://github.com/Asadayot/Asanosphere) | 1.5.4 | 3cb54e2 | [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere/releases) 참고 | 시험판 | 
 | [Hekate×ASAP](https://github.com/Asadayot/hekate) | 6.0.4 & 1.5.3 | 937ab53 | 오탈자 수정 |  | 
 | Sigpatches | 0515 |  | 3cb54e2 & 937ab53 기반 시그패치 최신화 |  | 
-| [ASAP-Updater](https://github.com/Asadayot/ASAP) | 2.21.7 | [012b89e](https://github.com/HamletDuFromage/aio-switch-updater) | SXOS 동글 페이로드 링크 추가 |  |
+| [ASAP-Updater](https://github.com/Asadayot/ASAP/releases) | 2.21.8 | [012b89e](https://github.com/HamletDuFromage/aio-switch-updater) | SXOS 동글 페이로드 링크 추가 |  |
 | [RetroArch](https://www.retroarch.com/) | 1.15.0 |  | 요청에 따른 선택설치 홈브류 추가 |  | 
 | [Edizon](https://github.com/WerWolv/EdiZon) | 3.1.0 | dc14c3a | 요청에 따른 선택설치 원본 홈브류 추가 |  | 
 | [emuiibo](https://github.com/Asadayot/emuiibo) | 1.0.0 | 97326a0 | 요청에 따른 선택설치 시스모듈 추가 |  | 
@@ -82,7 +82,7 @@ ASAP-Updater 유지 보수 업데이트 중 링크 연결 일부 변동되어 �
   
 | 대상 | 버전 | 설명 or 변경사항 |
 | ----- | ----- |  ----------------------------------------- | 
-| [ASAP-Updater](https://github.com/Asadayot/ASAP-updater) | 2.21.7 | - ASAP, HOS, Homebrew, Sysmodule, etc. 업데이터<br>- 바로가기 NSP 설치 파일 제공 |
+| [ASAP-Updater](https://github.com/Asadayot/ASAP/releases) | 2.21.8 | - ASAP, HOS, Homebrew, Sysmodule, etc. 업데이터<br>- 바로가기 NSP 설치 파일 제공 |
 | [Daybreak](https://github.com/Asadayot/Asanosphere) | 1.0.0 | - [Asanosphère](https://github.com/Asadayot/Asanosphere) HOS 업데이터 홈브류  | 
 | [Reboot2payload](https://github.com/Asadayot/Asanosphere) | 1.0.0 | - [Asanosphère](https://github.com/Asadayot/Asanosphere) 구형 전용 페이로드 재부팅 홈브류 | 
 | [Haze](https://github.com/Asadayot/Asanosphere) | 1.0.0 | - [Asanosphère](https://github.com/Asadayot/Asanosphere) PTP/MTP USB 전송 홈브류 | 
