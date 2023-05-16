@@ -17,15 +17,14 @@ ASAP
 =====
 ### ⬦ ASAP-0515 주요 개선점
 
-ASAP-Updater 유지 보수 업데이트 중 링크 연결 일부 변동되어 다운로드 되지 않습니다.
 
 | 대상  | 버전         | 커밋             | 변경사항                                      | 비고 | 
 | ----- | ---------- | -------------- | ----------------------------------------- | ------ | 
-| [ASAP](https://github.com/Asadayot/ASAP) | 0515 | a60862c | [지그/로더] SXOS-boot.dat, boot.ini 파일 추가<br>사진 설명서 추가 |  | 
-| [Asanosphère](https://github.com/Asadayot/Asanosphere) | 1.5.4 | 3cb54e2 | [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere/releases) 참고 | 시험판 | 
+| [ASAP](https://github.com/Asadayot/ASAP) | 0515 | a60862c | [지그/로더] SXOS-boot.dat, boot.ini 파일 추가 |  | 
+| [Asanosphère](https://github.com/Asadayot/Asanosphere) | 1.5.4 | 3cb54e2 | [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere/releases) 참고 |  | 
 | [Hekate×ASAP](https://github.com/Asadayot/hekate) | 6.0.4 & 1.5.3 | 937ab53 | 오탈자 수정 |  | 
 | Sigpatches | 0515 |  | 3cb54e2 & 937ab53 기반 시그패치 최신화 |  | 
-| [ASAP-Updater](https://github.com/Asadayot/ASAP/releases) | 2.21.8 | [012b89e](https://github.com/HamletDuFromage/aio-switch-updater) | SXOS 동글 페이로드 링크 추가 |  |
+| [ASAP-Updater](https://github.com/Asadayot/ASAP/releases) | 2.22.0 | [012b89e](https://github.com/HamletDuFromage/aio-switch-updater) | 기타 올인원 팩 자동설치 링크 추가<br>- 커스텀 링크 추가<br>- 버전확인 웹 기반 변경 | 23.05.15 |
 | [RetroArch](https://www.retroarch.com/) | 1.15.0 |  | 요청에 따른 선택설치 홈브류 추가 |  | 
 | [Edizon](https://github.com/WerWolv/EdiZon) | 3.1.0 | dc14c3a | 요청에 따른 선택설치 원본 홈브류 추가 |  | 
 | [emuiibo](https://github.com/Asadayot/emuiibo) | 1.0.0 | 97326a0 | 요청에 따른 선택설치 시스모듈 추가 |  | 
