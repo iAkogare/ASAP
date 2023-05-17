@@ -208,7 +208,7 @@ ASAP 을 구성하기 위해 이용한 멋진 팀 및 개발자들과 앱.
   - [Hwfly-NX](https://github.com/hwfly-nx) :  Hwfly firmware, Hwfly Toolbox
   - [Ansem-SoD](https://github.com/Ansem-SoD) :  PiCoFly firmware, PiCoFly Toolbox
   - [HamletDuFromage](https://github.com/HamletDuFromage) :  Aio-switch-updater
-  - [rashevskyv, duckbill](https://github.com/rashevskyv) :  DBI
+  - [rashevskyv, duckbill](https://github.com/rashevskyv) :  DBI, KEFIR
   - [fortheusers](https://github.com/fortheusers) :  hb-appstore
   - [WerWolv](https://github.com/WerWolv) :  Tesla menu, ovl-sysmodules, Edizon, Hekate-Toolbox
   - [J-D-K](https://github.com/J-D-K) :  JKSV
@@ -226,4 +226,6 @@ ASAP 을 구성하기 위해 이용한 멋진 팀 및 개발자들과 앱.
   - [cathery](https://github.com/cathery) :  sys-con, Hekate-Toolbox
   - [nedex](https://github.com/nedex) :  QuickNTP
   - [masagrator](https://github.com/masagrator) :  Status-Monitor-Overlay
+  - [Team-Neptune](https://github.com/Team-Neptune) :  DeepSea
+  - [sthetix](https://github.com/sthetix) :  HATS
 </details>
