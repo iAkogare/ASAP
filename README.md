@@ -199,6 +199,7 @@ ASAP
 =====
 ASAP 을 구성하기 위해 이용한 멋진 팀 및 개발자들과 앱.
 <details><summary>자세히 보기</summary>
+  
   - [Atmosphère-NX](https://github.com/Atmosphere-NX) :  Atmosphère, hbloader, hbmenu
   - [CTCaer](https://github.com/CTCaer) :  Hekate & Nyx
   - [ITotalJustice](https://github.com/ITotalJustice)
@@ -228,4 +229,5 @@ ASAP 을 구성하기 위해 이용한 멋진 팀 및 개발자들과 앱.
   - [masagrator](https://github.com/masagrator) :  Status-Monitor-Overlay
   - [Team-Neptune](https://github.com/Team-Neptune) :  DeepSea
   - [sthetix](https://github.com/sthetix) :  HATS
+  
 </details>
