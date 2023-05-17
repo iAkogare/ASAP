@@ -24,7 +24,7 @@ ASAP
 | [Asanosphère](https://github.com/Asadayot/Asanosphere) | 1.5.4 | 3cb54e2 | [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere/releases) 참고 |  | 
 | [Hekate×ASAP](https://github.com/Asadayot/hekate) | 6.0.4 & 1.5.3 | 937ab53 | 오탈자 수정 |  | 
 | Sigpatches | 0515 |  | 3cb54e2 & 937ab53 기반 시그패치 최신화 |  | 
-| [ASAP-Updater](https://github.com/Asadayot/ASAP/releases) | 2.22.0_fix1 | [012b89e](https://github.com/HamletDuFromage/aio-switch-updater) | 기타 올인원 팩 자동설치 링크 추가<br>- 커스텀 링크 추가<br>- 버전확인 웹 기반 변경 | 23.05.17 |
+| [ASAP-Updater](https://github.com/Asadayot/ASAP/releases) | 2.22.0_fix2 | [012b89e](https://github.com/HamletDuFromage/aio-switch-updater) | 기타 올인원 팩 자동설치 링크 추가<br>- 커스텀 링크 추가<br>- 버전확인 웹 기반 변경 | 23.05.17 |
 | [RetroArch](https://www.retroarch.com/) | 1.15.0 |  | 요청에 따른 선택설치 홈브류 추가 |  | 
 | [Edizon](https://github.com/WerWolv/EdiZon) | 3.1.0 | dc14c3a | 요청에 따른 선택설치 원본 홈브류 추가 |  | 
 | [emuiibo](https://github.com/Asadayot/emuiibo) | 1.0.0 | 97326a0 | 요청에 따른 선택설치 시스모듈 추가 |  | 
@@ -81,7 +81,7 @@ ASAP
   
 | 대상 | 버전 | 설명 or 변경사항 |
 | ----- | ----- |  ----------------------------------------- | 
-| [ASAP-Updater](https://github.com/Asadayot/ASAP/releases) | 2.22.0_fix1 | - ASAP, HOS, Homebrew, Sysmodule, etc. 업데이터<br>- 바로가기 NSP 설치 파일 제공 |
+| [ASAP-Updater](https://github.com/Asadayot/ASAP/releases) | 2.22.0_fix2 | - ASAP, HOS, Homebrew, Sysmodule, etc. 업데이터<br>- 바로가기 NSP 설치 파일 제공 |
 | [Daybreak](https://github.com/Asadayot/Asanosphere) | 1.0.0 | - [Asanosphère](https://github.com/Asadayot/Asanosphere) HOS 업데이터 홈브류  | 
 | [Reboot2payload](https://github.com/Asadayot/Asanosphere) | 1.0.0 | - [Asanosphère](https://github.com/Asadayot/Asanosphere) 구형 전용 페이로드 재부팅 홈브류 | 
 | [Haze](https://github.com/Asadayot/Asanosphere) | 1.0.0 | - [Asanosphère](https://github.com/Asadayot/Asanosphere) PTP/MTP USB 전송 홈브류 | 
@@ -194,7 +194,17 @@ ASAP
 ![15](https://user-images.githubusercontent.com/89662125/232354107-5bcb4e52-49d1-46e8-910e-15f4944aff04.jpg)
 
 </details>  
+
+안내사항
+=====
+<details><summary>자세히 보기</summary>
   
+### ⬦ 소스코드 관련
+업로드 전 소스 소실로 인한 복구 및 공개 불가하며
+소유하고 있는 선에서만 업로드 진행되었습니다.<br>각 시스모듈, 홈브류는 다음 업데이트부터 재작업하여 공개할 수 있습니다.
+  
+</details>
+
 크레딧
 =====
 ASAP 을 구성하기 위해 이용한 멋진 팀 및 개발자들과 앱.
