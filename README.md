@@ -119,6 +119,8 @@ ASAP
 
 설치 방법
 =====
+![구분](https://github.com/Asadayot/img/assets/89662125/282ecad3-a9a5-49c5-a798-5208055afc7b)
+
 <details><summary>자세히 보기</summary>
   
 ### ⬦ 기존 커스텀 펌웨어 이용 유저의 경우
