@@ -38,7 +38,6 @@ ASAP
 | [MissionControl](https://github.com/Asadayot/MissionControl) | 0.9.2 | fe31665 | Atmosphere-libs, libnx 업데이트 |  | 
 | [Status-Monitor-Overlay](https://github.com/Asadayot/Status-Monitor-Overlay) | 0.9.0 | 4bf7b23 | 글자 깨짐 수정 |  | 
 | [Quick-NTP](https://github.com/Asadayot/QuickNTP) | 1.2.8 | 11b9897 | libtesla 업데이트 |  | 
-| [Quick-NTP](https://github.com/Asadayot/QuickNTP) | 1.2.8 | 11b9897 | libtesla 업데이트 |  | 
 | [JKSV](https://github.com/J-D-K/JKSV) | 2023.05.19 | 6f83934 | [6f83934](https://github.com/J-D-K/JKSV) 커밋 | 23.05.19 | 
 | [Switch-OC-Suite](https://github.com/hanai3Bi/Switch-OC-Suite) | 1.5.3-v1.3 | 35830ec | 요청에 따른 다운로드 깃 링크 연결 | 23.05.19 | 
   
