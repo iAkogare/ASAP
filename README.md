@@ -20,6 +20,7 @@ ASAP
    - 자동 설치시 location.conf 파일 발견하면 backup/tinfoil 폴더로 자동 백업하도록 수정. 
 - 설치 방법을 따르지 않고 기존 파일 모두 삭제 후 세이브 데이터를 소실한 사례.
    - 자동 설치시 JKSV 세이브 및 DBI 세이브 파일 발견하면 backup/SaveData 폴더로 자동 백업하도록 수정.
+- 업데이트시 폴더를 지정한 홈브류와 시스모듈은 제거하지 않도록 수정.
 - 기존 커펌을 사용하시던 유저분들은 ASAP-Updater만 설치하여 앱 내에서 업데이트하는 것을 권장합니다.<br><br>
 
 | 대상  | 버전         | 커밋             | 변경사항                                      | 비고 | 
@@ -37,6 +38,9 @@ ASAP
 | [MissionControl](https://github.com/Asadayot/MissionControl) | 0.9.2 | fe31665 | Atmosphere-libs, libnx 업데이트 |  | 
 | [Status-Monitor-Overlay](https://github.com/Asadayot/Status-Monitor-Overlay) | 0.9.0 | 4bf7b23 | 글자 깨짐 수정 |  | 
 | [Quick-NTP](https://github.com/Asadayot/QuickNTP) | 1.2.8 | 11b9897 | libtesla 업데이트 |  | 
+| [Quick-NTP](https://github.com/Asadayot/QuickNTP) | 1.2.8 | 11b9897 | libtesla 업데이트 |  | 
+| [JKSV](https://github.com/J-D-K/JKSV) | 2023.05.19 | 6f83934 | [6f83934](https://github.com/J-D-K/JKSV) 커밋 |  | 
+| [Switch-OC-Suite](https://github.com/hanai3Bi/Switch-OC-Suite) | 1.5.3-v1.3 | 35830ec | 요청에 따른 다운로드 깃 링크 연결 |  | 
   
 <br><br>
 
