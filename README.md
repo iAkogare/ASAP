@@ -40,6 +40,7 @@ ASAP
 | [Quick-NTP](https://github.com/Asadayot/QuickNTP) | 1.2.8 | 11b9897 | libtesla 업데이트 |  | 
 | [JKSV](https://github.com/J-D-K/JKSV) | 2023.05.19 | 6f83934 | [6f83934](https://github.com/J-D-K/JKSV) 커밋 | 23.05.19 | 
 | [Switch-OC-Suite](https://github.com/hanai3Bi/Switch-OC-Suite) | 1.5.3-v1.3 | 35830ec | 요청에 따른 다운로드 깃 링크 연결 | 23.05.19 | 
+| [mGBA](https://github.com/mgba-emu/mgba) | 0.10.2 | bb66138 | 요청에 따른 다운로드 링크 연결 | 23.05.19 |
   
 <br><br>
 
@@ -106,7 +107,21 @@ ASAP
   
 ## ⬦ PiCoFly 모드칩 펌웨어 업데이트
   - `추가 구성 다운로드` → `[ PiCoFly ] 펌웨어` 다운로드<br><br>헤카테 진입 → 추가런처 or 페이로드 → PiCoFly 툴박스 or PiCoFly_Toolbox.bin 선택 → sdloader/Update 선택 → Firmware/Update 선택 → 재부팅 후 버전 확인.
-
+<br><br><br> 
+   
+## ⬦ ASAP-Updater 커스텀 링크 추가 
+   `버전교체/추가설치` → `커스텀 링크` 선택 혹은 `sd:/config/Asano-updater/ASAP_packs.json` 에서 링크 연결
+```
+ {
+    "home": {
+        "[ 이름 ] 설명": "https://link_to_zip"
+    },    
+    "sys": {
+        "[ 이름 ] 설명": "https://link_to_zip"
+    }
+}  
+```   
+   
 </details>
 <br><br>
 
@@ -273,4 +288,5 @@ ASAP 을 구성하기 위해 이용한 멋진 팀 및 개발자들과 앱.
   - [Team-Neptune](https://github.com/Team-Neptune) :  DeepSea
   - [sthetix](https://github.com/sthetix) :  HATS
   - [hanai3Bi](https://github.com/hanai3Bi) : Switch-OC-Suite
+  - [mgba-emu](https://github.com/mgba-emu) : mGBA
 
