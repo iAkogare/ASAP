@@ -15,7 +15,7 @@ ASAP
 =====
 ## ⬦ ASAP-0515 주요 개선점
 
-### - 23.05.20 - 홈브류 바로가기 이중 경로 지원, 기타 올인원 업데이트, 홈브류 추.
+### - 23.05.20 - 홈브류 바로가기 이중 경로 지원, 기타 올인원 업데이트, 홈브류 추가, 업데이트.
 - 홈브류 메뉴 바로가기 경로에 관련된 실행 오류.
    - 다른 올인원 혹은 바로가기 생성하여 사용하던 홈브류 메뉴 ASAP과 경로 상이하여 생기는 실행오류 수정버전 `hbmenu_[01E2044444AB9000][v0].nsp`
    - `hbmenu_[01E2044444AB9000][v0].nsp` 로 재설치 후 `sd:/hbmenu.nro`, `sd:/atmosphere/hb/hbmenu.nro` 경로 모두 지원
@@ -50,6 +50,7 @@ ASAP
 | [Switch-OC-Suite](https://github.com/hanai3Bi/Switch-OC-Suite) | 1.5.3-v1.3 | 35830ec | 요청에 따른 다운로드 깃 링크 연결 | 23.05.19 | 
 | [mGBA](https://github.com/mgba-emu/mgba) | 0.10.2 | bb66138 | 요청에 따른 다운로드 링크 연결 | 23.05.19 |
 | [NxThemesinstaller](https://github.com/exelix11/SwitchThemeInjector) | 2.7 | bb66138 | 요청에 따른 다운로드 링크 연결 | 23.05.20 |
+| [DB Installer](https://github.com/rashevskyv/dbi) | 569 | b27c864 | [DBI 569](https://github.com/rashevskyv/dbi/releases/tag/569) 참고 | 23.05.20 |
   
 <br><br>
 
