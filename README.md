@@ -251,7 +251,7 @@ ASAP-Updater 설명서
 | [sys-clk](https://github.com/Asadayot/sys-clk) | 1.0.3 | - 오버클럭 관리 시스모듈<br>- 한글화 |
 | [Switch-OC-Suite](https://github.com/hanai3Bi/Switch-OC-Suite) | 1.5.3-v1.3 | 오버클럭 관리 시스모듈 |
 | [sys-con](https://github.com/cathery/sys-con) | 0.6.4 | - 타사 컨트롤러 유선 지원 시스모듈 | 
-| [mGBA](https://github.com/mgba-emu/mgba) | 0.10.2 | bb66138 | GBA 콘솔 에뮬레이터 홈브류 |
+| [mGBA](https://github.com/mgba-emu/mgba) | 0.10.2 | GBA 콘솔 에뮬레이터 홈브류 |
 | [NxThemesinstaller](https://github.com/exelix11/SwitchThemeInjector) | 2.7 | 스위치 테마 관리 홈브류 |   
 
 </details>
