@@ -49,7 +49,7 @@ ASAP
 | [JKSV](https://github.com/J-D-K/JKSV) | 2023.05.19 | 6f83934 | [6f83934](https://github.com/J-D-K/JKSV) 커밋 | 23.05.19 | 
 | [Switch-OC-Suite](https://github.com/hanai3Bi/Switch-OC-Suite) | 1.5.3-v1.3 | 35830ec | 요청에 따른 다운로드 깃 링크 연결 | 23.05.19 | 
 | [mGBA](https://github.com/mgba-emu/mgba) | 0.10.2 | bb66138 | 요청에 따른 다운로드 링크 연결 | 23.05.19 |
-| [NxThemesinstaller](https://github.com/exelix11/SwitchThemeInjector) | 2.7 | bb66138 | 요청에 따른 다운로드 링크 연결 | 23.05.20 |
+| [NxThemesinstaller](https://github.com/exelix11/SwitchThemeInjector) | 2.7 |  | 요청에 따른 다운로드 링크 연결 | 23.05.20 |
 | [DB Installer](https://github.com/rashevskyv/dbi) | 569 | b27c864 | [DBI 569](https://github.com/rashevskyv/dbi/releases/tag/569) 참고 | 23.05.20 |
   
 <br><br>
