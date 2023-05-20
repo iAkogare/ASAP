@@ -15,13 +15,21 @@ ASAP
 =====
 ## ⬦ ASAP-0515 주요 개선점
 
-### - 23.05.19 - 백업 강화, 자동 설치 스크립트 정리 및 통일.
+### - 23.05.20 - 홈브류 바로가기 이중 경로 지원, 기타 올인원 업데이트, 홈브류 추.
+- 홈브류 메뉴 바로가기 경로에 관련된 실행 오류.
+   - 다른 올인원 혹은 바로가기 생성하여 사용하던 홈브류 메뉴 ASAP과 경로 상이하여 생기는 실행오류 수정버전 `hbmenu_[01E2044444AB9000][v0].nsp`
+   - `hbmenu_[01E2044444AB9000][v0].nsp` 로 재설치 후 `sd:/hbmenu.nro`, `sd:/atmosphere/hb/hbmenu.nro` 경로 모두 지원
+   - `[ Hekate & Atmosphère ]`, `[ KEFIR ]`, `[ HATS ]`, `[ DeepSea ]` 로 이주하여도 사용 가능하도록 통일.
+- `버전교체/추가설치` → `[ KEFIR ]` 705 버전 업데이트.<br>
+
+### - 23.05.19 - 백업 강화, 자동 설치 스크립트 정리 및 통일, 홈브류 추가.
 - 설치 방법을 따르지 않고 기존 파일 모두 삭제 후 Tinfoil 주소를 소실한 사례.
    - 자동 설치시 location.conf 파일 발견하면 backup/tinfoil 폴더로 자동 백업하도록 수정. 
 - 설치 방법을 따르지 않고 기존 파일 모두 삭제 후 세이브 데이터를 소실한 사례.
    - 자동 설치시 JKSV 세이브 및 DBI 세이브 파일 발견하면 backup/SaveData 폴더로 자동 백업하도록 수정.
 - 업데이트시 폴더를 지정한 홈브류와 시스모듈은 제거하지 않도록 수정.
-- 기존 커펌을 사용하시던 유저분들은 ASAP-Updater만 설치하여 앱 내에서 업데이트하는 것을 권장합니다.<br><br>
+- 기존 커펌을 사용하시던 유저분들은 ASAP-Updater만 설치하여 앱 내에서 업데이트하는 것을 권장합니다.
+- 추가 설치 홈브류 업데이트 및 2종 추가<br><br>
 
 | 대상  | 버전         | 커밋             | 변경사항                                      | 비고 | 
 | ----- | ---------- | -------------- | ----------------------------------------- | ------ | 
@@ -41,8 +49,30 @@ ASAP
 | [JKSV](https://github.com/J-D-K/JKSV) | 2023.05.19 | 6f83934 | [6f83934](https://github.com/J-D-K/JKSV) 커밋 | 23.05.19 | 
 | [Switch-OC-Suite](https://github.com/hanai3Bi/Switch-OC-Suite) | 1.5.3-v1.3 | 35830ec | 요청에 따른 다운로드 깃 링크 연결 | 23.05.19 | 
 | [mGBA](https://github.com/mgba-emu/mgba) | 0.10.2 | bb66138 | 요청에 따른 다운로드 링크 연결 | 23.05.19 |
+| [NxThemesinstaller](https://github.com/exelix11/SwitchThemeInjector) | 2.7 | bb66138 | 요청에 따른 다운로드 링크 연결 | 23.05.20 |
   
 <br><br>
+
+ASAP-Updater 설명서
+=====
+<details><summary>자세히 보기</summary>
+   
+![1](https://github.com/Asadayot/img/assets/89662125/6a8295a7-7651-4971-a481-a79e7c2d60b6)
+![2](https://github.com/Asadayot/img/assets/89662125/befd8c53-a397-4f65-ba9e-13652c14dd2c)
+![3](https://github.com/Asadayot/img/assets/89662125/9fbcb827-fea5-4c4c-8245-44d5be7a5257)
+![4](https://github.com/Asadayot/img/assets/89662125/705aba24-154e-458d-96f3-f931a3df4769)
+![5](https://github.com/Asadayot/img/assets/89662125/c4f5bbf0-92f5-4d45-9b07-c73ebe357519)
+![6](https://github.com/Asadayot/img/assets/89662125/39b7ee13-6d66-48c3-9b57-9c61b66ff604)
+![7-1](https://github.com/Asadayot/img/assets/89662125/aacca1f4-0b03-4867-8b85-fef26a75ad80)
+![7](https://github.com/Asadayot/img/assets/89662125/6f343fd2-0738-4bf7-89ce-cbfd82944b52)
+![7-2](https://github.com/Asadayot/img/assets/89662125/014a2c68-9d41-4a21-b6d5-ebb0bb1f75a2)
+![7-3](https://github.com/Asadayot/img/assets/89662125/fa7f100e-4f2f-4560-b5a5-53c346841d05)
+![7-4](https://github.com/Asadayot/img/assets/89662125/bc9b2d7f-dd0d-4aa2-addf-5ab7916ea39f)
+![7-5](https://github.com/Asadayot/img/assets/89662125/53b21940-0603-4be7-bc2d-aaf0ad73950e)
+![8](https://github.com/Asadayot/img/assets/89662125/795590ea-edd0-4674-83df-cd4f2ad82525)
+   
+</details>
+<br><br> 
 
 설치 방법
 =====
@@ -63,6 +93,8 @@ ASAP
 - 압축 해제 후 디렉토리를 `sd:/` 최상위 경로로 붙여넣습니다.
 - 스위치를 커스텀 펌웨어로 기동 후, hbmenu `앨범+R+A` 진입, `ASAP-Updater`를 실행합니다.
 - `ASAP 업데이트` `버전교체/추가설치` 항목에서 설치하고픈 올인원을 선택하여 다운로드합니다.
+  - `ASAP 업데이트` 항목은 Asanosphère 와 Hekate 및 기본 홈브류의 설치/업데이트 메뉴이며 기종에 따른 불필요한 파일을 제거합니다.
+  - `버전교체/추가설치` 항목의 `[ ASAP ]` 은 전기종 지원 마스터 패키징으로 테슬라, 시스모듈, 홈브류 등이 포함됩니다.
 - 다운로드 후, `A` 버튼 입력하여 재기동 하며 자동 설치를 진행합니다.
 <br><br><br>
 
@@ -84,8 +116,10 @@ ASAP
   - 도구→SD 카드 파티션→확인→포맷 및 분할 계속→시작→전원버튼→확인 순으로 선택하여 FAT32로 포맷합니다.
   - 홈메뉴로 돌아가 에뮤낸드→에뮤낸드 생성→파일 기반 순으로 선택하여 자동 생성합니다.
 - 런치 메뉴의 `Asanosphère (시스/에뮤낸드)`로 기동 후, hbmenu `앨범+R+A` 진입하여 ASAP-Updater를 실행합니다.
-- `ASAP 업데이트` 항목에서 해당 사항을 선택하여 다운로드합니다.
-- 다운로드 후, `뒤로` 선택하여 재기동 하며 자동 설치를 진행합니다.
+- `ASAP 업데이트` `버전교체/추가설치` 항목에서 설치하고픈 올인원을 선택하여 다운로드합니다.
+  - `ASAP 업데이트` 항목은 Asanosphère 와 Hekate 및 기본 홈브류의 설치/업데이트 메뉴이며 기종에 따른 불필요한 파일을 제거합니다.
+  - `버전교체/추가설치` 항목의 `[ ASAP ]` 은 전기종 지원 마스터 패키징으로 테슬라, 시스모듈, 홈브류 등이 포함됩니다.
+- 다운로드 후, `A` 버튼 입력하여 재기동 하며 자동 설치를 진행합니다.
 <br><br><br>
   
 ## ⬦ 이용 중 알 수 없는 충돌이 발생할 시
@@ -139,7 +173,7 @@ ASAP
 기본 제공 / 변경 로그
 =====
 <details><summary>자세히 보기</summary>
-
+<br>
 ### ⬦ CFW & 부트로더
 
 | 대상 | 버전 | 설명 or 변경사항 |
@@ -147,14 +181,14 @@ ASAP
 | [Asanosphère](https://github.com/Asadayot/Asanosphere) | HOS｜ASAP1.5.4-0515｜S/E | - 커스텀 펌웨어<br>- exosphere 경로 변경 : `sd:/atmosphere/config`<br>- config 폴더의 .ini 파일 한글 부연 설명 추가(주석)<br>- 시리얼 변조 코드 변경 : `XAW` → `XAJ`(유럽/일본) |
 | [Hekate×ASAP](https://github.com/Asadayot/hekate) | 6.0.4 & 1.5.3 × 0515 | - ASAP 전용 올인원 부트로더<br>- 한글화<br>- 스크린샷 덤프 경로 변경: `sd:/backup/screenshots`<br>- 기타 덤프 경로 변경 : `sd:/backup` |
 | Boot.dat<br>Boot.ini | 1.1 | - SXOS / 모드칩 SX펌웨어 전용 필수 로더 및 설정 |
-
+<br>
 ### ⬦ 홈브류 메뉴/로더
 
 | 대상 | 버전 | 설명 or 변경사항 |
 | ----- | ----- |  ----------------------------------------- | 
 | [nx-hbmenu](https://github.com/Asadayot/nx-hbmenu) | 3.5.1 | - 홈브류 메뉴<br>- 한글화<br>- 고정 경로 변경: `sd:/atmosphere/hb` |
 | [nx-hbloader](https://github.com/Asadayot/nx-hbloader) | 2.4.3 | - 홈브류 로더<br>- 한글화<br>- 고정 경로 변경: `sd:/atmosphere/hb` |
-
+<br>
 ### ⬦ 페이로드
   
 | 대상 | 버전 | 설명 or 변경사항 |
@@ -166,19 +200,19 @@ ASAP
 | [Hwfly-Toolbox](https://github.com/Asadayot/hwfly-toolbox) | 1.1.1 | - Hwfly 모드칩 전용 툴박스 페이로드<br>- 버전 표기 오류 수정 |
 | [PiCoFly-Toolbox](https://github.com/Ansem-SoD/Picofly) | 0.1 | - PiCoFly 언락 전용 툴박스 페이로드<br>- unlock.bin과 함께 제공<br>- Install Supporter에 언락 툴박스 기본 페이로드로 설치 |
 | [PiCoFly-Toolbox](https://github.com/Ansem-SoD/Picofly) | 0.2 | - PiCoFly 2.6 이상 버전 전용 툴박스 페이로드 |
-
+<br>
 ### ⬦ 시그패치
   
 | 대상 | 버전 | 설명 or 변경사항 |
 | ----- | ----- |  ----------------------------------------- |  
 | Signature Patches | 0515 | - ASAP 전용 [3cb54e2](https://github.com/Asadayot/Asanosphere) & [937ab53](https://github.com/Asadayot/hekate) 기반 시그패치 |  
-
+<br>
 ### ⬦ Warmboot Mariko 캐시
 
 | 대상 | 버전 | 설명 or 변경사항 |
 | ----- | ----- |  ----------------------------------------- |  
 | wb_0c.bin<br>wb_0d.bin<br>wb_0e.bin<br>wb_0f.bin<br>wb_10.bin<br>wb_11.bin<br>wb_12.bin | 9.1.0 ~ 9.2.0 지원<br>10.0.0 ~ 10.2.0 지원<br>11.0.0 ~ 12.0.1 지원<br>12.0.2 ~ 13.1.0 지원<br>13.2.1 ~ 14.1.2 지원<br>15.0.0 ~ 15.0.1 지원<br>16.0.0 ~ 16.0.3 지원 | - HOS 16.0.3 까지 정펌 및 HOS(Warmboot Error Fix)의 필수 기동 필요없음 |
-
+<br>
 ### ⬦ 홈브류 (기본 설치)
   
 | 대상 | 버전 | 설명 or 변경사항 |
@@ -190,7 +224,7 @@ ASAP
 | [DB Installer](https://github.com/rashevskyv/dbi) | 563 | - 파일 전송, 설치 및 추가기능 홈브류<br>- 바로가기 NSP 설치 파일 제공 | 
 | [Hekate-Toolbox](https://github.com/Asadayot/Hekate-Toolbox) | 4.0.3 | - 타이틀 오버라이드, 페이로드 재부팅 설정 홈브류<br>- 모드칩 기기 전용 페이로드 재부팅 홈브류<br>- 한글화 | 
 | [Tinfoil](https://github.com/Asadayot/NX-Activity-Log) | 16.0 [v2] | - 파일 전송, 설치 및 추가기능 홈브류<br>- 바로가기 NSP 설치 파일 제공 | 
-
+<br>
 ### ⬦ 테슬라 & 홈브류 & 시스모듈 (선택 설치-재부팅 필요)
   
 | 대상 | 버전 | 설명 or 변경사항 |
@@ -215,7 +249,10 @@ ASAP
 | [QuickNTP](https://github.com/Asadayot/QuickNTP) | 1.2.8 | - 네트워크 시간 설정 시스모듈<br>- 한글화<br>- 한국 시간대 기본 템플릿에 추가 |
 | [Status-Monitor-Overlay](https://github.com/Asadayot/Status-Monitor-Overlay) | 0.9.0 | - 상태 모니터 확인 시스모듈 |
 | [sys-clk](https://github.com/Asadayot/sys-clk) | 1.0.3 | - 오버클럭 관리 시스모듈<br>- 한글화 |
-| [sys-con](https://github.com/cathery/sys-con) | 0.6.4 | - 타사 컨트롤러 유선 지원 시스모듈 |
+| [Switch-OC-Suite](https://github.com/hanai3Bi/Switch-OC-Suite) | 1.5.3-v1.3 | 오버클럭 관리 시스모듈 |
+| [sys-con](https://github.com/cathery/sys-con) | 0.6.4 | - 타사 컨트롤러 유선 지원 시스모듈 | 
+| [mGBA](https://github.com/mgba-emu/mgba) | 0.10.2 | bb66138 | GBA 콘솔 에뮬레이터 홈브류 |
+| [NxThemesinstaller](https://github.com/exelix11/SwitchThemeInjector) | 2.7 | 스위치 테마 관리 홈브류 |   
 
 </details>
 <br><br>
@@ -289,4 +326,5 @@ ASAP 을 구성하기 위해 이용한 멋진 팀 및 개발자들과 앱.
   - [sthetix](https://github.com/sthetix) :  HATS
   - [hanai3Bi](https://github.com/hanai3Bi) : Switch-OC-Suite
   - [mgba-emu](https://github.com/mgba-emu) : mGBA
+  - [exelix11](https://github.com/exelix11) : NxThemesinstaller
 
