@@ -21,7 +21,7 @@ ASAP
    - LED 인디케이터 및 2.7 이상 펌웨어 안정화 회로도 제공<br>
 <details><summary>자세히 보기</summary>
    
-![제목 없음-6](https://github.com/Asadayot/img/assets/89662125/d2fee7be-d121-4eff-8211-57c709d0d988)
+![제목 없음-6](https://github.com/Asadayot/img/assets/89662125/63ca1b02-ac95-453f-b9a9-e00848e5d8b2)
    
 </details>   
 <br>
