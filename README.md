@@ -19,12 +19,12 @@ ASAP
 - PiCoFly 2.73 펌웨어 추가.
    - PiCoFly 2.67, 2.72 펌웨어 제거
    - LED 인디케이터 및 2.7 이상 펌웨어 안정화 회로도 제공<br>
-<details><summary>자세히 보기</summary>
+     <details><summary>자세히 보기</summary>
    
-![제목 없음-6](https://github.com/Asadayot/img/assets/89662125/63ca1b02-ac95-453f-b9a9-e00848e5d8b2)
+     ![제목 없음-6](https://github.com/Asadayot/img/assets/89662125/63ca1b02-ac95-453f-b9a9-e00848e5d8b2)
    
-</details>   
-<br>
+     </details>   
+     <br>
 
 ### - 23.05.20 - 홈브류 바로가기 이중 경로 지원, 기타 올인원 업데이트, 홈브류 추가, 업데이트.
 - 홈브류 메뉴 바로가기 경로에 관련된 실행 오류.
