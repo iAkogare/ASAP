@@ -24,7 +24,7 @@ ASAP
 
 | 대상  | 버전         | 커밋             | 변경사항                                      | 비고 | 
 | ----- | ---------- | -------------- | ----------------------------------------- | ------ | 
-| [ASAP](https://github.com/Asadayot/ASAP) | 0523 | fd16f86 |  |  | 
+| [ASAP](https://github.com/Asadayot/ASAP) | 0523 | fd16f86 | 구형 -볼륨 헤카테 진입 지원 |  | 
 | [Asanosphère](https://github.com/Asadayot/Asanosphere) | 1.5.4 | 63ea152 | 3cb54e2 → 63ea152 커밋 |  | 
 | [Reboot to payload](https://github.com/Asadayot/Asanosphere) | 1.0.1 | 63ea152| reboot_payload.bin → hekate.bin 변경 |  |
 | [Hekate×ASAP](https://github.com/Asadayot/hekate) | 6.0.4 & 1.5.3 | 937ab53 | 내부 경로 일부 수정 |  | 
