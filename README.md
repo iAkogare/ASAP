@@ -15,16 +15,18 @@ ASAP
 =====
 ## ⬦ ASAP-0515 주요 개선점
 
-### - 23.05.22 - 모드칩 펌웨어 업데이트
+### - 23.05.22 - 모드칩 펌웨어 업데이트, 기타사항.
+- install_supproter fusee.bin 대신 package3 연결.
+- 시스모듈, 홈브류 추가.
+- Asanosphère(Atmosphère) 63ea152 커밋.
 - PiCoFly 2.73 펌웨어 추가.
-   - PiCoFly 2.67, 2.72 펌웨어 제거
-   - LED 인디케이터 및 2.7 이상 펌웨어 안정화 회로도 제공<br>
-     <details><summary>자세히 보기</summary>
+  - PiCoFly 2.67, 2.72 펌웨어 제거
+  - LED 인디케이터 및 2.7 이상 펌웨어 안정화 회로도 제공
+    <details><summary>자세히 보기</summary>
    
-     ![제목 없음-6](https://github.com/Asadayot/img/assets/89662125/63ca1b02-ac95-453f-b9a9-e00848e5d8b2)
+    ![제목 없음-6](https://github.com/Asadayot/img/assets/89662125/63ca1b02-ac95-453f-b9a9-e00848e5d8b2)
    
-     </details>   
-     <br>
+    </details>  
 
 ### - 23.05.20 - 홈브류 바로가기 이중 경로 지원, 기타 올인원 업데이트, 홈브류 추가, 업데이트.
 - 홈브류 메뉴 바로가기 경로에 관련된 실행 오류.
@@ -45,9 +47,9 @@ ASAP
 | 대상  | 버전         | 커밋             | 변경사항                                      | 비고 | 
 | ----- | ---------- | -------------- | ----------------------------------------- | ------ | 
 | [ASAP](https://github.com/Asadayot/ASAP) | 0515 | a60862c | [지그/로더] SXOS-boot.dat, boot.ini 파일 추가 |  | 
-| [Asanosphère](https://github.com/Asadayot/Asanosphere) | 1.5.4 | 3cb54e2 | [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere/releases) 참고 |  | 
+| [Asanosphère](https://github.com/Asadayot/Asanosphere) | 1.5.4 | 63ea152 | 3cb54e2 → 63ea152 커밋 | 23.05.22 | 
 | [Hekate×ASAP](https://github.com/Asadayot/hekate) | 6.0.4 & 1.5.3 | 937ab53 | 오탈자 수정 |  | 
-| Sigpatches | 0515 |  | 3cb54e2 & 937ab53 기반 시그패치 최신화 |  | 
+| Sigpatches | 0515 |  | 63ea152 & 937ab53 기반 시그패치 최신화 | 23.05.22 | 
 | [ASAP-Updater](https://github.com/Asadayot/ASAP/releases) | 2.22.0_fix3 | [012b89e](https://github.com/HamletDuFromage/aio-switch-updater) | 기타 올인원 팩 자동설치 링크 추가<br>- 커스텀 링크 추가<br>- 버전확인 웹 기반 변경 | 23.05.18 |
 | [RetroArch](https://www.retroarch.com/) | 1.15.0 |  | 요청에 따른 선택설치 홈브류 추가 |  | 
 | [Edizon](https://github.com/WerWolv/EdiZon) | 3.1.0 | dc14c3a | 요청에 따른 선택설치 원본 홈브류 추가 |  | 
@@ -62,6 +64,9 @@ ASAP
 | [mGBA](https://github.com/mgba-emu/mgba) | 0.10.2 | bb66138 | 요청에 따른 다운로드 링크 연결 | 23.05.19 |
 | [NxThemesinstaller](https://github.com/exelix11/SwitchThemeInjector) | 2.7 |  | 요청에 따른 다운로드 링크 연결 | 23.05.20 |
 | [DB Installer](https://github.com/rashevskyv/dbi) | 569 | b27c864 | [DBI 569](https://github.com/rashevskyv/dbi/releases/tag/569) 참고 | 23.05.20 |
+| [mGBA](https://github.com/mgba-emu/mgba) | 0.10.2 | bb66138 | 요청에 따른 다운로드 링크 연결 | 23.05.19 |
+| [SaltyNX](https://github.com/masagrator/SaltyNX) | 0.6.0 | a3c5d1c | 파일/코드 관리 | 23.05.22 |
+| [FPSLocker](https://github.com/masagrator/FPSLocker) | 1.2.2 | a5e231a | FPS 관리 | 23.05.22 |
   
 <br><br>
 
@@ -107,7 +112,9 @@ ASAP-Updater 설명서
 - `ASAP 업데이트` `버전교체/추가설치` 항목에서 설치하고픈 올인원을 선택하여 다운로드합니다.
   - `ASAP 업데이트` 항목은 Asanosphère 와 Hekate 및 기본 홈브류의 설치/업데이트 메뉴이며 기종에 따른 불필요한 파일을 제거합니다.
   - `버전교체/추가설치` 항목의 `[ ASAP ]` 은 전기종 지원 마스터 패키징으로 테슬라, 시스모듈, 홈브류 등이 포함됩니다.
+  - 처음 설치하거나 다른 올인원 팩에서 이주하는 경우 후자 설치를 권장합니다.   
 - 다운로드 후, `A` 버튼 입력하여 재기동 하며 자동 설치를 진행합니다.
+- hbmenu `앨범+R+A` → `DBI` - `Browse SD Card` → `nsp` → `hbmenu_[01E2044444AB9000][v0].nsp` 및 바로가기 설치.  
 <br><br><br>
 
 ## ⬦ 새 Micro SD Card 를 이용하여 설치하는 경우
@@ -131,7 +138,9 @@ ASAP-Updater 설명서
 - `ASAP 업데이트` `버전교체/추가설치` 항목에서 설치하고픈 올인원을 선택하여 다운로드합니다.
   - `ASAP 업데이트` 항목은 Asanosphère 와 Hekate 및 기본 홈브류의 설치/업데이트 메뉴이며 기종에 따른 불필요한 파일을 제거합니다.
   - `버전교체/추가설치` 항목의 `[ ASAP ]` 은 전기종 지원 마스터 패키징으로 테슬라, 시스모듈, 홈브류 등이 포함됩니다.
+  - 처음 설치하거나 다른 올인원 팩에서 이주하는 경우 후자 설치를 권장합니다. 
 - 다운로드 후, `A` 버튼 입력하여 재기동 하며 자동 설치를 진행합니다.
+- hbmenu `앨범+R+A` → `DBI` - `Browse SD Card` → `nsp` → `hbmenu_[01E2044444AB9000][v0].nsp` 및 바로가기 설치.     
 <br><br><br>
   
 ## ⬦ 이용 중 알 수 없는 충돌이 발생할 시
@@ -145,14 +154,6 @@ ASAP-Updater 설명서
   - `버전교체/추가설치` → 시그패치, 홈브류, 시스모듈 선택 설치.
 - ASAP-Updater를 통해 기타 올인원 팩으로 쉽고 간편하게 이주할 수 있습니다.
   - `버전교체/추가설치` → 순정 ATMO & Hekate, ASAP 풀패키징, KEFIR, HATS, Deepsea 선택 자동 설치 및 이주.
-<br><br><br>
-  
-## ⬦ Hwfly 모드칩 펌웨어 업데이트
-  - `추가 구성 다운로드` → `[ Hwfly ] 펌웨어` 다운로드<br><br>헤카테 진입 → 추가런처 or 페이로드 → Hwfly 툴박스 or Hwfly_Toolbox.bin 선택 → sdloader/Update 선택 → 전원종료<br>→ + 볼륨버튼 누르며 전원버튼 입력 → 모드칩 초록색 LED 점멸 확인 → 페이로드 → 추가런처 or 페이로드<br>→ Hwfly 툴박스 or Hwfly_Toolbox.bin 선택 → Firmware/Update 선택 → 재부팅 후 버전 확인.
-<br><br><br> 
-  
-## ⬦ PiCoFly 모드칩 펌웨어 업데이트
-  - `추가 구성 다운로드` → `[ PiCoFly ] 펌웨어` 다운로드<br><br>헤카테 진입 → 추가런처 or 페이로드 → PiCoFly 툴박스 or PiCoFly_Toolbox.bin 선택 → sdloader/Update 선택 → Firmware/Update 선택 → 재부팅 후 버전 확인.
 <br><br><br> 
    
 ## ⬦ ASAP-Updater 커스텀 링크 추가 
@@ -171,14 +172,29 @@ ASAP-Updater 설명서
 </details>
 <br><br>
 
-업데이트 순서
+업데이트 방법
 =====
-### ⬦ 업데이트 순서에 대하여...
+## ⬦ 업데이트 순서에 대하여...
 - 퓨즈가 연소되는 메이저 업데이트의 경우, 특정기기에서 많은 오류를 동반할 수 있으니 다음을 숙지하세요.
-  - HOS 버전과 대응하는 CFW(ASAP)를 `ASAP-Updater` → `ASAP 업데이트`에서 우선적으로 업데이트.
-  - 헤카테 `홈` → `재부팅` → `정펌`으로 HOS 기동 후 시스템 업데이트.
-  - Asanosphère (시스/에뮤낸드), (에뮤낸드) 를 통한 HOS 기동 후 `ASAP-Updater` → `Horizon OS 업데이트`에서 에뮤낸드 업데이트.
+  1. HOS 버전과 대응하는 CFW(ASAP)를 `ASAP-Updater` → `ASAP 업데이트`에서 우선적으로 업데이트.
+  2-1. 헤카테 `홈` → `재부팅` → `정펌` → `설정-본체-본체 업데이트`
+  2-2 Hwfly 모드칩의 경우 정펌에서 직접 업데이트할 경우 딥 슬립되어 정펌으로만 부팅 혹은 블랙스크린을 동반할 수 있습니다.
+    방법 1. 헤카테 `런처` → `HOS (웜부트 오류 수정)` → `설정-본체-본체 업데이트`
+    방법 2. 헤카테 `런처` → `Asanosphère (시스낸드)` → `ASAP-Updater` → `Horizon OS 업데이트` → `Daybreak`
+  3. Asanosphère (시스/에뮤낸드), (에뮤낸드) 를 통한 에뮤낸드 커펌 기동 후 `ASAP-Updater` → `Horizon OS 업데이트` → `Daybreak`
 
+## ⬦ Hwfly 모드칩 펌웨어 업데이트
+  - `추가 구성 다운로드` → `[ Hwfly ] 펌웨어` 다운로드<br><br>헤카테 진입 → 추가런처 or 페이로드 → Hwfly 툴박스 or Hwfly_Toolbox.bin 선택 → sdloader/Update 선택 → 전원종료<br>→ + 볼륨버튼 누르며 전원버튼 입력 → 모드칩 초록색 LED 점멸 확인 → 페이로드 → 추가런처 or 페이로드<br>→ Hwfly 툴박스 or Hwfly_Toolbox.bin 선택 → Firmware/Update 선택 → 재부팅 후 버전 확인.
+<br><br><br> 
+  
+## ⬦ PiCoFly 모드칩 펌웨어 업데이트
+  - `추가 구성 다운로드` → `[ PiCoFly ] 펌웨어` 다운로드<br><br>헤카테 진입 → 추가런처 or 페이로드 → PiCoFly 툴박스 or PiCoFly_Toolbox.bin 선택 → sdloader/Update 선택 → Firmware/Update 선택 → 재부팅 후 버전 확인.
+  - LED 인디케이터 및 2.7 이상 펌웨어 안정화 회로도 제공<br>
+     <details><summary>자세히 보기</summary>
+   
+     ![제목 없음-6](https://github.com/Asadayot/img/assets/89662125/63ca1b02-ac95-453f-b9a9-e00848e5d8b2)
+   
+     </details>
 </details>   
 <br><br>
 
@@ -217,7 +233,7 @@ ASAP-Updater 설명서
   
 | 대상 | 버전 | 설명 or 변경사항 |
 | ----- | ----- |  ----------------------------------------- |  
-| Signature Patches | 0515 | - ASAP 전용 [3cb54e2](https://github.com/Asadayot/Asanosphere) & [937ab53](https://github.com/Asadayot/hekate) 기반 시그패치 |  
+| Signature Patches | 0515 | - ASAP 전용 [63ea152](https://github.com/Asadayot/Asanosphere) & [937ab53](https://github.com/Asadayot/hekate) 기반 시그패치 |  
 <br>
 ### ⬦ Warmboot Mariko 캐시
 
@@ -265,7 +281,9 @@ ASAP-Updater 설명서
 | [sys-con](https://github.com/cathery/sys-con) | 0.6.4 | - 타사 컨트롤러 유선 지원 시스모듈 | 
 | [mGBA](https://github.com/mgba-emu/mgba) | 0.10.2 | GBA 콘솔 에뮬레이터 홈브류 |
 | [NxThemesinstaller](https://github.com/exelix11/SwitchThemeInjector) | 2.7 | 스위치 테마 관리 홈브류 |   
-
+| [SaltyNX](https://github.com/masagrator/SaltyNX) | 0.6.0 | 파일/코드 관리 |
+| [FPSLocker](https://github.com/masagrator/FPSLocker) | 1.2.2 | FPS 관리 |  
+   
 </details>
 <br><br>
 
@@ -333,7 +351,7 @@ ASAP 을 구성하기 위해 이용한 멋진 팀 및 개발자들과 앱.
   - [ndeadly](https://github.com/ndeadly) :  Mission Control
   - [cathery](https://github.com/cathery) :  sys-con, Hekate-Toolbox
   - [nedex](https://github.com/nedex) :  QuickNTP
-  - [masagrator](https://github.com/masagrator) :  Status-Monitor-Overlay
+  - [masagrator](https://github.com/masagrator) :  Status-Monitor-Overlay, SaltyNX, FPSLocker
   - [Team-Neptune](https://github.com/Team-Neptune) :  DeepSea
   - [sthetix](https://github.com/sthetix) :  HATS
   - [hanai3Bi](https://github.com/hanai3Bi) : Switch-OC-Suite
