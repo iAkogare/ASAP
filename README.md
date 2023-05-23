@@ -230,7 +230,7 @@ ASAP-Updater 설명서
 | [ovl-sysmodules](https://github.com/Asadayot/ovl-sysmodules) | 1.3.1 | - 테슬라 시스모듈 오버레이<br>- 한글화 |
 | [DB Installer](https://github.com/rashevskyv/dbi) | 563 | - 파일 전송, 설치 및 추가기능 홈브류<br>- 바로가기 NSP 설치 파일 제공 |
 | [HB-appstore](https://github.com/fortheusers/hb-appstore) | 2.3.2 | - 홈브류, 시스모듈 앱 스토어<br>- 한글화 |
-| [JKSV](https://github.com/Asadayot/JKSV) | 2023.04.17 | - 세이브 데이터 관리 홈브류<br>- 매끄럽게 재번역 및 언어 고정<br>- 바로가기 NSP 설치 파일 제공 |
+| [JKSV](https://github.com/Asadayot/JKSV) | 2023.05.23 | - 세이브 데이터 관리 홈브류<br>- 매끄럽게 재번역 및 언어 고정<br>- 바로가기 NSP 설치 파일 제공 |
 | [Linkalho](https://github.com/Asadayot/linkalho) | 2.0.2 | - 닌텐도 어카운트 관리 홈브류<br>- 한글화<br>- 바로가기 NSP 설치 파일 제공 |
 | [NX-Activity-Log](https://github.com/Asadayot/NX-Activity-Log) | 1.5.0 | - 활동 기록 관리 홈브류<br>- 매끄럽게 재번역 및 언어 고정<br>- 바로가기 NSP 설치 파일 제공 |
 | [vgedit](https://github.com/Asadayot/vgedit) | 2.2 | - 텍스트 파일 관리 홈브류<br>- 한글화<br>- 바로가기 NSP 설치 파일 제공 |
