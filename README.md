@@ -13,60 +13,25 @@ ASAP
 
 새 버전 개선사항
 =====
-## ⬦ ASAP-0515 주요 개선점
+## ⬦ ASAP-0523 주요 개선점
 
-### - 23.05.22 - 모드칩 펌웨어 업데이트, 기타사항.
-- install_supproter fusee.bin 대신 package3 연결.
-- 시스모듈, 홈브류 추가.
-- Asanosphère(Atmosphère) 63ea152 커밋.
-- PiCoFly 2.73 펌웨어 추가.
-  - PiCoFly 2.67, 2.72 펌웨어 제거
-  - LED 인디케이터 및 2.7 이상 펌웨어 안정화 회로도 제공
-    <details><summary>자세히 보기</summary>
-   
-    ![제목 없음-6](https://github.com/Asadayot/img/assets/89662125/63ca1b02-ac95-453f-b9a9-e00848e5d8b2)
-   
-    </details>  
-
-### - 23.05.20 - 홈브류 바로가기 이중 경로 지원, 기타 올인원 업데이트, 홈브류 추가, 업데이트.
-- 홈브류 메뉴 바로가기 경로에 관련된 실행 오류.
-   - 다른 올인원 혹은 바로가기 생성하여 사용하던 홈브류 메뉴 ASAP과 경로 상이하여 생기는 실행오류 수정버전 `hbmenu_[01E2044444AB9000][v0].nsp`
-   - `hbmenu_[01E2044444AB9000][v0].nsp` 로 재설치 후 `sd:/hbmenu.nro`, `sd:/atmosphere/hb/hbmenu.nro` 경로 모두 지원
-   - `[ Hekate & Atmosphère ]`, `[ KEFIR ]`, `[ HATS ]`, `[ DeepSea ]` 로 이주하여도 사용 가능하도록 통일.
-- `버전교체/추가설치` → `[ KEFIR ]` 705 버전 업데이트.<br>
-
-### - 23.05.19 - 백업 강화, 자동 설치 스크립트 정리 및 통일, 홈브류 추가.
-- 설치 방법을 따르지 않고 기존 파일 모두 삭제 후 Tinfoil 주소를 소실한 사례.
-   - 자동 설치시 location.conf 파일 발견하면 backup/tinfoil 폴더로 자동 백업하도록 수정. 
-- 설치 방법을 따르지 않고 기존 파일 모두 삭제 후 세이브 데이터를 소실한 사례.
-   - 자동 설치시 JKSV 세이브 및 DBI 세이브 파일 발견하면 backup/SaveData 폴더로 자동 백업하도록 수정.
-- 업데이트시 폴더를 지정한 홈브류와 시스모듈은 제거하지 않도록 수정.
-- 기존 커펌을 사용하시던 유저분들은 ASAP-Updater만 설치하여 앱 내에서 업데이트하는 것을 권장합니다.
-- 추가 설치 홈브류 업데이트 및 2종 추가<br><br>
+- [ 지그/로더 ] 이용 유저 피드백 및 개선사항
+  - 전원 종료 후 재부팅시 Reboot_payload.bin(=fusee.bin) 연결 해제 및 Reboot_hekate.bin(=Hekate.bin) 연결.
+  - reboot_to_payload.nro 또한 Hekate로 연결되도록 수정. 
+  - 모드칩 모델은 굳이 업데이트할 필요 없음.
+- [ 버전교체/추가설치 ] → [ ASAP ] 홈브류 및 시스모듈 추가.
+- 홈브류 및 시스모듈 추가 및 업데이트.
 
 | 대상  | 버전         | 커밋             | 변경사항                                      | 비고 | 
 | ----- | ---------- | -------------- | ----------------------------------------- | ------ | 
-| [ASAP](https://github.com/Asadayot/ASAP) | 0515 | a60862c | [지그/로더] SXOS-boot.dat, boot.ini 파일 추가 |  | 
-| [Asanosphère](https://github.com/Asadayot/Asanosphere) | 1.5.4 | 63ea152 | 3cb54e2 → 63ea152 커밋 | 23.05.22 | 
-| [Hekate×ASAP](https://github.com/Asadayot/hekate) | 6.0.4 & 1.5.3 | 937ab53 | 오탈자 수정 |  | 
-| Sigpatches | 0515 |  | 63ea152 & 937ab53 기반 시그패치 최신화 | 23.05.22 | 
-| [ASAP-Updater](https://github.com/Asadayot/ASAP/releases) | 2.22.0_fix3 | [012b89e](https://github.com/HamletDuFromage/aio-switch-updater) | 기타 올인원 팩 자동설치 링크 추가<br>- 커스텀 링크 추가<br>- 버전확인 웹 기반 변경 | 23.05.18 |
-| [RetroArch](https://www.retroarch.com/) | 1.15.0 |  | 요청에 따른 선택설치 홈브류 추가 |  | 
-| [Edizon](https://github.com/WerWolv/EdiZon) | 3.1.0 | dc14c3a | 요청에 따른 선택설치 원본 홈브류 추가 |  | 
-| [emuiibo](https://github.com/Asadayot/emuiibo) | 1.0.0 | 2e0d9f1 | [2e0d9f1](https://github.com/XorTroll/emuiibo) 커밋 | 23.05.18 | 
-| [ldn_mitm](https://github.com/Asadayot/ldn_mitm) | 1.15.0 | b98d2c6 | Atmosphere-libs 업데이트 |  | 
-| [Tesla menu](https://github.com/Asadayot/Tesla-Menu) | 1.2.2 | 97b9677 | libtesla 업데이트 |  | 
-| [MissionControl](https://github.com/Asadayot/MissionControl) | 0.9.2 | fe31665 | Atmosphere-libs, libnx 업데이트 |  | 
-| [Status-Monitor-Overlay](https://github.com/Asadayot/Status-Monitor-Overlay) | 0.9.0 | 4bf7b23 | 글자 깨짐 수정 |  | 
-| [Quick-NTP](https://github.com/Asadayot/QuickNTP) | 1.2.8 | 11b9897 | libtesla 업데이트 |  | 
-| [JKSV](https://github.com/J-D-K/JKSV) | 2023.05.19 | 6f83934 | [6f83934](https://github.com/J-D-K/JKSV) 커밋 | 23.05.19 | 
-| [Switch-OC-Suite](https://github.com/hanai3Bi/Switch-OC-Suite) | 1.5.3-v1.3 | 35830ec | 요청에 따른 다운로드 깃 링크 연결 | 23.05.19 | 
-| [mGBA](https://github.com/mgba-emu/mgba) | 0.10.2 | bb66138 | 요청에 따른 다운로드 링크 연결 | 23.05.19 |
-| [NxThemesinstaller](https://github.com/exelix11/SwitchThemeInjector) | 2.7 |  | 요청에 따른 다운로드 링크 연결 | 23.05.20 |
-| [DB Installer](https://github.com/rashevskyv/dbi) | 569 | b27c864 | [DBI 569](https://github.com/rashevskyv/dbi/releases/tag/569) 참고 | 23.05.20 |
-| [mGBA](https://github.com/mgba-emu/mgba) | 0.10.2 | 2fb5545 | 요청에 따른 다운로드 링크 연결 | 23.05.19 |
-| [SaltyNX](https://github.com/masagrator/SaltyNX) | 0.6.0 | a3c5d1c | 요청에 따른 다운로드 링크 연결 | 23.05.22 |
-| [FPSLocker](https://github.com/masagrator/FPSLocker) | 1.2.2 | a5e231a | 요청에 따른 다운로드 링크 연결 | 23.05.22 |
+| [ASAP](https://github.com/Asadayot/ASAP) | 0523 | fd16f86 |  |  | 
+| [Asanosphère](https://github.com/Asadayot/Asanosphere) | 1.5.4 | 63ea152 | 3cb54e2 → 63ea152 커밋 |  | 
+| [Reboot to payload](https://github.com/Asadayot/Asanosphere) | 1.0.1 | 63ea152| reboot_payload.bin → hekate.bin 변경 |  |
+| [Hekate×ASAP](https://github.com/Asadayot/hekate) | 6.0.4 & 1.5.3 | 937ab53 | 내부 경로 일부 수정 |  | 
+| Sigpatches | 0523 |  | 63ea152 & 937ab53 기반 시그패치 최신화 |  | 
+| [SaltyNX](https://github.com/masagrator/SaltyNX) | 0.6.0 | a3c5d1c | 요청에 따른 링크 연결 |  | 
+| [FPSLocker](https://github.com/masagrator/FPSLocker) | 1.2.2 | a5e231a | 요청에 따른 링크 연결 |  |  
+| [JKSV](https://github.com/Asadayot/JKSV) | 2023.05.23 | 85bca2d | 85bca2d 커밋 |  | 
   
 <br><br>
 
@@ -144,8 +109,8 @@ ASAP-Updater 설명서
 <br><br><br>
   
 ## ⬦ 이용 중 알 수 없는 충돌이 발생할 시
-  - Hekate×ASAP→기타런처or페이로드→`ASAP-Cleaner` 선택하여 ASAP을 `Install Supporter` 상태로 되돌립니다.
-  - 이 작업은 Nintendo, emummc 폴더, 개인파일, backup 폴더, 홈브류를 제외한 거의 모든 파일을 삭제 및 초기화합니다.
+  - ASAP은 홈브류와 시스모듈을 제거하지 않고 커펌 파일만 교체하는 업데이트를 진행합니다.<br>시스모듈 혹은 테마가 존재할 경우 업데이트 이후 기동 시 에러가 발생 수 있습니다.<br>이 때에는 시스모듈, 테마 제거 혹은 헤카테 `도구` → `아카이브 비트 수정` 을 진행하여야 정상적으로 부팅할 수 있습니다.<br>
+  - Hekate×ASAP→기타런처or페이로드→`ASAP-Cleaner` 선택하여 ASAP을 `Install Supporter` 상태로 되돌립니다.<br>이 작업은 Nintendo, emummc 폴더, 개인파일, backup 폴더, 홈브류를 제외한 거의 모든 파일을 삭제 및 초기화합니다.
 <br><br><br>
   
 ## ⬦ 추가 사항 설치 / 올인원 이주
@@ -210,7 +175,7 @@ ASAP-Updater 설명서
 
 | 대상 | 버전 | 설명 or 변경사항 |
 | ----- | ----- |  ----------------------------------------- | 
-| [Asanosphère](https://github.com/Asadayot/Asanosphere) | HOS｜ASAP1.5.4-0515｜S/E | - 커스텀 펌웨어<br>- exosphere 경로 변경 : `sd:/atmosphere/config`<br>- config 폴더의 .ini 파일 한글 부연 설명 추가(주석)<br>- 시리얼 변조 코드 변경 : `XAW` → `XAJ`(유럽/일본) |
+| [Asanosphère](https://github.com/Asadayot/Asanosphere) | HOS｜ASAP1.5.4-0523｜S/E | - 커스텀 펌웨어<br>- exosphere 경로 변경 : `sd:/atmosphere/config`<br>- config 폴더의 .ini 파일 한글 부연 설명 추가(주석)<br>- 시리얼 변조 코드 변경 : `XAW` → `XAJ`(유럽/일본) |
 | [Hekate×ASAP](https://github.com/Asadayot/hekate) | 6.0.4 & 1.5.3 × 0515 | - ASAP 전용 올인원 부트로더<br>- 한글화<br>- 스크린샷 덤프 경로 변경: `sd:/backup/screenshots`<br>- 기타 덤프 경로 변경 : `sd:/backup` |
 | Boot.dat<br>Boot.ini | 1.1 | - SXOS / 모드칩 SX펌웨어 전용 필수 로더 및 설정 |
 <br>
