@@ -178,12 +178,12 @@ ASAP-Updater 설명서
   
 ## ⬦ 업데이트 순서에 대하여...
 - 퓨즈가 연소되는 메이저 업데이트의 경우, 특정기기에서 많은 오류를 동반할 수 있으니 다음을 숙지하세요.
-  1. HOS 버전과 대응하는 CFW(ASAP)를 `ASAP-Updater` → `ASAP 업데이트`에서 우선적으로 업데이트.
-  2-1. 헤카테 `홈` → `재부팅` → `정펌` → `설정-본체-본체 업데이트`
-  2-2 Hwfly 모드칩의 경우 정펌에서 직접 업데이트할 경우 딥 슬립되어 정펌으로만 부팅 혹은 블랙스크린을 동반할 수 있습니다.
-    방법 1. 헤카테 `런처` → `HOS (웜부트 오류 수정)` → `설정-본체-본체 업데이트`
-    방법 2. 헤카테 `런처` → `Asanosphère (시스낸드)` → `ASAP-Updater` → `Horizon OS 업데이트` → `Daybreak`
-  3. Asanosphère (시스/에뮤낸드), (에뮤낸드) 를 통한 에뮤낸드 커펌 기동 후 `ASAP-Updater` → `Horizon OS 업데이트` → `Daybreak`
+1. HOS 버전과 대응하는 CFW(ASAP)를 `ASAP-Updater` → `ASAP 업데이트`에서 우선적으로 업데이트.
+2. 헤카테 `홈` → `재부팅` → `정펌` → `설정-본체-본체 업데이트`
+ - Hwfly 모드칩의 경우 정펌에서 직접 업데이트할 경우 딥 슬립되어 정펌으로만 부팅 혹은 블랙스크린을 동반할 수 있습니다.
+   - 방법 1. 헤카테 `런처` → `HOS (웜부트 오류 수정)` → `설정-본체-본체 업데이트`
+   - 방법 2. 헤카테 `런처` → `Asanosphère (시스낸드)` → `ASAP-Updater` → `Horizon OS 업데이트` → `Daybreak`
+3. Asanosphère (시스/에뮤낸드), (에뮤낸드) 를 통한 에뮤낸드 커펌 기동 후 `ASAP-Updater` → `Horizon OS 업데이트` → `Daybreak`
 <br><br><br>
 
 ## ⬦ Hwfly 모드칩 펌웨어 업데이트
@@ -198,6 +198,7 @@ ASAP-Updater 설명서
      ![제목 없음-6](https://github.com/Asadayot/img/assets/89662125/63ca1b02-ac95-453f-b9a9-e00848e5d8b2)
    
      </details>
+  
 </details>   
 <br><br>
 
