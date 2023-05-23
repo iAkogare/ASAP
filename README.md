@@ -65,8 +65,8 @@ ASAP
 | [NxThemesinstaller](https://github.com/exelix11/SwitchThemeInjector) | 2.7 |  | 요청에 따른 다운로드 링크 연결 | 23.05.20 |
 | [DB Installer](https://github.com/rashevskyv/dbi) | 569 | b27c864 | [DBI 569](https://github.com/rashevskyv/dbi/releases/tag/569) 참고 | 23.05.20 |
 | [mGBA](https://github.com/mgba-emu/mgba) | 0.10.2 | bb66138 | 요청에 따른 다운로드 링크 연결 | 23.05.19 |
-| [SaltyNX](https://github.com/masagrator/SaltyNX) | 0.6.0 | a3c5d1c | 파일/코드 관리 | 23.05.22 |
-| [FPSLocker](https://github.com/masagrator/FPSLocker) | 1.2.2 | a5e231a | FPS 관리 | 23.05.22 |
+| [SaltyNX](https://github.com/masagrator/SaltyNX) | 0.6.0 | a3c5d1c | 요청에 따른 다운로드 링크 연결 | 23.05.22 |
+| [FPSLocker](https://github.com/masagrator/FPSLocker) | 1.2.2 | a5e231a | 요청에 따른 다운로드 링크 연결 | 23.05.22 |
   
 <br><br>
 
@@ -320,7 +320,7 @@ ASAP-Updater 설명서
   
 ### ⬦ 소스코드 관련
 업로드 전 소스 소실로 인한 복구 및 공개 불가하며
-소유하고 있는 선에서만 업로드 진행되었습니다.<br>각 시스모듈, 홈브류는 다음 업데이트부터 재작업하여 공개할 수 있습니다.
+소유하고 있는 선에서만 업로드 진행되었습니다.<br>각 저장소는 다음 업데이트부터 재작업하여 공개할 수 있습니다.
   
 </details>
 <br><br>
