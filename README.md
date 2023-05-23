@@ -19,6 +19,7 @@ ASAP
   - 전원 종료 후 재부팅시 Reboot_payload.bin(=fusee.bin) 연결 해제 및 Reboot_hekate.bin(=Hekate.bin) 연결.
   - reboot_to_payload.nro 또한 Hekate로 연결되도록 수정. 
   - 모드칩 모델은 굳이 업데이트할 필요 없음.
+  - 지그/로더 이외 파일에서 reboot_to_payload.nro 삭제되지 않는 버그 수정.
 - [ 버전교체/추가설치 ] → [ ASAP ] 홈브류 및 시스모듈 추가.
 - 홈브류 및 시스모듈 추가 및 업데이트.
 
