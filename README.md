@@ -18,7 +18,7 @@ ASAP
 ### 23.05.25 수정사항.
 - ASAP-Updater : 치트, Horizon OS 다운로드 버그 수정
   - 치트페이지, Horizon OS 다운로드되지 않는 버그 수정<br><br>
-- ASAP-Updater 2.22.0_fix3 이하 버전 업데이트 필수.<br><br> 
+- ASAP-Updater 2.22.0_fix3 이하 버전 파일 교체하여 업데이트 필수.<br><br> 
 ### 23.05.25 수정사항
 - Hekate×ASAP
   - Nyx 파티션 매니져에서 12권장이 아닌 29/58권장으로 표기되는 문제 수정.<br> 
