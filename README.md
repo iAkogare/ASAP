@@ -39,7 +39,7 @@ ASAP
 | [Reboot to payload](https://github.com/Asadayot/Asanosphere) | 1.0.1 | 63ea152| reboot_payload.bin → hekate.bin 변경 |  |
 | [Hekate×ASAP](https://github.com/Asadayot/hekate) | 6.0.4 & 1.5.3 | 937ab53 | 표기 오류 수정 | 23.05.25 | 
 | Sigpatches | 0523 |  | 63ea152 & 937ab53 기반 시그패치 최신화 |  | 
-| [ASAP-Updater](https://github.com/Asadayot/ASAP/releases) | 2.20.0_fix4 | fd16f86 | 카테고리 변경 및 ini파일 제한 해제 | 23.05.25 | 
+| [ASAP-Updater](https://github.com/Asadayot/ASAP/releases) | 2.22.0_fix4 | fd16f86 | 카테고리 변경 및 ini파일 제한 해제 | 23.05.25 | 
 | [SaltyNX](https://github.com/masagrator/SaltyNX) | 0.6.0 | a3c5d1c | 요청에 따른 링크 연결 |  | 
 | [FPSLocker](https://github.com/masagrator/FPSLocker) | 1.2.2 | a5e231a | 요청에 따른 링크 연결 |  |  
 | [JKSV](https://github.com/Asadayot/JKSV) | 2023.05.23 | 85bca2d | 85bca2d 커밋 |  | 
