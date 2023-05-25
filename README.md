@@ -271,6 +271,141 @@ ASAP-Updater 설명서
 </details>
 <br><br>
 
+ASAP 구성
+=====
+<details><summary>자세히 보기</summary>
+<br>
+  
+### ⬦ ASAP은 마스터 폴더를 시드로 두고 선택한 기종에 따라 폴더 및 파일을 삭제하는 방식으로 설치됩니다.
+  
+| Folder/File                                | Description                            | 설치 대상     |
+| ------------------------------------------ | -------------------------------------- | -------- |
+| atmosphere                                 | Main folder                            | `ALL` |
+| \|__ package3                              | Atmosphere                             | `ALL` |
+| \|__ reboot_hekate.bin                     | Hekate payload                         | `지그/로더` `Master` |
+| \|__ reboot_payload.bin                    | Atmosphere payload                     | `ALL` |
+| \|__ stratosphere.romfs                    | stratosphere romfs                     | `ALL` |
+| atmosphere/config/                         |                                        | `ALL` |
+| \|__ exosphere.ini                         | PRODINIFO forgery config               | `ALL` |
+| \|__ override_config.ini                   | hbmenu override config                 | `ALL` |
+| \|__ stratosphere.ini                      | Cartridge Read config                  | `ALL` |
+| \|__ system_settings.ini                   | Atmosphere System config               | `ALL` |
+| atmosphere/contents/                       |                                        | `ALL` |
+| \|__ 00FF0000636C6BFF/                     | sys-clk                                | `Master` |
+| \|__ 0000000000534C56/                     | SaltyNX                                | `Master` |
+| \|__ 010000000000bd00/                     | MissionControl                         | `Master` |
+| \|__ 420000000007E51A/                     | Tesla                                  | `Master` |
+| \|__ 0100000000000352/                     | emuiibo                                | `Master` |
+| \|__ 690000000000000D/                     | sys-con                                | `Master` |
+| \|__ 4200000000000010/                     | ldn_mitm                               | `Master` |
+| atmosphere/exfs_patches/                   |                                        | `ALL` |
+| \|__ ASAP                                  | BootLogo patches                       | `ALL` |
+| \|__ bluetooth_patches/                    | MissionControl patches                 | `Master` |
+| \|__ btm_patches/                          | MissionControl patches                 | `Master` |
+| \|__ es_patches/                           | Signature Patches                      | `ALL` |
+| \|__ nfim_ctest/                           | Signature Patches                      | `ALL` |
+| atmosphere/fatal_errors                    | Fatal error report                     | `ALL` |
+| atmosphere/flags                           | Flags                                  | `ALL` |
+| atmosphere/hb/                             |                                        | `ALL` |
+| \|__ hbl.nsp                               | hbmenu loader                          | `ALL` |
+| \|__ hbmenu.nro                            | hbmenu                                 | `ALL` |
+| atmosphere/hbl_html/accessible-urls        |                                        | `ALL` |
+| \|__ accessible-urls.txt                   | accessible URLs config                 | `ALL` |
+| atmosphere/hosts/                          |                                        | `ALL` |
+| \|__ emummc.txt                            | emuMMC dns config                      | `ALL` |
+| atmosphere/kip_patches/                    |                                        | `ALL` |
+| \|__ default_nogc/                         | nogc patches                           | `ALL` |
+| \|__ fs_patches/                           | Signature Patches                      | `ALL` |
+| \|__ loader_patches/                       | Signature Patches                      | `ALL` |
+| atmosphere/kips                            |                                        | `Master` |
+| \|__ loader.kip                            | OverClock patches                      | `Master` |
+|                                            |                                        |  |
+| backup/                                    | Main folder / Backup created on update | `ALL` |
+| \|__ keys/                                 | prod/title.keys, PRODINFO backup       | `ALL` |
+| \|__ SaveData/                             | DBI, JKSV Saves backup                 | `ALL` |
+| \|__ Tinfoil/                              | Tinfoil location.conf backup           | `ALL` |
+|                                            |                                        |  |
+| bootloader                                 | Main folder                            | `ALL` |
+| \|__ hekate_ipl.ini                        | Hekate Launcher config INI             | `ALL` |
+| \|__ patches.ini                           | Loader patches INI                     | `ALL` |
+| \|__ update.bin                            | Hekate payload                         | `ALL` |
+| bootloader/ini/                            |                                        | `ALL` |
+| \|__ payloads.ini                          | Payloads Launcher INI                  | `기종별 구성 상이` |
+| bootloader/payloads/                       |                                        | `ALL` |
+| \|__ ASAP-Cleaner.bin                      | ASAP Reset payload                     | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
+| \|__ fusee.bin                             | Atmosphere payload                     | `ALL` |
+| \|__ hwfly_toolbox.bin                     | Hwfly Toolbox payload                  | `Hwfly` |
+| \|__ Lockpick_RCM.bin                      | Lockpick RCM payload                   | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
+| \|__ PiCoFly_HOS_Unlock.bin                | PiCoFly HOS Unlock Toolbox payload     | `Install Supporter` `Master` |
+| \|__ PiCoFly_toolbox.bin                   | PiCoFly Toolbox payload                | `PiCoFly` |
+| \|__ TegraExplorer.bin                     | TegraExplorer payload                  | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
+| bootloader/res/                            |                                        | `ALL` |
+| \|__ bootscreen/                           | Launcher Booting Image                 | `기종별 구성 상이` |
+| \|__ icon/                                 | Launcher icon                          | `기종별 구성 상이` |
+| \|__ backgraound.bmp                       | Hekate Background Image                | `ALL` |
+| bootloader/sys/                            |                                        | `ALL` |
+| \|__ l4t/                                  | LINUX for Tegra                        | `ALL` |
+| \|__ emummc.kipm                           | emuMMC KIP1 module                     | `ALL` |
+| \|__ libsys_lp0.bso                        | LP0 module                             | `ALL` |
+| \|__ libsys_minerva.bso                    | Minerva Traning Cell                   | `ALL` |
+| \|__ nyx.bin                               | Hekate GUI                             | `ALL` |
+| \|__ res.pak                               | Nyx resource                           | `ALL` |
+| \|__ thk.bin                               | Atmosphere TSEC Keygen                 | `ALL` |
+|                                            |                                        |  |
+| config/                                    | Main folder                            | `ALL` |
+| \|__ Asano-assist/                         | ASAP assist config                     | `ALL` |
+| \|__ MissionControl/                       | MissionControl config                  | `Master` |
+| \|__ sys-clk-oc/                           | Switch-OC-Suite config                 | `Master` |
+| \|__ sys-con/                              | sys-con config                         | `Master` |
+|                                            |                                        |  |
+| emuiibo/                                   | Main folder / emuiibo config           | `Master` |
+|                                            |                                        |  |
+| modchip_firmware/                          | Main folder                            | `Master` |
+| \|__ Hwfly-OS/                             | Latest Hwfly Firmware, SDloader        | `Master` |
+| \|__ PiCoFly-OS/                           | Latest PiCoFly Firmware,SDloader       | `Master` |
+| \|__ INSTINCT-OS/                          | Latest INSTINCT Firmware               | `Master` |
+|                                            |                                        |  |
+| nsp/                                       | Main folder                            | `ALL` |
+| \|__ ASAP-Updater_[01B88DD22E0D0000].nsp   | ASAP-Updater shortcut                  | `ALL` |
+| \|__ DBI_[01ED1F4DEEA68000].nsp            | DBI shortcut                           | `ALL` |
+| \|__ EdiZon_[016855715D498000].nsp         | Edizon shortcut                        | `ALL` |
+| \|__ hbmenu_[01E2044444AB9000][v0].nsp     | hbmenu shortcut                        | `ALL` |
+| \|__ Hekate-Toolbox_[010BD5E33025D000].nsp | Hekate-Toolbox shortcut                | `Install Supporter` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
+| \|__ JKSV_[01A3CFBEAE110000].nsp           | JKSV shortcut                          | `ALL` |
+| \|__ Linkalho_[010D1B400E63F000].nsp       | Linkalho shortcut                      | `ALL` |
+| \|__ sys-clk_[01DBEF31BE328000].nsp        | sys-clk-manager shortcut               | `ALL` |
+| \|__ Tinfoil_[050000BADDAD0000].nsp        | Tinfoil shortcut                       | `ALL` |
+| \|__ vgedit_[01E993F41FB31000].nsp         | vgedit shortcut                        | `ALL` |
+|                                            |                                        |  |
+| SaltySD/                                   | Main folder / SaltyNX config           | `Master` |
+|                                            |                                        |  |
+| switch/                                    | Main folder                            | `ALL` |
+| \|__ Asano-updater/                        | Asano-updater                          | `ALL` |
+| \|__ DBI/                                  | DBI                                    | `ALL` |
+| \|__ Tinfoil/                              | Tinfoil                                | `ALL` |
+| \|__ Reboot2payload/                       | Reboot_to_payload                      | `Install Supporter` `지그/로더` `Master` |
+| \|__ Hekate-Toolbox/                       | Hekate-Toolbox                         | `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
+| \|__ .overlays/                            | Sysmodule Overlays                     | `Master` |
+| \|__ appstore/                             | hb-appstore                            | `Master` |
+| \|__ JKSV/                                 | JKSV                                   | `Master` |
+| \|__ ldnmitm_config/                       | ldn_mitm                               | `Master` |
+| \|__ Linkalho/                             | Linkalho                               | `Master` |
+| \|__ NX-Activity-Log/                      | NX-Activity-Log                        | `Master` |
+| \|__ NxThemesinstaller/                    | NxThemesinstaller                      | `Master` |
+| \|__ Reboot2payload/                       | Reboot2payload                         | `Master` |
+| \|__ SaltyNX-Tool/                         | SaltyNX-Tool                           | `Master` |
+| \|__ vgedit/                               | vgedit                                 | `Master` |
+|                                            |                                        |  |
+| warmboot_mariko/                           | Main folder / Mariko Warmboot cache    | `Install Supporter` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
+|                                            |                                        |  |
+| boot.dat                                   | SX data file                           | `Install Supporter` `지그/로더` `SX` `Master` |
+| boot.ini                                   | SX INI config file                     | `Install Supporter` `지그/로더` `SX` `Master` |
+| payload.bin                                | Hekate payload                         | `ALL` |
+| unlock.bin                                 | PiCoFly HOS unlock file                | `Install Supporter` `Master` |
+  
+</details>
+<br><br>
+
 스크린샷
 =====
 <details><summary>자세히 보기</summary>
