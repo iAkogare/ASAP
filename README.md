@@ -15,17 +15,18 @@ ASAP
 =====
 ## ⬦ ASAP-0523 주요 개선점
 
-잠시 서버 및 다운로드 닫습니다.
-
+### 23.05.25 수정사항.
+- ASAP-Updater : 치트, Horizon OS 다운로드 버그 수정
+  - 치트페이지, Horizon OS 다운로드되지 않는 버그 수정<br><br>
+- ASAP-Updater 2.22.0_fix3 이하 버전 업데이트 필수.<br><br> 
 ### 23.05.25 수정사항
 - Hekate×ASAP
   - Nyx 파티션 매니져에서 12권장이 아닌 29/58권장으로 표기되는 문제 수정.<br> 
-- ASAP-Updater : 카테고리 변경으로 인해 fix3버전에서 추가사항들 설치 불가합니다. 업데이트해주세요.
+- ASAP-Updater : 카테고리 변경으로 인해 fix3버전에서 추가사항들 설치 불가합니다.
   - 분리되어 있던 추가 설치사항 변경 카테고리 통일화 → Extra
   - Hekate_ipl.ini 이름고정 및 다운로드 1개 제한 해제 → JSON 덮어쓰기 방식이 아닌 INI 파일 교체식으로 변경.
   - 앱 내 메뉴 및 문구 조정.
   - INI 설정 다수 추가<br><br>
-- ASAP-Updater만 업데이트 하셔도 무방합니다.<br><br>
 --------------------------------------------------------------------------------------------------------- 
 - [ 지그/로더 ] 이용 유저 피드백 및 개선사항
   - 전원 종료 후 재부팅시 Reboot_payload.bin(=fusee.bin) 연결 해제 및 Reboot_hekate.bin(=Hekate.bin) 연결.
@@ -42,7 +43,7 @@ ASAP
 | [Reboot to payload](https://github.com/Asadayot/Asanosphere) | 1.0.1 | 63ea152| reboot_payload.bin → hekate.bin 변경 |  |
 | [Hekate×ASAP](https://github.com/Asadayot/hekate) | 6.0.4 & 1.5.3 | 937ab53 | 표기 오류 수정 | 23.05.25 | 
 | Sigpatches | 0523 |  | 63ea152 & 937ab53 기반 시그패치 최신화 |  | 
-| [ASAP-Updater](https://github.com/Asadayot/ASAP/releases) | 2.22.0_fix4 | fd16f86 | 카테고리 변경 및 ini파일 제한 해제 | 23.05.25 | 
+| [ASAP-Updater](https://github.com/Asadayot/ASAP/releases) | 2.22.0_fix5 | fd16f86 | 카테고리 변경 및 ini파일 제한 해제 | 23.05.26 | 
 | [SaltyNX](https://github.com/masagrator/SaltyNX) | 0.6.0 | a3c5d1c | 요청에 따른 링크 연결 |  | 
 | [FPSLocker](https://github.com/masagrator/FPSLocker) | 1.2.2 | a5e231a | 요청에 따른 링크 연결 |  |  
 | [JKSV](https://github.com/Asadayot/JKSV) | 2023.05.23 | 85bca2d | 85bca2d 커밋 |  | 
@@ -228,7 +229,7 @@ ASAP-Updater 설명서
   
 | 대상 | 버전 | 설명 or 변경사항 |
 | ----- | ----- |  ----------------------------------------- | 
-| [ASAP-Updater](https://github.com/Asadayot/ASAP/releases) | 2.22.0_fix4 | - ASAP, HOS, Homebrew, Sysmodule, etc. 업데이터<br>- 바로가기 NSP 설치 파일 제공 |
+| [ASAP-Updater](https://github.com/Asadayot/ASAP/releases) | 2.22.0_fix5 | - ASAP, HOS, Homebrew, Sysmodule, etc. 업데이터<br>- 바로가기 NSP 설치 파일 제공 |
 | [Daybreak](https://github.com/Asadayot/Asanosphere) | 1.0.0 | - [Asanosphère](https://github.com/Asadayot/Asanosphere) HOS 업데이터 홈브류  | 
 | [Reboot2payload](https://github.com/Asadayot/Asanosphere) | 1.0.0 | - [Asanosphère](https://github.com/Asadayot/Asanosphere) 구형 전용 페이로드 재부팅 홈브류 | 
 | [Haze](https://github.com/Asadayot/Asanosphere) | 1.0.0 | - [Asanosphère](https://github.com/Asadayot/Asanosphere) PTP/MTP USB 전송 홈브류 | 
