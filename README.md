@@ -14,8 +14,9 @@ ASAP
 새 버전 개선사항
 =====
 ## ⬦ ASAP-0523 주요 개선점
-
-### 23.05.25 수정사항.
+### 23.05.28 수정사항.
+- DBI 569 → 576트업데이트
+### 23.05.26 수정사항.
 - ASAP-Updater : 치트, Horizon OS 다운로드 버그 수정
   - 치트페이지, Horizon OS 다운로드되지 않는 버그 수정<br><br>
 - ASAP-Updater 2.22.0_fix3 이하 버전 파일 교체하여 업데이트 필수.<br><br> 
@@ -47,6 +48,7 @@ ASAP
 | [SaltyNX](https://github.com/masagrator/SaltyNX) | 0.6.0 | a3c5d1c | 요청에 따른 링크 연결 |  | 
 | [FPSLocker](https://github.com/masagrator/FPSLocker) | 1.2.2 | a5e231a | 요청에 따른 링크 연결 |  |  
 | [JKSV](https://github.com/Asadayot/JKSV) | 2023.05.23 | 85bca2d | 85bca2d 커밋 |  | 
+| [DBI](https://github.com/rashevskyv/dbi) | 576 | 17eb719 | [](https://github.com/rashevskyv/dbi/releases)참고 |  |
   
 <br><br>
 
@@ -171,6 +173,7 @@ ASAP-Updater 설명서
 <br><br><br> 
   
 ## ⬦ PiCoFly 모드칩 펌웨어 업데이트
+  ※이 방법은 2.6 이상 펌웨어에서만 가능하며 2.5번대 펌웨어는 USB 연결을 통한 직접 플래시가 필요합니다.※<br>
   - `추가 구성 다운로드` → `[ PiCoFly ] 펌웨어` 다운로드<br><br>헤카테 진입 → 추가런처 or 페이로드 → PiCoFly 툴박스 or PiCoFly_Toolbox.bin 선택 → sdloader/Update 선택 → Firmware/Update 선택 → 재부팅 후 버전 확인.
   - LED 인디케이터 및 2.7 이상 펌웨어 안정화 회로도 제공<br>
      <details><summary>자세히 보기</summary>
@@ -233,7 +236,7 @@ ASAP-Updater 설명서
 | [Daybreak](https://github.com/Asadayot/Asanosphere) | 1.0.0 | - [Asanosphère](https://github.com/Asadayot/Asanosphere) HOS 업데이터 홈브류  | 
 | [Reboot2payload](https://github.com/Asadayot/Asanosphere) | 1.0.0 | - [Asanosphère](https://github.com/Asadayot/Asanosphere) 구형 전용 페이로드 재부팅 홈브류 | 
 | [Haze](https://github.com/Asadayot/Asanosphere) | 1.0.0 | - [Asanosphère](https://github.com/Asadayot/Asanosphere) PTP/MTP USB 전송 홈브류 | 
-| [DB Installer](https://github.com/rashevskyv/dbi) | 563 | - 파일 전송, 설치 및 추가기능 홈브류<br>- 바로가기 NSP 설치 파일 제공 | 
+| [DB Installer](https://github.com/rashevskyv/dbi) | 576 | - 파일 전송, 설치 및 추가기능 홈브류<br>- 바로가기 NSP 설치 파일 제공 | 
 | [Hekate-Toolbox](https://github.com/Asadayot/Hekate-Toolbox) | 4.0.3 | - 타이틀 오버라이드, 페이로드 재부팅 설정 홈브류<br>- 모드칩 기기 전용 페이로드 재부팅 홈브류<br>- 한글화 | 
 | [Tinfoil](https://github.com/Asadayot/NX-Activity-Log) | 16.0 [v2] | - 파일 전송, 설치 및 추가기능 홈브류<br>- 바로가기 NSP 설치 파일 제공 | 
 <br>
@@ -243,7 +246,7 @@ ASAP-Updater 설명서
 | ----- | ----- |  ----------------------------------------- | 
 | [Tesla menu](https://github.com/Asadayot/Tesla-Menu) | 1.2.2 | - 테슬라 오버레이 메뉴<br>- 한글화 |  
 | [ovl-sysmodules](https://github.com/Asadayot/ovl-sysmodules) | 1.3.1 | - 테슬라 시스모듈 오버레이<br>- 한글화 |
-| [DB Installer](https://github.com/rashevskyv/dbi) | 563 | - 파일 전송, 설치 및 추가기능 홈브류<br>- 바로가기 NSP 설치 파일 제공 |
+| [DB Installer](https://github.com/rashevskyv/dbi) | 576 | - 파일 전송, 설치 및 추가기능 홈브류<br>- 바로가기 NSP 설치 파일 제공 |
 | [HB-appstore](https://github.com/fortheusers/hb-appstore) | 2.3.2 | - 홈브류, 시스모듈 앱 스토어<br>- 한글화 |
 | [JKSV](https://github.com/Asadayot/JKSV) | 2023.05.23 | - 세이브 데이터 관리 홈브류<br>- 매끄럽게 재번역 및 언어 고정<br>- 바로가기 NSP 설치 파일 제공 |
 | [Linkalho](https://github.com/Asadayot/linkalho) | 2.0.2 | - 닌텐도 어카운트 관리 홈브류<br>- 한글화<br>- 바로가기 NSP 설치 파일 제공 |
