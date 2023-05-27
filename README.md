@@ -15,7 +15,8 @@ ASAP
 =====
 ## ⬦ ASAP-0523 주요 개선점
 ### 23.05.28 수정사항.
-- DBI 569 → 576트업데이트
+- PiCoFly 펌웨어 2.73 → 2.74 업데이트
+- DBI 569 → 576 업데이트<br><br> 
 ### 23.05.26 수정사항.
 - ASAP-Updater : 치트, Horizon OS 다운로드 버그 수정
   - 치트페이지, Horizon OS 다운로드되지 않는 버그 수정<br><br>
@@ -48,7 +49,7 @@ ASAP
 | [SaltyNX](https://github.com/masagrator/SaltyNX) | 0.6.0 | a3c5d1c | 요청에 따른 링크 연결 |  | 
 | [FPSLocker](https://github.com/masagrator/FPSLocker) | 1.2.2 | a5e231a | 요청에 따른 링크 연결 |  |  
 | [JKSV](https://github.com/Asadayot/JKSV) | 2023.05.23 | 85bca2d | 85bca2d 커밋 |  | 
-| [DBI](https://github.com/rashevskyv/dbi) | 576 | 17eb719 | [](https://github.com/rashevskyv/dbi/releases)참고 |  |
+| [DBI](https://github.com/rashevskyv/dbi) | 576 | 17eb719 | [DBI](https://github.com/rashevskyv/dbi/releases) 참고 | 23.05.28 |
   
 <br><br>
 
