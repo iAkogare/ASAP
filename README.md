@@ -15,6 +15,8 @@ ASAP
 =====
 ## ⬦ ASAP-0531 주요 개선점
 
+### 버그보고로 인한 배포 일시 중지
+
 <br><details><summary>스크린샷 미리보기</summary>
 
 ![0](https://github.com/Asadayot/img/assets/89662125/20586913-195d-4d47-a960-181cc7958168)
