@@ -13,43 +13,16 @@ ASAP
 
 새 버전 개선사항
 =====
-## ⬦ ASAP-0523 주요 개선점
-### 23.05.28 수정사항.
-- PiCoFly 펌웨어 2.73 → 2.74 업데이트
-- DBI 569 → 576 업데이트<br><br> 
-### 23.05.26 수정사항.
-- ASAP-Updater : 치트, Horizon OS 다운로드 버그 수정
-  - 치트페이지, Horizon OS 다운로드되지 않는 버그 수정<br><br>
-- ASAP-Updater 2.22.0_fix3 이하 버전 파일 교체하여 업데이트 필수.<br><br> 
-### 23.05.25 수정사항
-- Hekate×ASAP
-  - Nyx 파티션 매니져에서 12권장이 아닌 29/58권장으로 표기되는 문제 수정.<br> 
-- ASAP-Updater : 카테고리 변경으로 인해 fix3버전에서 추가사항들 설치 불가합니다.
-  - 분리되어 있던 추가 설치사항 변경 카테고리 통일화 → Extra
-  - Hekate_ipl.ini 이름고정 및 다운로드 1개 제한 해제 → JSON 덮어쓰기 방식이 아닌 INI 파일 교체식으로 변경.
-  - 앱 내 메뉴 및 문구 조정.
-  - INI 설정 다수 추가<br><br>
---------------------------------------------------------------------------------------------------------- 
-- [ 지그/로더 ] 이용 유저 피드백 및 개선사항
-  - 전원 종료 후 재부팅시 Reboot_payload.bin(=fusee.bin) 연결 해제 및 Reboot_hekate.bin(=Hekate.bin) 연결.
-  - reboot_to_payload.nro 또한 Hekate로 연결되도록 수정. 
-  - 모드칩 모델은 굳이 업데이트할 필요 없음.
-  - 지그/로더 이외 파일에서 reboot_to_payload.nro 삭제되지 않는 버그 수정.
-- [ 버전교체/추가설치 ] → [ ASAP ] 홈브류 및 시스모듈 추가.
-- 홈브류 및 시스모듈 추가 및 업데이트.
+## ⬦ ASAP-0531 주요 개선점
 
-| 대상  | 버전         | 커밋             | 변경사항                                      | 비고 | 
-| ----- | ---------- | -------------- | ----------------------------------------- | ------ | 
-| [ASAP](https://github.com/Asadayot/ASAP) | 0523 | fd16f86 | 구형 -볼륨 헤카테 진입 지원 |  | 
-| [Asanosphère](https://github.com/Asadayot/Asanosphere) | 1.5.4 | 63ea152 | 3cb54e2 → 63ea152 커밋 |  | 
-| [Reboot to payload](https://github.com/Asadayot/Asanosphere) | 1.0.1 | 63ea152| reboot_payload.bin → hekate.bin 변경 |  |
-| [Hekate×ASAP](https://github.com/Asadayot/hekate) | 6.0.4 & 1.5.3 | 937ab53 | 표기 오류 수정 | 23.05.25 | 
-| Sigpatches | 0523 |  | 63ea152 & 937ab53 기반 시그패치 최신화 |  | 
-| [ASAP-Updater](https://github.com/Asadayot/ASAP/releases) | 2.22.0_fix5 | fd16f86 | 카테고리 변경 및 ini파일 제한 해제 | 23.05.26 | 
-| [SaltyNX](https://github.com/masagrator/SaltyNX) | 0.6.0 | a3c5d1c | 요청에 따른 링크 연결 |  | 
-| [FPSLocker](https://github.com/masagrator/FPSLocker) | 1.2.2 | a5e231a | 요청에 따른 링크 연결 |  |  
-| [JKSV](https://github.com/Asadayot/JKSV) | 2023.05.23 | 85bca2d | 85bca2d 커밋 |  | 
-| [DBI](https://github.com/rashevskyv/dbi) | 576 | 17eb719 | [DBI](https://github.com/rashevskyv/dbi/releases) 참고 | 23.05.28 |
+- ASAP-Updater : 올인원 교체/추가설치 메뉴의 홈브류, 시스모듈/오버레이 일부 제외 모두 순정파일로 교체.<br><br>
+- ASAP 시그패치 : 0531 버전으로 교체.<br><br>
+- ASAP 기본 홈브류, 시스모듈, 오버레이 대폭 추가 및 최신 libnx, libtesla 로 리빌드.<br><br>
+  - ASAP-Updater, Breeze, Daybreak, DBI, EdiZon-SE, Haze, HB-appstore, Hekate-Toolbox, ldnmitm config,<br>Linkalho, NX-Activity-Log, Tinfoil, Reboot2payload, vgedit+<br><br>
+  - Tesla-menu, ovlsysmodules, FPSLocker, ReverseNX-RT, emuiibo, ldn mitm, EdiZon, QuickNTP, Status-Monitor, sys-clk-OC<br><br>
+- 홈브류 메뉴 시간표기 오류 수정.<br><br>
+- 에디존-SE 한글화.<br><br>
+- 시스모듈/오버레이 전부 한글화 - ASAP에서만 한글 적용 / 기타 올인원에서 한글 깨짐. 
   
 <br><br>
 
@@ -194,8 +167,8 @@ ASAP-Updater 설명서
 
 | 대상 | 버전 | 설명 or 변경사항 |
 | ----- | ----- |  ----------------------------------------- | 
-| [Asanosphère](https://github.com/Asadayot/Asanosphere) | HOS｜ASAP1.5.4-0523｜S/E | - 커스텀 펌웨어<br>- exosphere 경로 변경 : `sd:/atmosphere/config`<br>- config 폴더의 .ini 파일 한글 부연 설명 추가(주석)<br>- 시리얼 변조 코드 변경 : `XAW` → `XAJ`(유럽/일본) |
-| [Hekate×ASAP](https://github.com/Asadayot/hekate) | 6.0.4 & 1.5.3 × 0515 | - ASAP 전용 올인원 부트로더<br>- 한글화<br>- 스크린샷 덤프 경로 변경: `sd:/backup/screenshots`<br>- 기타 덤프 경로 변경 : `sd:/backup` |
+| [Asanosphère](https://github.com/Asadayot/Asanosphere) | HOS｜ASAP1.5.4-0531｜S/E | - 커스텀 펌웨어<br>- exosphere 경로 변경 : `sd:/atmosphere/config`<br>- config 폴더의 .ini 파일 한글 부연 설명 추가(주석)<br>- 시리얼 변조 코드 변경 : `XAW` → `XAJ`(유럽/일본) |
+| [Hekate×ASAP](https://github.com/Asadayot/hekate) | 6.0.4 & 1.5.3 × 0531 | - ASAP 전용 올인원 부트로더<br>- 한글화<br>- 스크린샷 덤프 경로 변경: `sd:/backup/screenshots`<br>- 기타 덤프 경로 변경 : `sd:/backup` |
 | Boot.dat<br>Boot.ini | 1.1 | - SXOS / 모드칩 SX펌웨어 전용 필수 로더 및 설정 |
 <br>
 ### ⬦ 홈브류 메뉴/로더
@@ -221,7 +194,7 @@ ASAP-Updater 설명서
   
 | 대상 | 버전 | 설명 or 변경사항 |
 | ----- | ----- |  ----------------------------------------- |  
-| Signature Patches | 0515 | - ASAP 전용 [63ea152](https://github.com/Asadayot/Asanosphere) & [937ab53](https://github.com/Asadayot/hekate) 기반 시그패치 |  
+| Signature Patches | 0531 | - ASAP 전용 [63ea152](https://github.com/Asadayot/Asanosphere) & [937ab53](https://github.com/Asadayot/hekate) 기반 시그패치 |  
 <br>
 ### ⬦ Warmboot Mariko 캐시
 
@@ -240,37 +213,59 @@ ASAP-Updater 설명서
 | [DB Installer](https://github.com/rashevskyv/dbi) | 576 | - 파일 전송, 설치 및 추가기능 홈브류<br>- 바로가기 NSP 설치 파일 제공 | 
 | [Hekate-Toolbox](https://github.com/Asadayot/Hekate-Toolbox) | 4.0.3 | - 타이틀 오버라이드, 페이로드 재부팅 설정 홈브류<br>- 모드칩 기기 전용 페이로드 재부팅 홈브류<br>- 한글화 | 
 | [Tinfoil](https://github.com/Asadayot/NX-Activity-Log) | 16.0 [v2] | - 파일 전송, 설치 및 추가기능 홈브류<br>- 바로가기 NSP 설치 파일 제공 | 
-<br>
-### ⬦ 테슬라 & 홈브류 & 시스모듈 (선택 설치-재부팅 필요)
-  
-| 대상 | 버전 | 설명 or 변경사항 |
-| ----- | ----- |  ----------------------------------------- | 
-| [Tesla menu](https://github.com/Asadayot/Tesla-Menu) | 1.2.2 | - 테슬라 오버레이 메뉴<br>- 한글화 |  
+| [Tesla menu](https://github.com/Asadayot/Tesla-Menu) | 1.2.3 | - 테슬라 오버레이 메뉴<br>- 한글화 | 
 | [ovl-sysmodules](https://github.com/Asadayot/ovl-sysmodules) | 1.3.1 | - 테슬라 시스모듈 오버레이<br>- 한글화 |
-| [DB Installer](https://github.com/rashevskyv/dbi) | 576 | - 파일 전송, 설치 및 추가기능 홈브류<br>- 바로가기 NSP 설치 파일 제공 |
-| [HB-appstore](https://github.com/fortheusers/hb-appstore) | 2.3.2 | - 홈브류, 시스모듈 앱 스토어<br>- 한글화 |
+| [HB-appstore](https://github.com/Asadayot/hb-appstore) | 2.3.2 | - 홈브류, 시스모듈, 오버레이 앱 스토어<br>- 한글화 |
 | [JKSV](https://github.com/Asadayot/JKSV) | 2023.05.23 | - 세이브 데이터 관리 홈브류<br>- 매끄럽게 재번역 및 언어 고정<br>- 바로가기 NSP 설치 파일 제공 |
 | [Linkalho](https://github.com/Asadayot/linkalho) | 2.0.2 | - 닌텐도 어카운트 관리 홈브류<br>- 한글화<br>- 바로가기 NSP 설치 파일 제공 |
 | [NX-Activity-Log](https://github.com/Asadayot/NX-Activity-Log) | 1.5.0 | - 활동 기록 관리 홈브류<br>- 매끄럽게 재번역 및 언어 고정<br>- 바로가기 NSP 설치 파일 제공 |
 | [vgedit](https://github.com/Asadayot/vgedit) | 2.2 | - 텍스트 파일 관리 홈브류<br>- 한글화<br>- 바로가기 NSP 설치 파일 제공 |
 | [ldnmitm config](https://github.com/Asadayot/ldn_mitm) | 1.1.3 | - LAN 플레이 관리 홈브류 |
-| [ldn_mitm](https://github.com/Asadayot/ldn_mitm) | 1.15.0 | - LAN 플레이 관리 시스모듈<br>- 한글화 |  
+| [ldn_mitm](https://github.com/Asadayot/ldn_mitm) | 1.15.0 | - LAN 플레이 관리 오버레이<br>- 한글화 | 
+| [emuiibo](https://github.com/Asadayot/emuiibo) | 1.0.0 | - 가상 아미보 관리 오버레이<br>- 한글화 |
+| [Edizon-SE](https://github.com/Asadayot/EdiZon-SE/releases) | 3.8.37 | - 치트 관리 홈브류<br>- 한글화<br>- 바로가기 NSP 설치 파일 제공 |
+| [EdiZon-Overlay](https://github.com/Asadayot/EdiZon-Overlay) | 1.0.5 | - 치트 관리 오버레이<br>- 한글화 |
+| [MissionControl](https://github.com/Asadayot/MissionControl) | 0.9.2 | 타사 컨트롤러 무선 지원 시스모듈 |
+| [QuickNTP](https://github.com/Asadayot/QuickNTP) | 1.2.8 | - 네트워크 시간 설정 오버레이<br>- 한글화<br>- 한국 시간대 기본 템플릿에 추가 |
+| [ReverseNX-RT](https://github.com/masagrator/ReverseNX-RT) | 1.1.1 | 리얼타임 모드 변환 오버레이<br>- 한글화 |
+| [Status-Monitor-Overlay](https://github.com/Asadayot/Status-Monitor-Overlay) | 0.9.1 | - 상태 모니터 확인 오버레이<br>- 한글화 |
+| [Switch-OC-Suite](https://github.com/Asadayot/Switch-OC-Suite) | 2023.05.31 | 오버클럭 관리 오버레이<br>- 한글화 |
+| [sys-con](https://github.com/cathery/sys-con) | 0.6.4 | - 타사 컨트롤러 유선 지원 시스모듈 |
+| [SaltyNX](https://github.com/Asadayot/SaltyNX) | 0.6.0 | 파일/코드 관리<br>- 한글화 |  
+| [FPSLocker](https://github.com/Asadayot/FPSLocker) | 1.2.3 | FPS 관리 오버레이<br>- 한글화 |
+
+### ⬦ 테슬라 & 홈브류 & 시스모듈 (선택 설치-재부팅 필요)
+  
+| 대상 | 버전 | 설명 or 변경사항 |
+| ----- | ----- |  ----------------------------------------- | 
+| [Tesla menu](https://github.com/Asadayot/Tesla-Menu) | 1.2.3 | - 테슬라 오버레이 메뉴 |  
+| [ovl-sysmodules](https://github.com/Asadayot/ovl-sysmodules) | 1.3.1 | - 테슬라 시스모듈 오버레이 |
+| [DB Installer](https://github.com/rashevskyv/dbi) | 576 | - 파일 전송, 설치 및 추가기능 홈브류<br>- 바로가기 NSP 설치 파일 제공 |
+| [HB-appstore](https://github.com/fortheusers/hb-appstore) | 2.3.2 | - 홈브류, 시스모듈, 오버레이 앱 스토어 |
+| [JKSV](https://github.com/Asadayot/JKSV) | 23.02.2023 | - 세이브 데이터 관리 홈브류 |
+| [Linkalho](https://github.com/Asadayot/linkalho) | 2.0.1 | - 닌텐도 어카운트 관리 홈브류 |
+| [NX-Activity-Log](https://github.com/Asadayot/NX-Activity-Log) | 1.4.0 | - 활동 기록 관리 홈브류 |
+| [vgedit](https://github.com/Asadayot/vgedit) | 2.1 | - 텍스트 파일 관리 홈브류 |
+| [ldnmitm config](https://github.com/Asadayot/ldn_mitm) | 1.1.3 | - LAN 플레이 관리 홈브류 |
+| [ldn_mitm](https://github.com/Asadayot/ldn_mitm) | 1.15.0 | - LAN 플레이 관리 오버레이 |  
+| [sys-clk manager](https://github.com/Asadayot/sys-clk) | 1.0.3 | - 오버클럭 관리 홈브류 |
 | [sys-clk manager](https://github.com/Asadayot/sys-clk) | 1.0.3 | - 오버클럭 관리 홈브류<br>- 한글화<br>- 바로가기 NSP 설치 파일 제공 |
 | [RetroArch](https://www.retroarch.com/) | 1.15.0 | - 콘솔 에뮬레이터 홈브류<br>- 바로가기 NSP 설치 파일 제공 |
-| [emuiibo](https://github.com/Asadayot/emuiibo) | 1.0.0 | - 가상 아미보 관리 시스모듈 |
-| [Edizon](https://github.com/WerWolv/EdiZon) | 3.1.0 | - 치트 관리 홈브류<br>- 바로가기 NSP 설치 파일 제공 |
-| [Edizon-SE](https://github.com/tomvita/EdiZon-SE/releases) | 3.8.36 | - 치트 관리 홈브류<br>- 바로가기 NSP 설치 파일 제공 |
-| [EdiZon-Overlay](https://github.com/proferabg/EdiZon-Overlay) | 1.0.5 | - 치트 관리 시스모듈 |
+| [emuiibo](https://github.com/Asadayot/emuiibo) | 1.0.0 | - 가상 아미보 관리 오버레이 |
+| [Edizon](https://github.com/WerWolv/EdiZon) | 3.1.0 | - 치트 관리 홈브류 |
+| [Edizon-SE](https://github.com/tomvita/EdiZon-SE/releases) | 3.8.37 | - 치트 관리 홈브류 |
+| [EdiZon-Overlay](https://github.com/proferabg/EdiZon-Overlay) | 1.0.5 | - 치트 관리 오버레이 |
 | [MissionControl](https://github.com/ndeadly/MissionControl) | 0.9.2 | 타사 컨트롤러 무선 지원 시스모듈 |
-| [QuickNTP](https://github.com/Asadayot/QuickNTP) | 1.2.8 | - 네트워크 시간 설정 시스모듈<br>- 한글화<br>- 한국 시간대 기본 템플릿에 추가 |
-| [Status-Monitor-Overlay](https://github.com/Asadayot/Status-Monitor-Overlay) | 0.9.0 | - 상태 모니터 확인 시스모듈 |
-| [sys-clk](https://github.com/Asadayot/sys-clk) | 1.0.3 | - 오버클럭 관리 시스모듈<br>- 한글화 |
-| [Switch-OC-Suite](https://github.com/hanai3Bi/Switch-OC-Suite) | 1.5.3-v1.3 | 오버클럭 관리 시스모듈 |
+| [QuickNTP](https://github.com/Asadayot/QuickNTP) | 1.2.8 | - 네트워크 시간 설정 오버레이 |
+| [Status-Monitor-Overlay](https://github.com/Asadayot/Status-Monitor-Overlay) | 0.9.1 | - 상태 모니터 확인 오버레이 |
+| [sys-clk](https://github.com/Asadayot/sys-clk) | 1.0.3 | - 오버클럭 관리 오버레이<br>- 한글화 |
+| [sys-clk](https://github.com/Asadayot/sys-clk) | 1.0.3 | - 오버클럭 관리 오버레이 |
+| [Switch-OC-Suite](https://github.com/hanai3Bi/Switch-OC-Suite) | 1.5.3-v1.4 | 오버클럭 관리 오버레이 |
 | [sys-con](https://github.com/cathery/sys-con) | 0.6.4 | - 타사 컨트롤러 유선 지원 시스모듈 | 
 | [mGBA](https://github.com/mgba-emu/mgba) | 0.10.2 | GBA 콘솔 에뮬레이터 홈브류 |
 | [NxThemesinstaller](https://github.com/exelix11/SwitchThemeInjector) | 2.7 | 스위치 테마 관리 홈브류 |   
-| [SaltyNX](https://github.com/masagrator/SaltyNX) | 0.6.0 | 파일/코드 관리 |
-| [FPSLocker](https://github.com/masagrator/FPSLocker) | 1.2.2 | FPS 관리 |  
+| [SaltyNX](https://github.com/masagrator/SaltyNX) | 0.6.0 | 파일/코드 관리 |  
+| [FPSLocker](https://github.com/masagrator/FPSLocker) | 1.2.3 | FPS 관리 오버레이 |  
    
 </details>
 <br><br>
@@ -295,13 +290,16 @@ ASAP 구성
 | \|__ stratosphere.ini                      | Cartridge Read config                  | `ALL` |
 | \|__ system_settings.ini                   | Atmosphere System config               | `ALL` |
 | atmosphere/contents/                       |                                        | `ALL` |
-| \|__ 00FF0000636C6BFF/                     | sys-clk                                | `Master` |
-| \|__ 0000000000534C56/                     | SaltyNX                                | `Master` |
-| \|__ 010000000000bd00/                     | MissionControl                         | `Master` |
-| \|__ 420000000007E51A/                     | Tesla                                  | `Master` |
-| \|__ 0100000000000352/                     | emuiibo                                | `Master` |
-| \|__ 690000000000000D/                     | sys-con                                | `Master` |
-| \|__ 4200000000000010/                     | ldn_mitm                               | `Master` |
+| \|__ 00FF0000636C6BFF/                     | sys-clk                                | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
+| \|__ 054e4f4558454000/                     | PointerSearcher                        | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
+| \|__ 0000000000534C56/                     | SaltyNX                                | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
+| \|__ 010000000000bd00/                     | MissionControl                         | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
+| \|__ 420000000007E51A/                     | Tesla                                  | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
+| \|__ 0100000000000352/                     | emuiibo                                | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
+| \|__ 0100000000001013/                     | EdiZon Cheat Manager                   | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
+| \|__ 010000000000000D/                     | SE-Tools                               | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
+| \|__ 690000000000000D/                     | sys-con                                | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
+| \|__ 4200000000000010/                     | ldn_mitm                               | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
 | atmosphere/exfs_patches/                   |                                        | `ALL` |
 | \|__ ASAP                                  | BootLogo patches                       | `ALL` |
 | \|__ bluetooth_patches/                    | MissionControl patches                 | `Master` |
@@ -321,8 +319,8 @@ ASAP 구성
 | \|__ default_nogc/                         | nogc patches                           | `ALL` |
 | \|__ fs_patches/                           | Signature Patches                      | `ALL` |
 | \|__ loader_patches/                       | Signature Patches                      | `ALL` |
-| atmosphere/kips                            |                                        | `Master` |
-| \|__ loader.kip                            | OverClock patches                      | `Master` |
+| atmosphere/kips                            |                                        | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
+| \|__ loader.kip                            | OverClock patches                      | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
 |                                            |                                        |  |
 | backup/                                    | Main folder / Backup created on update | `ALL` |
 | \|__ keys/                                 | prod/title.keys, PRODINFO backup       | `ALL` |
@@ -377,28 +375,28 @@ ASAP 구성
 | \|__ Hekate-Toolbox_[010BD5E33025D000].nsp | Hekate-Toolbox shortcut                | `Install Supporter` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
 | \|__ JKSV_[01A3CFBEAE110000].nsp           | JKSV shortcut                          | `ALL` |
 | \|__ Linkalho_[010D1B400E63F000].nsp       | Linkalho shortcut                      | `ALL` |
-| \|__ sys-clk_[01DBEF31BE328000].nsp        | sys-clk-manager shortcut               | `ALL` |
 | \|__ Tinfoil_[050000BADDAD0000].nsp        | Tinfoil shortcut                       | `ALL` |
 | \|__ vgedit_[01E993F41FB31000].nsp         | vgedit shortcut                        | `ALL` |
 |                                            |                                        |  |
 | SaltySD/                                   | Main folder / SaltyNX config           | `Master` |
 |                                            |                                        |  |
 | switch/                                    | Main folder                            | `ALL` |
+| \|__ .overlays/                            | Sysmodule Overlays                     | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |  
+| \|__ appstore/                             | Homebrew, Sysmodule, Overlay store     | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |  
 | \|__ Asano-updater/                        | Asano-updater                          | `ALL` |
+| \|__ breeze/                               | Cheats Manager                         | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
 | \|__ DBI/                                  | DBI                                    | `ALL` |
-| \|__ Tinfoil/                              | Tinfoil                                | `ALL` |
+| \|__ EdiZon-SE/                            | Cheats Editor                          | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
 | \|__ Reboot2payload/                       | Reboot_to_payload                      | `Install Supporter` `지그/로더` `Master` |
 | \|__ Hekate-Toolbox/                       | Hekate-Toolbox                         | `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
-| \|__ .overlays/                            | Sysmodule Overlays                     | `Master` |
-| \|__ appstore/                             | hb-appstore                            | `Master` |
-| \|__ JKSV/                                 | JKSV                                   | `Master` |
-| \|__ ldnmitm_config/                       | ldn_mitm                               | `Master` |
-| \|__ Linkalho/                             | Linkalho                               | `Master` |
-| \|__ NX-Activity-Log/                      | NX-Activity-Log                        | `Master` |
+| \|__ JKSV/                                 | JKSV                                   | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
+| \|__ ldnmitm_config/                       | ldn_mitm                               | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
+| \|__ Linkalho/                             | Linkalho                               | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
+| \|__ NX-Activity-Log/                      | NX-Activity-Log                        | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
 | \|__ NxThemesinstaller/                    | NxThemesinstaller                      | `Master` |
-| \|__ Reboot2payload/                       | Reboot2payload                         | `Master` |
-| \|__ SaltyNX-Tool/                         | SaltyNX-Tool                           | `Master` |
-| \|__ vgedit/                               | vgedit                                 | `Master` |
+| \|__ Reboot2payload/                       | Reboot2payload                         | `지그/로더` `Master` |
+| \|__ Tinfoil/                              | Tinfoil                                | `ALL` |
+| \|__ vgedit/                               | vgedit                                 | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
 |                                            |                                        |  |
 | warmboot_mariko/                           | Main folder / Mariko Warmboot cache    | `Install Supporter` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
 |                                            |                                        |  |
@@ -433,17 +431,6 @@ ASAP 구성
 </details>  
 <br><br>
 
-안내사항
-=====
-<details><summary>자세히 보기</summary>
-  
-### ⬦ 소스코드 관련
-업로드 전 소스 소실로 인한 복구 및 공개 불가하며
-소유하고 있는 선에서만 업로드 진행되었습니다.<br>각 저장소는 다음 업데이트부터 재작업하여 공개할 수 있습니다.
-  
-</details>
-<br><br>
-
 크레딧
 =====
 ASAP 을 구성하기 위해 이용한 멋진 팀 및 개발자들과 앱.
@@ -452,7 +439,7 @@ ASAP 을 구성하기 위해 이용한 멋진 팀 및 개발자들과 앱.
   - [CTCaer](https://github.com/CTCaer) :  Hekate & Nyx
   - [ITotalJustice](https://github.com/ITotalJustice)
   - [suchmememanyskill](https://github.com/suchmememanyskill) :  TegraExplorer
-  - [Team-Neptune](https://github.com/Team-Neptune) :  CPR
+  - [Team-Neptune](https://github.com/Team-Neptune) :  CPR, DeepSea
   - [shchmue](https://github.com/shchmue) :  Lockpick RCM
   - [Hwfly-NX](https://github.com/hwfly-nx) :  Hwfly firmware, Hwfly Toolbox
   - [Ansem-SoD](https://github.com/Ansem-SoD) :  PiCoFly firmware, PiCoFly Toolbox
@@ -474,8 +461,7 @@ ASAP 을 구성하기 위해 이용한 멋진 팀 및 개발자들과 앱.
   - [ndeadly](https://github.com/ndeadly) :  Mission Control
   - [cathery](https://github.com/cathery) :  sys-con, Hekate-Toolbox
   - [nedex](https://github.com/nedex) :  QuickNTP
-  - [masagrator](https://github.com/masagrator) :  Status-Monitor-Overlay, SaltyNX, FPSLocker
-  - [Team-Neptune](https://github.com/Team-Neptune) :  DeepSea
+  - [masagrator](https://github.com/masagrator) :  Status-Monitor-Overlay, SaltyNX, FPSLocker, ReverseNX-RT
   - [sthetix](https://github.com/sthetix) :  HATS
   - [hanai3Bi](https://github.com/hanai3Bi) : Switch-OC-Suite
   - [mgba-emu](https://github.com/mgba-emu) : mGBA
