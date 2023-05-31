@@ -15,6 +15,24 @@ ASAP
 =====
 ## ⬦ ASAP-0531 주요 개선점
 
+<br><details><summary>스크린샷 미리보기</summary>
+
+![0](https://github.com/Asadayot/img/assets/89662125/20586913-195d-4d47-a960-181cc7958168)
+![1](https://github.com/Asadayot/img/assets/89662125/01d04a2a-d4bd-48cb-bd50-77080571001c)
+![2](https://github.com/Asadayot/img/assets/89662125/8a8a3302-488b-48a2-b11a-61f2c4d8aef2)
+![3](https://github.com/Asadayot/img/assets/89662125/f47a7271-391a-4254-ae71-d3906efdc88f)
+![4](https://github.com/Asadayot/img/assets/89662125/58dfca6b-37a1-4bc0-b766-488cae932511)
+![5](https://github.com/Asadayot/img/assets/89662125/acad7fa7-6aae-4e34-b323-e8af107982fa)
+![6](https://github.com/Asadayot/img/assets/89662125/6f815220-a546-462b-8557-b475330c4466)
+![7](https://github.com/Asadayot/img/assets/89662125/4ce945c5-ec52-4a23-9263-922a004b7454)
+![8](https://github.com/Asadayot/img/assets/89662125/b9c70313-5fdf-4918-96ec-0870731012ff)
+![9](https://github.com/Asadayot/img/assets/89662125/0d6333f9-f4f7-43b2-9ac4-c8a92a291ad3)
+![10](https://github.com/Asadayot/img/assets/89662125/30028c97-33e9-4e6f-9d3a-ab5712118510)
+![11](https://github.com/Asadayot/img/assets/89662125/34b60aaa-efa9-46a1-a560-bb124b311c47)
+![12](https://github.com/Asadayot/img/assets/89662125/6da98ff7-a6aa-4284-a323-96a745c3f9b5)
+
+</details>
+<br><br>   
 - ASAP-Updater : 올인원 교체/추가설치 메뉴의 홈브류, 시스모듈/오버레이 일부 제외 모두 순정파일로 교체.<br><br>
 - ASAP 시그패치 : 0531 버전으로 교체.<br><br>
 - ASAP 기본 홈브류, 시스모듈, 오버레이 대폭 추가 및 최신 libnx, libtesla 로 리빌드.<br><br>
