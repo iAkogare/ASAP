@@ -32,7 +32,7 @@ ASAP-Updater 설명서
    
 ![1](https://github.com/Asadayot/img/assets/89662125/6a8295a7-7651-4971-a481-a79e7c2d60b6)
 ![2](https://github.com/Asadayot/img/assets/89662125/befd8c53-a397-4f65-ba9e-13652c14dd2c)
-![3](https://github.com/Asadayot/img/assets/89662125/9fbcb827-fea5-4c4c-8245-44d5be7a5257)
+![3](https://github.com/Asadayot/img/assets/89662125/6fbce7e7-20ef-4201-ac6e-a6477c95aa04)
 ![4](https://github.com/Asadayot/img/assets/89662125/705aba24-154e-458d-96f3-f931a3df4769)
 ![5](https://github.com/Asadayot/img/assets/89662125/c4f5bbf0-92f5-4d45-9b07-c73ebe357519)
 ![6](https://github.com/Asadayot/img/assets/89662125/39b7ee13-6d66-48c3-9b57-9c61b66ff604)
