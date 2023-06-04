@@ -45,17 +45,6 @@ ASAP
 ![12](https://github.com/Asadayot/img/assets/89662125/6da98ff7-a6aa-4284-a323-96a745c3f9b5)
 
 </details>
-<br><br>   
-- ASAP-Updater : 올인원 교체/추가설치 메뉴의 홈브류, 시스모듈/오버레이 일부 제외 모두 순정파일로 교체.<br><br>
-- ASAP 시그패치 : 0531 버전으로 교체.<br><br>
-- ASAP 기본 홈브류, 시스모듈, 오버레이 대폭 추가 및 최신 libnx, libtesla 로 리빌드.<br><br>
-  - ASAP-Updater, Breeze, Daybreak, DBI, EdiZon-SE, Haze, HB-appstore, Hekate-Toolbox, ldnmitm config,<br>Linkalho, NX-Activity-Log, Tinfoil, Reboot2payload, vgedit+<br><br>
-  - Tesla-menu, ovlloader, ovlsysmodules, FPSLocker, NX-FPS, ReverseNX-RT, emuiibo, ldn mitm, EdiZon, QuickNTP, Status-Monitor, sys-clk-OC<br><br>
-- 홈브류 메뉴 시간표기 오류 수정.<br><br>
-- 에디존-SE 한글화.<br><br>
-- 시스모듈/오버레이 전부 한글화 - ASAP에서만 한글 적용 / 기타 올인원에서 한글 깨짐. 
-  
-<br><br>
 
 ASAP-Updater 설명서
 =====
