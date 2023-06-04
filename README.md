@@ -13,10 +13,20 @@ ASAP
 
 새 버전 개선사항
 =====
-## ⬦ ASAP-0531 주요 개선점
+## ⬦ ASAP-0604 주요 개선점
 
-### 버그보고로 인한 0531 배포 일시 중지 
-출장중이라 수정 늦을 수 있으니 0523_fix 사용해주세요.
+### ASAP 0604 부터 시그니쳐 패치를 제거, sys-patch(시스템 패치)를 사용합니다.<br>
+### hbmenu 및 시스모듈/오버레이 관련.
+  - SaltyNX 관련 오버레이(FPSLocker, ReverseNX-RT, Status-Monitor)는 SaltyNX 모듈이 실행되어야 모든 기능을 이용할 수 있습니다.
+  - SaltyNX 실행 중 홈브류 메뉴(풀 메모리 모드)에 있을 때 홈브류 메뉴(애플릿 모드) 진입시 메모리 3중첩 오류로 앨범에 갇힐 수 있습니다.
+  - SaltyNX 와 emuiibo 동시 실행상태에서 게임 이용 중 홈브류 메뉴(애플릿 모드) 진입시 메모리 중첩으로 앨범에 갇힐 수 있습니다.
+  - 이를 숙지 후 사용하지 않는다면 SaltyNX 관련 모듈/오버레이 혹은 emuiibo 를 제거하십시오.
+  - 혹은 테슬라 메뉴-시스템 모듈 에서 SaltyNX 를 실행 중지 하십시오.
+### ASAP 구성 요소 모두 리빌드.
+### 난잡하던 부팅 이미지 간략화하여 변경.
+### 기본팩에 시스모듈/오버레이/홈브류의 추가.
+### 모든 시스모듈/오버레이, 일부 홈브류 한글화.
+
 
 <br><details><summary>스크린샷 미리보기</summary>
 
@@ -458,7 +468,7 @@ ASAP 을 구성하기 위해 이용한 멋진 팀 및 개발자들과 앱.
   
   - [Atmosphère-NX](https://github.com/Atmosphere-NX) :  Atmosphère, hbloader, hbmenu
   - [CTCaer](https://github.com/CTCaer) :  Hekate & Nyx
-  - [ITotalJustice](https://github.com/ITotalJustice)
+  - [ITotalJustice](https://github.com/ITotalJustice) : sys-patch
   - [suchmememanyskill](https://github.com/suchmememanyskill) :  TegraExplorer
   - [Team-Neptune](https://github.com/Team-Neptune) :  CPR, DeepSea
   - [shchmue](https://github.com/shchmue) :  Lockpick RCM
