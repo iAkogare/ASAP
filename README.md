@@ -96,7 +96,6 @@ ASAP
 ![3](https://github.com/Asadayot/img/assets/89662125/b0c48a49-c7eb-49bf-a029-e956df6316d4)
 
 </details>
-<br>  
 
 ### - [선택사항] 저장 데이터 맡기기 해제
 
@@ -111,7 +110,6 @@ ASAP
 ![10](https://github.com/Asadayot/img/assets/89662125/ed4dfd34-a2e5-4712-8381-8f3d66551b00)
 
 </details>
-<br>
 
 ### - [선택사항] 파티션 분할
 
@@ -126,7 +124,6 @@ ASAP
 ![17](https://github.com/Asadayot/img/assets/89662125/d29fe66a-4ee6-428c-98fa-5e8c1ebb19e5)
 
 </details>
-<br>
 
 ### - [선택사항] 에뮤낸드 생성
 
@@ -139,7 +136,6 @@ ASAP
 ![22](https://github.com/Asadayot/img/assets/89662125/08719236-979b-4dfd-9693-6d7a93121b17)
 
 </details>
-<br>
 
 ### - [선택사항] 정크파일 제거, 홈브류 바로가기
 
@@ -168,7 +164,6 @@ ASAP
 ![43](https://github.com/Asadayot/img/assets/89662125/d4f63c98-5329-4823-b9eb-c8da76e8a205)
 
 </details>
-<br>
 
 ### - 설치 마무리/버전 업데이트
 
@@ -186,7 +181,6 @@ ASAP
 ![53](https://github.com/Asadayot/img/assets/89662125/01f262d4-01fe-4cea-8ce8-704d91091105)
 
 </details>
-<br>
 
 ### ⬦ ASAP 간단 설명
 
