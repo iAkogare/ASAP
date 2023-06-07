@@ -15,7 +15,7 @@ ASAP
 =====
 
 ### ⬦ 23.06.07 마이너 업데이트
-  - [Asanosphère](https://github.com/Atmosphere-NX/Atmosphere) (8b88351 커밋) - mitm: non-hos에 잘못된 include 수정
+  - [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere) (8b88351 커밋) - mitm: non-hos에 잘못된 include 수정
   - [JKSV](https://github.com/J-D-K/JKSV) (1ac23d2 커밋) 업데이트 - 02.23.2023 버전 리비전 및 수정
   - [FPSLocker](https://github.com/masagrator/FPSLocker) (738fff3 커밋) 업데이트 - 구성 설정 찾을 수 없는 경우 TID, BID 표기되도록 수정
   - [Switch-OC-Suite](https://github.com/hanai3Bi/Switch-OC-Suite) (117e9e5 커밋) 업데이트 - SD램 타이밍 파라미터 추가, 올바른 HiOPT 값 수정<br><br>
