@@ -554,6 +554,7 @@ ASAP
 | [sthetix](https://github.com/sthetix) | HATS |  |  |  |  |  
 | [tallbl0nde](https://github.com/tallbl0nde) |  |  |  |  | NX-Activity-Log |   
 | [tomvita](https://github.com/tomvita) |  |  | Noexes |  | breeze<br>Edizon-SE |  
+| [thestr4ng3r](https://git.sr.ht/~thestr4ng3r/chiaki) |  |  |  |  | Chiaki |  
 | [vgmoose](https://github.com/vgmoose) |  |  |  |  | vgedit |  
 | [WerWolv](https://github.com/WerWolv) |  |  | Edizon<br>Tesla menu | ovlmenu<br>ovl-sysmodules | Edizon<br>Hekate-Toolbox | 
 | [XorTroll](https://github.com/XorTroll) |  |  |  | emuiibo |  | 
