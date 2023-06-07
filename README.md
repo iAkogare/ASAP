@@ -15,10 +15,11 @@ ASAP
 =====
 
 ### ⬦ 23.06.07 마이너 업데이트
-  - [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere) (8b88351 커밋) - mitm: non-hos에 잘못된 include 수정
-  - [JKSV](https://github.com/J-D-K/JKSV) (1ac23d2 커밋) 업데이트 - 02.23.2023 버전 리비전 및 수정
-  - [FPSLocker](https://github.com/masagrator/FPSLocker) (738fff3 커밋) 업데이트 - 구성 설정 찾을 수 없는 경우 TID, BID 표기되도록 수정
-  - [Switch-OC-Suite](https://github.com/hanai3Bi/Switch-OC-Suite) (117e9e5 커밋) 업데이트 - SD램 타이밍 파라미터 추가, 올바른 HiOPT 값 수정<br><br>
+  - [Asanosphère](https://github.com/Asadayot/Asanosphere) ([8b88351](https://github.com/Atmosphere-NX/Atmosphere) 커밋) - mitm: non-hos에 잘못된 include 수정
+  - [ASAP-Updater](https://github.com/Asadayot/ASAP-updater) ([9c9b969](https://github.com/HamletDuFromage/aio-switch-updater) 커밋) - 2.22.0_1: 치트 메뉴 업데이트
+  - [JKSV](https://github.com/Asadayot/JKSV) ([1ac23d2](https://github.com/J-D-K/JKSV) 커밋) 업데이트 - 02.23.2023 버전 리비전 및 수정
+  - [FPSLocker](https://github.com/Asadayot/FPSLocker) ([738fff3](https://github.com/masagrator/FPSLocker) 커밋) 업데이트 - 구성 설정 찾을 수 없는 경우 TID, BID 표기되도록 수정
+  - [Switch-OC-Suite](https://github.com/Asadayot/Switch-OC-Suite) ([117e9e5](https://github.com/hanai3Bi/Switch-OC-Suite) 커밋) 업데이트 - SD램 타이밍 파라미터 추가, 올바른 HiOPT 값 수정<br><br>
 
 ### ⬦ ASAP 0604 부터 시그니쳐 패치를 제거, sys-patch(시스템 패치)를 사용합니다.
 ### ⬦ 1-10까지 리빌드 되었으며, 난잡했던 부팅 이미지를 간략화, 파일/폴더 배치를 재정리했습니다.
@@ -486,7 +487,7 @@ ASAP
 | \|__ [09.sys-clk-overlay.ovl](https://github.com/Asadayot/Switch-OC-Suite) | (한글화) Switch-OC-suite 오버레이 | 1.5.3-v1.5 | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |  
 | \|__ [10.sys-patch-overlay.ovl](https://github.com/Asadayot/sys-patch) | (한글화) 시스템 패치 오버레이 | 1.4.2 | `ALL` |    
 | /[appstore](https://github.com/Asadayot/hb-appstore) | (한글화) 시스모듈/오버레이, 홈브류 스토어 홈브류 | 2.3.2 | `Master` |  
-| /[Asano-updater](https://github.com/Asadayot/ASAP-updater) | (한글화) 종합 CFW 관리 홈브류 | 2.22.0_fix5 | `ALL` |
+| /[Asano-updater](https://github.com/Asadayot/ASAP-updater) | (한글화) 종합 CFW 관리 홈브류 | 2.22.0_1 | `ALL` |
 | /[breeze](https://github.com/tomvita/Breeze-Beta) | 치트 관리 홈브류 | Beta 38 | `Master` |
 | /[Daybreak](https://github.com/Asadayot/Asanosphere) | HOS 업데이트 홈브류 | 1.0.0 | `ALL` |  
 | /[DBI](https://github.com/rashevskyv/dbi) | 유/무선 종합 파일 관리 홈브류 | 576 | `ALL` |
