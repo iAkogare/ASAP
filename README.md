@@ -14,6 +14,12 @@ ASAP
 · 새 버전(0604) 변경/개선 사항
 =====
 
+### ⬦ 23.06.07 마이너 업데이트
+  - [Asanosphère](https://github.com/Atmosphere-NX/Atmosphere) (8b88351 커밋) - mitm: non-hos에 잘못된 include 수정
+  - [JKSV](https://github.com/J-D-K/JKSV) (1ac23d2 커밋) 업데이트 - 02.23.2023 버전 리비전 및 수정
+  - [FPSLocker](https://github.com/masagrator/FPSLocker) (738fff3 커밋) 업데이트 - 구성 설정 찾을 수 없는 경우 TID, BID 표기되도록 수정
+  - [Switch-OC-Suite](https://github.com/hanai3Bi/Switch-OC-Suite) (117e9e5 커밋) 업데이트 - SD램 타이밍 파라미터 추가, 올바른 HiOPT 값 수정<br><br>
+
 ### ⬦ ASAP 0604 부터 시그니쳐 패치를 제거, sys-patch(시스템 패치)를 사용합니다.
 ### ⬦ 1-10까지 리빌드 되었으며, 난잡했던 부팅 이미지를 간략화, 파일/폴더 배치를 재정리했습니다.
 ### ⬦ 홈브류 메뉴 ( 애플릿 모드 = 앨범 ) 에 갇히는 경우 - SaltyNX 오류
