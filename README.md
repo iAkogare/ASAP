@@ -16,6 +16,7 @@ ASAP
 
 ### ⬦ 23.06.07 마이너 업데이트
   - [Asanosphère](https://github.com/Asadayot/Asanosphere) ([8b88351](https://github.com/Atmosphere-NX/Atmosphere) 커밋) - mitm: non-hos에 잘못된 include 수정
+  - [Hekate×ASAP](https://github.com/Asadayot/hekate) ([937ab52](https://github.com/CTCaer/hekate)) - Nyx 시간 표기 일,시,분 누락 수정, joycon_mac.bin/ini backup/joycon → switchroot 복구
   - [ASAP-Updater](https://github.com/Asadayot/ASAP-updater) ([9c9b969](https://github.com/HamletDuFromage/aio-switch-updater) 커밋) - 2.22.0_1: 치트 메뉴 업데이트 (앱 내 업데이트 X, 파일 재설치 요망)
   - [JKSV](https://github.com/Asadayot/JKSV) ([1ac23d2](https://github.com/J-D-K/JKSV) 커밋) 업데이트 - 02.23.2023 버전 리비전 및 수정
   - [FPSLocker](https://github.com/Asadayot/FPSLocker) ([738fff3](https://github.com/masagrator/FPSLocker) 커밋) 업데이트 - 구성 설정 찾을 수 없는 경우 TID, BID 표기되도록 수정
