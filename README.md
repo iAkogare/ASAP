@@ -349,7 +349,7 @@ ASAP
  - 홈브류 메뉴 ( 풀 메모리 모드 ) 실행 상태에서 홈브류 메뉴 ( 애플릿 모드 ) 를 중첩 기동 시 메모리 부족/충돌 오류로 앨범에 갇히게 됩니다.
  - SaltyNX 와 emuiibo 가 실행되고 있는 상태에서 홈브류 메뉴 ( 애플릿 모드 ) 를 기동 시 메모리 부족/충돌 오류로 앨범에 갇히게 됩니다.<br><br>
  - 이를 해결하기 위한 방법 4가지 (선택). 
-   - 해결 방법 1. 테슬라 메뉴 진입 후 시스모듈 메뉴에서 SaltyNX 실행 중지합니다.
+   - 해결 방법 1. 테슬라 메뉴 진입 후 시스모듈 메뉴에서 SaltyNX 실행 중지 후 재부팅 합니다.
    - 해결 방법 2. 테슬라 메뉴 진입 후 시스모듈 메뉴에서 emuiibo의 실행을 중지, 자동 실행을 OFF로 설정 후 재부팅 합니다.
    - 해결 방법 3. SaltyNX와 관련된 모든 파일 (`SaltyNX module`, `SaltySD`, `FPSLocker`, `ReverseNX-RT`, `Status-Monitor`)을 제거합니다.
    - 해결 방법 4. emuiibo 와 관련된 모든 파일 (`emuiibo`, `emuiibo module`, `emuiibo overlay`)을 제거합니다.
