@@ -11,33 +11,26 @@ ASAP
 
 <br><br>
 
-· 새 버전(0604) 변경/개선 사항
+· 새 버전(0610) 변경/개선 사항
 =====
 
-### ⬦ 23.06.07 마이너 업데이트
-  - [Asanosphère](https://github.com/Asadayot/Asanosphere) ([8b88351](https://github.com/Atmosphere-NX/Atmosphere) 커밋) - mitm: non-hos에 잘못된 include 수정
-  - [Hekate×ASAP](https://github.com/Asadayot/hekate) ([937ab52](https://github.com/CTCaer/hekate)) - Nyx 시간 표기 일,시,분 누락 수정, joycon_mac.bin/ini backup/joycon → switchroot 복구
-  - [ASAP-Updater](https://github.com/Asadayot/ASAP-updater) ([9c9b969](https://github.com/HamletDuFromage/aio-switch-updater) 커밋) - 2.22.0_1: 치트 메뉴 업데이트 (앱 내 업데이트 X, 파일 재설치 요망)
-  - [JKSV](https://github.com/Asadayot/JKSV) ([1ac23d2](https://github.com/J-D-K/JKSV) 커밋) 업데이트 - 02.23.2023 버전 리비전 및 수정
-  - [FPSLocker](https://github.com/Asadayot/FPSLocker) ([738fff3](https://github.com/masagrator/FPSLocker) 커밋) 업데이트 - 구성 설정 찾을 수 없는 경우 TID, BID 표기되도록 수정
-  - [Switch-OC-Suite](https://github.com/Asadayot/Switch-OC-Suite) ([117e9e5](https://github.com/hanai3Bi/Switch-OC-Suite) 커밋) 업데이트 - SD램 타이밍 파라미터 추가, 올바른 HiOPT 값 수정<br><br>
+### ⬦ ASAP 추가 사항 
+  - [Lineage OS](https://download.switchroot.org/) 설치파일/방법 추가: `Install_Supporter+android.zip`<br><br>
+### ⬦ CFW/BOOTLOADER 업데이트
+  - [Hekate×ASAP](https://github.com/Asadayot/hekate) ([0215d16](https://github.com/CTCaer/hekate) 커밋) - 6.0.5 & 1.5.4 업데이트, 오역 수정.
+  - [Asanosphère](https://github.com/Asadayot/Asanosphere) ([8b88351](https://github.com/Atmosphere-NX/Atmosphere) 커밋) - 업데이트된 libnx를 통한 리빌드.<br><br>
+### ⬦ 홈브류 업데이트
+  - [ASAP-Updater](https://github.com/Asadayot/ASAP-updater) ([2519534](https://github.com/HamletDuFromage/aio-switch-updater) 커밋) - 2.22.0_2 업데이트.<br><br>
+### ⬦ 시스모듈/오버레이 업데이트 
+  - [Switch-OC-Suite](https://github.com/Asadayot/Switch-OC-Suite) ([266f014](https://github.com/hanai3Bi/Switch-OC-Suite) 커밋) - 1.5.3-v1.5.1 업데이트.
+  - [FPSLocker](https://github.com/Asadayot/FPSLocker) ([42af8c5](https://github.com/masagrator/FPSLocker) 커밋) - 1.2.4 업데이트.
+  - [NX-FPS](https://github.com/Asadayot/NX-FPS) ([b82e5cd](https://github.com/masagrator/NX-FPS) 커밋) - 1.5.4 업데이트.<br><br>
+### ⬦ ASAP-Updater 추가 사항
+  - 안드로이드 설치 파일 추가: [[ Lineage OS ]](https://download.switchroot.org/)
+  - 올인원 교체 파일 업데이트: [ Hekate & Atmosphère ], [ ASAP ], [ HATS ]
+  - ASAP 0610용 시그패치 추가.
+  - 안드로이드용 hekate_ipl.ini 파일 추가.
 
-### ⬦ ASAP 0604 부터 시그니쳐 패치를 제거, sys-patch(시스템 패치)를 사용합니다.
-### ⬦ 1-10까지 리빌드 되었으며, 난잡했던 부팅 이미지를 간략화, 파일/폴더 배치를 재정리했습니다.
-### ⬦ 홈브류 메뉴 ( 애플릿 모드 = 앨범 ) 에 갇히는 경우 - SaltyNX 오류
- - 홈브류 메뉴 ( 풀 메모리 모드 ) 실행 상태에서 홈브류 메뉴 ( 애플릿 모드 ) 를 중첩 기동 시 메모리 부족/충돌 오류로 앨범에 갇히게 됩니다.
- - SaltyNX 와 emuiibo 가 실행되고 있는 상태에서 홈브류 메뉴 ( 애플릿 모드 ) 를 기동 시 메모리 부족/충돌 오류로 앨범에 갇히게 됩니다.<br><br>
- - 이를 해결하기 위한 방법 4가지. (선택). 
-   - 해결 방법 1. 테슬라 메뉴 진입 후 시스모듈 메뉴에서 SaltyNX 실행 중지합니다.
-   - 해결 방법 2. 테슬라 메뉴 진입 후 시스모듈 메뉴에서 emuiibo의 실행을 중지, 자동 실행을 OFF로 설정 후 재부팅 합니다.
-   - 해결 방법 3. SaltyNX와 관련된 모든 파일 (`SaltyNX module`, `SaltySD`, `FPSLocker`, `ReverseNX-RT`, `Status-Monitor`)을 제거합니다.
-   - 해결 방법 4. emuiibo 와 관련된 모든 파일 (`emuiibo`, `emuiibo module`, `emuiibo overlay`)을 제거합니다.
-### ⬦ 홈브류 메뉴(애플릿/풀 메모리 모드) 진입 방법 변경
- - 0604 버전부터 홈브류 메뉴 진입 방법이 변경되었습니다.
- - 기존 설치 해놓은 `hbmenu_[01E2044444AB9000][v0].nsp` 바로가기는 기존대로 이용 가능합니다.
- - `앨범 + A버튼` 입력시 앨범 진입.
- - `앨범 + A버튼 홀드(길게 입력)`시 홈브류 메뉴(애플릿 모드) 진입.
- - `타이틀 + A버튼 홀드(길게 입력)`시 홈브류 메뉴(풀 메모리 모드 진입).
 <br><br><br>
 
 · 설치/업데이트 방법
@@ -57,43 +50,75 @@ ASAP
 <br><br><br>
   
 ### ⬦ 기존 커스텀 펌웨어 이용 유저의 경우
-- 설치 전 홈브류 폴더 지정. `'sd:/switch/daybreak.nro' → 'sd:/switch/daybreak/daybreak.nro'` 
-- [ASAP-updater.zip](https://github.com/Asadayot/ASAP/releases/latest) Latest를 내려받습니다.
-- 압축 해제 후 디렉토리를 `sd:/` 최상위 경로로 붙여넣습니다.
-- 스위치를 커스텀 펌웨어로 기동 후, hbmenu `앨범+A 홀드` 진입, `ASAP-Updater`를 실행합니다.
-- `ASAP 업데이트` `올인원 교체/추가설치` 항목에서 설치하고픈 올인원을 선택하여 다운로드합니다.
+  
+- 설치 전 홈브류 폴더 지정. 'sd:/switch/daybreak.nro' → 'sd:/switch/daybreak/daybreak.nro'<br><br>
+- [ASAP-updater.zip](https://github.com/Asadayot/ASAP/releases/latest) Latest를 내려받습니다.<br><br>
+- 압축 해제 후 디렉토리를 `sd:/` 최상위 경로로 붙여넣습니다.<br><br>
+- 스위치를 커스텀 펌웨어로 기동 후, hbmenu `앨범+A 홀드` 진입, `ASAP-Updater`를 실행합니다.<br><br>
+- `ASAP 업데이트`, `올인원 교체/추가설치` 항목에서 설치하고픈 올인원을 선택하여 다운로드합니다.
   - `ASAP 업데이트` 항목은 Asanosphère 와 Hekate 및 기본 홈브류의 설치/업데이트 메뉴이며 기종에 따른 불필요한 파일을 제거합니다.
-  - `올인원 교체/추가설치` 항목의 `[ ASAP ]` 은 전기종 지원 마스터 패키징으로 테슬라, 시스모듈, 홈브류 등이 포함됩니다.
-  - 처음 설치하거나 다른 올인원 팩에서 이주하는 경우 후자 설치를 권장합니다.   
-- 다운로드 후, `A` 버튼 입력하여 재기동 하며 자동 설치를 진행합니다.
-- hbmenu `앨범+A 홀드` → `DBI` - `Browse SD Card` → `nsp` → `hbmenu_[01E2044444AB9000][v0].nsp` 및 바로가기 설치.  
+  - `올인원 교체/추가설치` 항목의 `[ ASAP ]` 은 전기종 지원 마스터팩(개발자킷)으로 더 많은 시스모듈/오버레이, 홈브류 등이 포함됩니다.<br><br> 
+- 다운로드 후, `A` 버튼 입력하여 재기동 하며 자동 설치를 진행합니다.<br><br>
+- hbmenu `앨범+A 홀드` → `DBI` - `Browse SD Card` → `nsp` → `hbmenu_[01E2044444AB9000][v0].nsp` 및 바로가기 설치.<br><br> 
+- 안드로이드를 설치합니다. (선택사항)
+  
+  <details><summary>자세히 보기</summary> 
+  
+  - `ASAP-Updater`→`올인원 교체/추가설치`→`[ Lineage OS ]` 선택 설치 후 헤카테로 재부팅.<br><br> 
+  - `도구`→`eMMC 백업`→`에뮤낸드 RAW 파티션으로 전환 ON`→`emuMMC BOOT0 & BOOT1`→`닫기`→`emuMMC RAW GPP`→`닫기`→`닫기` 선택.<br><br> 
+  - 스위치 PC와 연결 후 `USB 도구`→`backup, emuMMC, Nintendo 폴더 PC 백업 후 장치 꺼내기로 연결 해제`→`닫기`→`홈` 선택.<br><br> 
+  - `Nyx 설정`→`조이콘 BT 덤프`→`확인`→`닫기` 순으로 선택 후 홈메뉴로 돌아갑니다.<br><br> 
+  - `도구`→`SD 카드 파티션 분할`→`확인`→`에뮤낸드(RAW)-설정크기(파일기반 선택X)` + `안드로이드(USER)-8 ~ nn`<br>→`포맷 및 분할 계속`→`시작`→`전원버튼`→`안드로이드 플래시`→`계속`→`계속` 순으로 선택합니다.<br><br> 
+  - `Factory reset`→`Format data/factory reset`→`Format data`→`Yes`<br>→`Format system partition`-`Yes`→`←` 순으로 선택합니다.<br><br> 
+  - `Apply update`→`Choose from SWITCH SD`→`LineageOS_18.1_Android11.zip`→`Yes`<br>→`Choose from SWITCH SD`→`joycon-xbox.zip`→`Yes`→`←` 순으로 선택합니다.<br><br> 
+  - `Reboot system now`→`런처`→`Lineage OS (안드로이드)` 부팅하여 안드로이드 초기 설정.<br><br> 
+  - `도구`→`eMMC 복원`→`에뮤낸드 RAW 파티션으로 전환 ON`→`emuMMC BOOT0 & BOOT1`→`전원버튼`→`닫기`<br> →`emuMMC RAW GPP`→`전원버튼`→`닫기`→`닫기` 선택.<br><br> 
+  - `홈`→`에뮤낸드`→`에뮤낸드 이주`→`RAW 수정 or 에뮤낸드`→`계속`→`확인` 선택.
+  
+  </details>  
 <br><br><br>
 
 ### ⬦ 새 Micro SD Card 를 이용하여 설치하는 경우
-- [Install_Supporter.zip](https://github.com/Asadayot/ASAP/releases/latest) Latest를 내려받습니다.
-- 압축 해제 후 `install.bat` 배치 파일을 실행합니다.
+  
+- [Install_Supporter.zip](https://github.com/Asadayot/ASAP/releases/latest) Latest를 내려받습니다.<br><br>
+- 압축 해제 후 `install.bat` 배치 파일을 실행합니다.<br><br>
   - Windows의 PC 보호 팝업창이 생성되면 추가정보 → 실행 선택 후, CMD 창의 안내에 따라 진행하세요.
-  - 또는 디렉토리를 `sd:/` 최상위 경로로 모두 붙여넣습니다.
+  - 또는 디렉토리를 `sd:/` 최상위 경로로 모두 붙여넣습니다.<br><br>
 - 닌텐도 온라인 가입자 설정을 진행합니다. (선택사항)
   - Hekate×ASAP으로 기동 하여 런치 메뉴로 진입, `HOS (웜부트 오류 수정)` 로 부팅합니다.
   - 설정→데이터 관리→저장 데이터 맡기기→온라인 가입자 선택→설정→저장 데이터 자동 백업/다운로드 OFF 순으로 설정합니다.
-  - 설정→본체→소프트웨어 자동 업데이트 OFF→에러 정보 송신 OFF 순으로 설정합니다.
+  - 설정→본체→소프트웨어 자동 업데이트 OFF→에러 정보 송신 OFF 순으로 설정합니다.<br><br>
 - `파티션 기반` 에뮤낸드를 생성합니다. (선택사항)
   - Hekate×ASAP으로 진입합니다. 
   - 도구→SD 카드 파티션 분할→확인→에뮤낸드(RAW)-12 권장→포맷 및 분할 계속→시작→전원버튼→확인 순으로 선택하여 파티션을 분할합니다.
-  - 홈메뉴로 돌아가 에뮤낸드→에뮤낸드 생성→파티션 기반→파티션 X 순으로 선택하여 자동 생성합니다.
-- `파일 기반` 에뮤낸드를 생성합니다. (선택사항)
+  - 홈메뉴로 돌아가 에뮤낸드→에뮤낸드 생성→파티션 기반→파티션 X 순으로 선택하여 자동 생성합니다.<br><br>
+- `파일 기반` 에뮤낸드를 생성합니다. (선택사항) 
   - Hekate×ASAP으로 진입합니다. 
   - 도구→SD 카드 파티션→확인→포맷 및 분할 계속→시작→전원버튼→확인 순으로 선택하여 FAT32로 포맷합니다.
-  - 홈메뉴로 돌아가 에뮤낸드→에뮤낸드 생성→파일 기반 순으로 선택하여 자동 생성합니다.
-- 런치 메뉴의 `Asanosphère (시스/에뮤낸드)`로 기동 후, hbmenu `앨범+A 홀드` 진입하여 ASAP-Updater를 실행합니다.
-- `ASAP 업데이트` `올인원 교체/추가설치` 항목에서 설치하고픈 올인원을 선택하여 다운로드합니다.
-  - `ASAP 업데이트` 항목은 Asanosphère 와 Hekate 및 기본 홈브류의 설치/업데이트 메뉴이며 기종에 따른 불필요한 파일을 제거합니다.
-  - `올인원 교체/추가설치` 항목의 `[ ASAP ]` 은 전기종 지원 마스터 패키징으로 테슬라, 시스모듈, 홈브류 등이 포함됩니다.
-  - 처음 설치하거나 다른 올인원 팩에서 이주하는 경우 후자 설치를 권장합니다. 
-- 다운로드 후, `A` 버튼 입력하여 재기동 하며 자동 설치를 진행합니다.
-- hbmenu `앨범+A 홀드` → `DBI` - `Browse SD Card` → `nsp` → `hbmenu_[01E2044444AB9000][v0].nsp` 및 바로가기 설치.     
-
+  - 홈메뉴로 돌아가 에뮤낸드→에뮤낸드 생성→파일 기반 순으로 선택하여 자동 생성합니다.<br><br>
+- 다운로드 후, `A` 버튼 입력하여 재기동 하며 자동 설치를 진행합니다.<br><br>
+- hbmenu `앨범+A 홀드` → `DBI` - `Browse SD Card` → `nsp` → `hbmenu_[01E2044444AB9000][v0].nsp` 및 바로가기 설치.<br><br>     
+- `에뮤낸드` 및 `안드로이드`를 생성합니다. ([Install_Supporter+android.zip](https://github.com/Asadayot/ASAP/releases) 한정)
+  
+  <details><summary>자세히 보기</summary> 
+    
+  - [Install_Supporter+android.zip](https://github.com/Asadayot/ASAP/releases/latest) Latest를 내려받습니다.<br><br>
+  - 압축 해제 후 `install.bat` 배치 파일을 실행합니다.<br><br>  
+  - 런치 메뉴의 `Asanosphère (시스/에뮤낸드)`로 기동 후, hbmenu `앨범+A 홀드` 진입하여 ASAP-Updater를 실행합니다.<br><br>
+  - `ASAP 업데이트`, `올인원 교체/추가설치` 항목에서 설치하고픈 올인원을 선택하여 다운로드합니다.<br><br>
+  - 다운로드 후, `A` 버튼 입력하여 재기동 하며 자동 설치를 진행합니다.<br><br>
+  - `Nyx 설정`→`조이콘 BT 덤프`→`확인`→`닫기` 순으로 선택 후 홈메뉴로 돌아갑니다.<br><br>
+  - `도구`→`SD 카드 파티션 분할`→`확인`→`에뮤낸드(RAW)-12 권장(선택사항)` + `안드로이드(USER)-8 ~ nn`<br>→`포맷 및 분할 계속`→`시작`→`전원버튼`→`안드로이드 플래시`→`계속`→`계속` 순으로 선택합니다.<br><br>
+  - `Factory reset`→`Format data/factory reset`→`Format data`→`Yes`<br>→`Format system partition`-`Yes`→`←` 순으로 선택합니다.<br><br>
+  - `Apply update`→`Choose from SWITCH SD`→`LineageOS_18.1_Android11.zip`→`Yes`<br>→`Choose from SWITCH SD`→`joycon-xbox.zip`→`Yes`→`←` 순으로 선택합니다.<br><br>
+  - `Reboot system now`→`런처`→`Lineage OS (안드로이드)` 부팅하여 안드로이드 초기 설정을 진행합니다.<br><br>
+  - 헤카테로 재부팅하여 `에뮤낸드`→`에뮤낸드 생성`→`파일 기반 or 파티션 기반`→`파티션 X` 순으로 선택하여 자동 생성합니다.<br><br>
+  - 런치 메뉴의 `Asanosphère (에뮤낸드)`로 기동 후, hbmenu `앨범+A 홀드` 진입하여 ASAP-Updater를 실행합니다.<br><br>
+  - `추가 구성 다운로드`→`[ Lineage OS ]`를 선택 설치합니다.<br><br>
+  - hbmenu `앨범+A 홀드` → `DBI` - `Browse SD Card` → `nsp` → `hbmenu_[01E2044444AB9000][v0].nsp` 및 바로가기 설치.  
+    
+  </details>
+  <br>   
 </details>
 <br>  
 
@@ -360,7 +385,7 @@ ASAP
 | -------- | -------- | -------- | -------- |
 | atmosphere                                 |  |  | `ALL` |
 | \|__ [package3](https://github.com/Asadayot/Asanosphere) | 아트모스피어 | 1.5.4 | `ALL` |
-| \|__ [reboot_hekate.bin](https://github.com/Asadayot/hekate) | (한글화) 헤카테 페이로드 | 6.0.4 | `지그/로더` `Master` |
+| \|__ [reboot_hekate.bin](https://github.com/Asadayot/hekate) | (한글화) 헤카테 페이로드 | 6.0.5 | `지그/로더` `Master` |
 | \|__ [reboot_payload.bin](https://github.com/Asadayot/Asanosphere) | 아트모스피어 페이로드 | 1.5.4 | `ALL` |
 | \|__ [stratosphere.romfs](https://github.com/Asadayot/Asanosphere) | 스트라토스피어 romfs | 1.5.4 | `ALL` |
 | /config/                                   |  |  | `ALL` |
@@ -370,7 +395,7 @@ ASAP
 | \|__ [sys-patche_config.ini](https://github.com/Asadayot/sys-patch) | (한글 주석) 시스템 패치(시그패치 대용) 설정 |  | `ALL` |
 | \|__ [system_settings.ini](https://github.com/Asadayot/ASAP) | (한글 주석) 아트모스피어/오버클럭 설정 |  | `ALL` |
 | /contents/                                 |  |  | `ALL` |
-| \|__ /[00FF0000636C6BFF](https://github.com/Asadayot/Switch-OC-Suite) | sys-clk(Switch-OC-Suite) 모듈 | 1.5.3-v1.5 | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
+| \|__ /[00FF0000636C6BFF](https://github.com/Asadayot/Switch-OC-Suite) | sys-clk(Switch-OC-Suite) 모듈 | 1.5.3-v1.5.1 | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
 | \|__ /[054e4f4558454000](https://github.com/tomvita/Noexes) | Noexes 모듈 | 1.4.157 | `Master` |
 | \|__ /[0000000000534C56](https://github.com/Asadayot/SaltyNX) | SaltyNX 모듈 | 0.6.0 | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
 | \|__ /[010000000000bd00](https://github.com/Asadayot/MissionControl) | MissionControl 모듈 | 0.9.2 | `Master` |
@@ -382,7 +407,7 @@ ASAP
 | \|__ /[690000000000000D](https://github.com/Asadayot/sys-con) | sys-con 모듈 | 0.6.4 | `Master` |
 | \|__ /[4200000000000010](https://github.com/Asadayot/ldn_mitm) | ldn_mitm 모듈 | 1.15.0 | `Master` |
 | /exfs_patches/                             |  |  | `ALL` |
-| \|__ /[ASAP](https://github.com/Asadayot/ASAP) | 부팅 로고 패치 | 0604 | `ALL` |
+| \|__ /[ASAP](https://github.com/Asadayot/ASAP) | 부팅 로고 패치 | 0610 | `ALL` |
 | \|__ /[bluetooth_patches](https://github.com/Asadayot/MissionControl) | MissionControl 블루투스 패치 | 0.9.2 | `Master` |
 | \|__ /[btm_patches](https://github.com/Asadayot/MissionControl) | MissionControl btm 패치 | 0.9.2 | `Master` |
 | /fatal_errors                              |  |  | `ALL` |
@@ -396,7 +421,7 @@ ASAP
 | \|__ emummc.txt                            | emuMMC DNS 설정 |  | `ALL` |
 | /kip_patches                               |  |  | `ALL` |
 | /kips/                                     |  |  | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
-| \|__ [loader.kip](https://github.com/Asadayot/Switch-OC-Suite) | Switch-OC-suite Kip 패치 | 1.5.3-v1.5 | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
+| \|__ [loader.kip](https://github.com/Asadayot/Switch-OC-Suite) | Switch-OC-suite Kip 패치 | 1.5.3-v1.5.1 | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
 | <br><br>                                   |  |  |  |
 | backup                                     |  |  | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` | 
 | /keys/                                     |  |  | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
@@ -414,8 +439,8 @@ ASAP
 | <br><br>                                   |  |  |  |
 | bootloader                                 |  |  | `ALL` |
 | \|__ hekate_ipl.ini                        | 헤카테 런처 INI 설정 |  | `ALL` |
-| \|__ patches.ini                           | 로더 패치 INI 설정 | 0604 | `ALL` |
-| \|__ [update.bin](https://github.com/Asadayot/hekate) | (한글화) 헤카테 페이로드 | 6.0.4 | `ALL` |
+| \|__ patches.ini                           | 로더 패치 INI 설정 | 0610 | `ALL` |
+| \|__ [update.bin](https://github.com/Asadayot/hekate) | (한글화) 헤카테 페이로드 | 6.0.5 | `ALL` |
 | /ini/                                      |  |  | `ALL` |
 | \|__ payloads.ini                          | 페이로드 런처 INI 설정 |  | `기종별 구성 상이` |
 | /payloads/                                 |  |  | `ALL` |
@@ -428,19 +453,19 @@ ASAP
 | \|__ [TegraExplorer.bin](https://github.com/Asadayot/TegraExplorer) | TegraExplorer 페이로드 | 4.0.1 | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
 | /res/                                      |  |  | `ALL` |
 | \|__ backgraound.bmp                       | 헤카테 바탕화면 이미지 |  | `ALL` |  
-| \|__ /bootscreen                           | 런처 부팅 이미지 | 0604 | `기종별 구성 상이` |
-| \|__ /icon                                 | 런처 아이콘 이미지 | 0604 | `기종별 구성 상이` |
+| \|__ /bootscreen                           | 런처 부팅 이미지 | 0610 | `기종별 구성 상이` |
+| \|__ /icon                                 | 런처 아이콘 이미지 | 0610 | `기종별 구성 상이` |
 | /sys/                                      |  |  | `ALL` |
 | \|__ [emummc.kipm](https://github.com/Asadayot/emuMMC) | emuMMC KIP1 모듈 | 16.0.3 | `ALL` |
-| \|__ [libsys_lp0.bso](https://github.com/Asadayot/hekate) | LP0 모듈 | 1.5.3 | `ALL` |
+| \|__ [libsys_lp0.bso](https://github.com/Asadayot/hekate) | LP0 모듈 | 1.5.4 | `ALL` |
 | \|__ [libsys_minerva.bso](https://github.com/Asadayot/hekate)  | 미네르바 트레이닝 셀 | 1.5.3 | `ALL` |
-| \|__ [nyx.bin](https://github.com/Asadayot/hekate) | 헤카테 GUI | 1.5.3 | `ALL` |
-| \|__ [res.pak](https://github.com/Asadayot/hekate) | 닉스 리소스 | 1.5.3 | `ALL` |
-| \|__ [thk.bin](https://github.com/Asadayot/hekate) | 아트모스피어 TSEC 키젠 | 1.5.3 | `ALL` |
-| \|__ /[l4t](https://github.com/CTCaer/hekate) | LINUX for Tegra | 1.5.3 | `ALL` |  
+| \|__ [nyx.bin](https://github.com/Asadayot/hekate) | 헤카테 GUI | 1.5.4 | `ALL` |
+| \|__ [res.pak](https://github.com/Asadayot/hekate) | 닉스 리소스 | 1.5.4 | `ALL` |
+| \|__ [thk.bin](https://github.com/Asadayot/hekate) | 아트모스피어 TSEC 키젠 | 1.5.4 | `ALL` |
+| \|__ /[l4t](https://github.com/CTCaer/hekate) | LINUX for Tegra | 1.5.4 | `ALL` |  
 | <br><br>                                   |  |  |  |
 | config                                     |  |  | `ALL` |
-| /[Asano-assist](https://github.com/Asadayot/hekate) | ASAP assist 설정 | 0604 | `ALL` |
+| /[Asano-assist](https://github.com/Asadayot/hekate) | ASAP assist 설정 | 0610 | `ALL` |
 | /[MissionControl](https://github.com/Asadayot/MissionControl) | MissionControl 설정 |  | `Master` |
 | /[sys-clk-oc](https://github.com/Asadayot/sys-patch) | Switch-OC-Suite 설정 |  | `Master` |
 | /[sys-con](https://github.com/Asadayot/sys-con) | sys-con 설정 |  | `Master` |
@@ -471,7 +496,7 @@ ASAP
 | /flags                                     | SaltyNX 로그 플래그 |  | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
 | /patches                                   | SaltyNX 패치 |  | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` | 
 | /plugins/                                  | SaltyNX 플러그인 |  | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
-| \|__ [NX-FPS.elf](https://github.com/Asadayot/NX-FPS) | FPSLocker, Status-Monitor FPS 플러그인 | 1.5.3 | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |   
+| \|__ [NX-FPS.elf](https://github.com/Asadayot/NX-FPS) | FPSLocker, Status-Monitor FPS 플러그인 | 1.5.4 | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |   
 | \|__ [ReverseNX-RT.elf](https://github.com/Asadayot/ReverseNX-RT) | FPSLocker, ReverseNX-RT 플러그인 | 1.1.1 | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |   
 | <br><br>                                   |  |  |  |
 | switch                                     |  |  | `ALL` |
@@ -480,15 +505,15 @@ ASAP
 | \|__ [01.ovlSysmodules.ovl](https://github.com/Asadayot/ovl-sysmodules) | (한글화) 시스모듈 오버레이 | 1.3.1 | `ALL` |
 | \|__ [02.ovlEdiZon.ovl](https://github.com/Asadayot/EdiZon-Overlay) | (한글화) 치트 매니저 오버레이 | 1.0.5 | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
 | \|__ [03.emuiibo.ovl](https://github.com/Asadayot/emuiibo) | (한글화) 가상 아미보 관리 오버레이 | 1.0.0 | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
-| \|__ [04.FPSLocker.ovl](https://github.com/Asadayot/FPSLocker) | (한글화) FPS 관리 오버레이 | 1.2.3 | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
+| \|__ [04.FPSLocker.ovl](https://github.com/Asadayot/FPSLocker) | (한글화) FPS 관리 오버레이 | 1.2.4 | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
 | \|__ [05.ldnmitm_config.ovl](https://github.com/Asadayot/ldn_mitm) | (한글화) LAN 플레이 설정 오버레이 | 1.15.0 | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
 | \|__ [06.QuickNTP.ovl](https://github.com/Asadayot/QuickNTP) | (한글화) 네트워크 시간 동기화 오버레이 | 1.2.8 | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
 | \|__ [07.ReverseNX-RT-ovl.ovl](https://github.com/Asadayot/ReverseNX-RT) | (한글화) ReverseNX-RT 오버레이 | 1.1.1 | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
 | \|__ [08.status-monitor-overlay.ovl](https://github.com/Asadayot/Status-Monitor-Overlay) | (한글화) 상태 모니터 오버레이 | 0.9.1 | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
-| \|__ [09.sys-clk-overlay.ovl](https://github.com/Asadayot/Switch-OC-Suite) | (한글화) Switch-OC-suite 오버레이 | 1.5.3-v1.5 | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |  
+| \|__ [09.sys-clk-overlay.ovl](https://github.com/Asadayot/Switch-OC-Suite) | (한글화) Switch-OC-suite 오버레이 | 1.5.3-v1.5.1 | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |  
 | \|__ [10.sys-patch-overlay.ovl](https://github.com/Asadayot/sys-patch) | (한글화) 시스템 패치 오버레이 | 1.4.2 | `ALL` |    
 | /[appstore](https://github.com/Asadayot/hb-appstore) | (한글화) 시스모듈/오버레이, 홈브류 스토어 홈브류 | 2.3.2 | `Master` |  
-| /[Asano-updater](https://github.com/Asadayot/ASAP-updater) | (한글화) 종합 CFW 관리 홈브류 | 2.22.0_1 | `ALL` |
+| /[Asano-updater](https://github.com/Asadayot/ASAP-updater) | (한글화) 종합 CFW 관리 홈브류 | 2.22.0_2 | `ALL` |
 | /[breeze](https://github.com/tomvita/Breeze-Beta) | 치트 관리 홈브류 | Beta 38 | `Master` |
 | /[Daybreak](https://github.com/Asadayot/Asanosphere) | HOS 업데이트 홈브류 | 1.0.0 | `ALL` |  
 | /[DBI](https://github.com/rashevskyv/dbi) | 유/무선 종합 파일 관리 홈브류 | 576 | `ALL` |
@@ -515,7 +540,7 @@ ASAP
 | <br><br>                                     |  |  |  |
 | [boot.dat](https://github.com/Asadayot/ASAP) | SX data 파일 | 1.1 | `Install Supporter` `지그/로더` `SX` `Master` |
 | [boot.ini](https://github.com/Asadayot/ASAP) | SX INI 설정 파일 | 1.1 | `Install Supporter` `지그/로더` `SX` `Master` |
-| [payload.bin](https://github.com/Asadayot/hekate) | (한글화) 헤카테 페이로드 | 6.0.4 | `ALL` |
+| [payload.bin](https://github.com/Asadayot/hekate) | (한글화) 헤카테 페이로드 | 6.0.5 | `ALL` |
 | [unlock.bin](https://gbatemp.net/threads/picofly-a-hwfly-switch-modchip.622701/) | PiCoFly HOS unlock 펌웨어 | ~2.5_unlock | `Install Supporter` |
   
 </details>       
