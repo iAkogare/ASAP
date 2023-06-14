@@ -124,7 +124,7 @@ ASAP
     
   - [Install_Supporter+android.zip](https://github.com/Asadayot/ASAP/releases/latest) Latest를 내려받습니다.<br><br>
   - 압축 해제 후 `install.bat` 배치 파일을 실행합니다.<br><br>  
-  - SD 카드 스위치 삽입 후 헤카테로 부팅합니다. 
+  - SD 카드 스위치 삽입 후 헤카테로 부팅합니다.<br><br>
   - `Nyx 설정`→`조이콘 BT 덤프`→`확인`→`닫기` 순으로 선택 후 홈메뉴로 돌아갑니다.<br><br>
   - `도구`→`SD 카드 파티션 분할`→`확인`→`에뮤낸드(RAW)-12 권장(선택사항)` + `안드로이드(USER)-8 ~ nn`<br>→`포맷 및 분할 계속`→`시작`→`전원버튼`→`안드로이드 플래시`→`계속`→`계속` 순으로 선택합니다.<br><br>
   - `Factory reset`→`Format data/factory reset`→`Format data`→`Yes`<br>→`Format system partition`-`Yes`→`←` 순으로 선택합니다.<br><br>
