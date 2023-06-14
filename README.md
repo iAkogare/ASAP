@@ -124,15 +124,16 @@ ASAP
     
   - [Install_Supporter+android.zip](https://github.com/Asadayot/ASAP/releases/latest) Latest를 내려받습니다.<br><br>
   - 압축 해제 후 `install.bat` 배치 파일을 실행합니다.<br><br>  
-  - 런치 메뉴의 `Asanosphère (시스/에뮤낸드)`로 기동 후, hbmenu `앨범+A 홀드` 진입하여 ASAP-Updater를 실행합니다.<br><br>
-  - `ASAP 업데이트`, `올인원 교체/추가설치` 항목에서 설치하고픈 올인원을 선택하여 다운로드합니다.<br><br>
-  - 다운로드 후, `A` 버튼 입력하여 재기동 하며 자동 설치를 진행합니다.<br><br>
+  - SD 카드 스위치 삽입 후 헤카테로 부팅합니다. 
   - `Nyx 설정`→`조이콘 BT 덤프`→`확인`→`닫기` 순으로 선택 후 홈메뉴로 돌아갑니다.<br><br>
   - `도구`→`SD 카드 파티션 분할`→`확인`→`에뮤낸드(RAW)-12 권장(선택사항)` + `안드로이드(USER)-8 ~ nn`<br>→`포맷 및 분할 계속`→`시작`→`전원버튼`→`안드로이드 플래시`→`계속`→`계속` 순으로 선택합니다.<br><br>
   - `Factory reset`→`Format data/factory reset`→`Format data`→`Yes`<br>→`Format system partition`-`Yes`→`←` 순으로 선택합니다.<br><br>
   - `Apply update`→`Choose from SWITCH SD`→`LineageOS_18.1_Android11.zip`→`Yes`<br>→`Choose from SWITCH SD`→`joycon-xbox.zip`→`Yes`→`←` 순으로 선택합니다.<br><br>
   - `Reboot system now`→`런처`→`Lineage OS (안드로이드)` 부팅하여 안드로이드 초기 설정을 진행합니다.<br><br>
   - 헤카테로 재부팅하여 `에뮤낸드`→`에뮤낸드 생성`→`파일 기반 or 파티션 기반`→`파티션 X` 순으로 선택하여 자동 생성합니다.<br><br>
+  - 런치 메뉴의 `Asanosphère (시스/에뮤낸드)`로 기동 후, hbmenu `앨범+A 홀드` 진입하여 ASAP-Updater를 실행합니다.<br><br>
+  - `ASAP 업데이트`, `올인원 교체/추가설치` 항목에서 설치하고픈 올인원을 선택하여 다운로드합니다.<br><br>
+  - 다운로드 후, `A` 버튼 입력하여 재기동 하며 자동 설치를 진행합니다.<br><br>
   - 런치 메뉴의 `Asanosphère (에뮤낸드)`로 기동 후, hbmenu `앨범+A 홀드` 진입하여 ASAP-Updater를 실행합니다.<br><br>
   - `추가 구성 다운로드`→`[ Lineage OS ]`를 선택 설치합니다.<br><br>
   - hbmenu `앨범+A 홀드` → `DBI` - `Browse SD Card` → `nsp` → `hbmenu_[01E2044444AB9000][v0].nsp` 및 바로가기 설치.  
