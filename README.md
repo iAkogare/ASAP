@@ -11,26 +11,24 @@ ASAP
 
 <br><br>
 
-· 새 버전(0610) 변경/개선 사항
+· 새 버전(0624) 변경/개선 사항
 =====
 
-### ⬦ ASAP 추가 사항 
-  - [Lineage OS](https://download.switchroot.org/) 설치파일/방법 추가: `Install_Supporter+android.zip`<br><br>
 ### ⬦ CFW/BOOTLOADER 업데이트
-  - [Hekate×ASAP](https://github.com/Asadayot/hekate) ([0215d16](https://github.com/CTCaer/hekate) 커밋) - 6.0.5 & 1.5.4 업데이트, 오역 수정.
+  - [Hekate×ASAP](https://github.com/Asadayot/hekate) ([6e954f5](https://github.com/CTCaer/hekate) 커밋) - 최신 커밋 업데이트.
   - [Asanosphère](https://github.com/Asadayot/Asanosphere) ([8b88351](https://github.com/Atmosphere-NX/Atmosphere) 커밋) - 업데이트된 libnx를 통한 리빌드.<br><br>
 ### ⬦ 홈브류 업데이트
-  - [ASAP-Updater](https://github.com/Asadayot/ASAP-updater) ([2519534](https://github.com/HamletDuFromage/aio-switch-updater) 커밋) - 2.22.0_2 업데이트.<br><br>
-### ⬦ 시스모듈/오버레이 업데이트 
-  - [Switch-OC-Suite](https://github.com/Asadayot/Switch-OC-Suite) ([266f014](https://github.com/hanai3Bi/Switch-OC-Suite) 커밋) - 1.5.3-v1.5.1 업데이트.
-  - [FPSLocker](https://github.com/Asadayot/FPSLocker) ([42af8c5](https://github.com/masagrator/FPSLocker) 커밋) - 1.2.4 업데이트.
-  - [NX-FPS](https://github.com/Asadayot/NX-FPS) ([b82e5cd](https://github.com/masagrator/NX-FPS) 커밋) - 1.5.4 업데이트.<br><br>
+  - [ASAP-Updater](https://github.com/Asadayot/ASAP-updater) ([34eb3b7](https://github.com/HamletDuFromage/aio-switch-updater) 커밋) - 오탈자 수정.<br><br>
+### ⬦ 시스모듈/오버레이 한글판 업데이트 
+  - [EdiZon-Overlay](https://github.com/Asadayot/EdiZon-Overlay) ([42af8c5](https://github.com/proferabg/EdiZon-Overlay) 커밋) - 요청에 따른 순정 기반 1.0.5 > 1.0.6 업데이트.
+  - [Sys-patch](https://github.com/Asadayot/sys-patch) ([e813595](https://github.com/ITotalJustice/sys-patch) 커밋) - 확인 커서 변경.
+  - [Switch-OC-Suite](https://github.com/Asadayot/Switch-OC-Suite) ([78991f0](https://github.com/hanai3Bi/Switch-OC-Suite) 커밋) - 1.5.3-v1.5.1 > 1.6.2 업데이트.<br><br>
 ### ⬦ ASAP-Updater 추가 사항
-  - 안드로이드 설치 파일 추가: [[ Lineage OS ]](https://download.switchroot.org/)
-  - 올인원 교체 파일 업데이트: [ Hekate & Atmosphère ], [ ASAP ], [ HATS ]
-  - ASAP 0610용 시그패치 추가.
-  - 안드로이드용 hekate_ipl.ini 파일 추가.
-
+  - 추가 구성 파일 롤백: [ PiCoFly ] 2.74 버전 안정성 이슈로 인한 2.73 버전으로 롤백.
+  - Horizon OS 파일 추가 업로드: 14.1.2 ~ 16.0.3(Rebootless Update) 까지 지원 및 다운로드 속도 제한 해제.
+  - ASAP 0624용 시그패치 추가.
+  - 올인원 교체 파일 업데이트: [ ASAP ]
+  - 순정 파일 업데이트: 오버레이 - EdiZon 1.0.5 > 1.0.6, Switch-OC-Suite 1.6.1 > 1.6.2
 <br><br><br>
 
 · 중요 안내사항
@@ -416,19 +414,19 @@ ASAP
 | \|__ [sys-patche_config.ini](https://github.com/Asadayot/sys-patch) | (한글 주석) 시스템 패치(시그패치 대용) 설정 |  | `ALL` |
 | \|__ [system_settings.ini](https://github.com/Asadayot/ASAP) | (한글 주석) 아트모스피어/오버클럭 설정 |  | `ALL` |
 | /contents/                                 |  |  | `ALL` |
-| \|__ /[00FF0000636C6BFF](https://github.com/Asadayot/Switch-OC-Suite) | sys-clk(Switch-OC-Suite) 모듈 | 1.5.3-v1.5.1 | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
+| \|__ /[00FF0000636C6BFF](https://github.com/Asadayot/Switch-OC-Suite) | sys-clk(Switch-OC-Suite) 모듈 | 1.6.2 | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
 | \|__ /[054e4f4558454000](https://github.com/tomvita/Noexes) | Noexes 모듈 | 1.4.157 | `Master` |
 | \|__ /[0000000000534C56](https://github.com/Asadayot/SaltyNX) | SaltyNX 모듈 | 0.6.0 | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
 | \|__ /[010000000000bd00](https://github.com/Asadayot/MissionControl) | MissionControl 모듈 | 0.9.2 | `Master` |
 | \|__ /[420000000007E51A](https://github.com/Asadayot/Tesla-Menu)| Tesla 모듈 | 1.2.3 | `Install Supporter` `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
 | \|__ /[010000000000000D](https://github.com/tomvita/SE-tools) | SE-Tools 모듈 | 1.5 | `Master` |  
 | \|__ /[0100000000000352](https://github.com/Asadayot/emuiibo) | emuiibo 모듈 | 1.0.0 | `Master` |
-| \|__ /[0100000000001013](https://github.com/Asadayot/EdiZon-Overlay) | EdiZon 치트 매니저 모듈 | 1.0.5 | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
+| \|__ /[0100000000001013](https://github.com/Asadayot/EdiZon-Overlay) | EdiZon 치트 매니저 모듈 | 1.0.6 | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
 | \|__ /[420000000000000B](https://github.com/Asadayot/sys-patch) | sys-patch 모듈 | 1.4.2 | `Install Supporter` `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |  
 | \|__ /[690000000000000D](https://github.com/Asadayot/sys-con) | sys-con 모듈 | 0.6.4 | `Master` |
 | \|__ /[4200000000000010](https://github.com/Asadayot/ldn_mitm) | ldn_mitm 모듈 | 1.15.0 | `Master` |
 | /exfs_patches/                             |  |  | `ALL` |
-| \|__ /[ASAP](https://github.com/Asadayot/ASAP) | 부팅 로고 패치 | 0610 | `ALL` |
+| \|__ /[ASAP](https://github.com/Asadayot/ASAP) | 부팅 로고 패치 | 0624 | `ALL` |
 | \|__ /[bluetooth_patches](https://github.com/Asadayot/MissionControl) | MissionControl 블루투스 패치 | 0.9.2 | `Master` |
 | \|__ /[btm_patches](https://github.com/Asadayot/MissionControl) | MissionControl btm 패치 | 0.9.2 | `Master` |
 | /fatal_errors                              |  |  | `ALL` |
@@ -442,7 +440,7 @@ ASAP
 | \|__ emummc.txt                            | emuMMC DNS 설정 |  | `ALL` |
 | /kip_patches                               |  |  | `ALL` |
 | /kips/                                     |  |  | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
-| \|__ [loader.kip](https://github.com/Asadayot/Switch-OC-Suite) | Switch-OC-suite Kip 패치 | 1.5.3-v1.5.1 | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
+| \|__ [loader.kip](https://github.com/Asadayot/Switch-OC-Suite) | Switch-OC-suite Kip 패치 | 1.6.2 | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
 | <br><br>                                   |  |  |  |
 | backup                                     |  |  | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` | 
 | /keys/                                     |  |  | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
@@ -460,7 +458,7 @@ ASAP
 | <br><br>                                   |  |  |  |
 | bootloader                                 |  |  | `ALL` |
 | \|__ hekate_ipl.ini                        | 헤카테 런처 INI 설정 |  | `ALL` |
-| \|__ patches.ini                           | 로더 패치 INI 설정 | 0610 | `ALL` |
+| \|__ patches.ini                           | 로더 패치 INI 설정 | 0624 | `ALL` |
 | \|__ [update.bin](https://github.com/Asadayot/hekate) | (한글화) 헤카테 페이로드 | 6.0.5 | `ALL` |
 | /ini/                                      |  |  | `ALL` |
 | \|__ payloads.ini                          | 페이로드 런처 INI 설정 |  | `기종별 구성 상이` |
@@ -474,8 +472,8 @@ ASAP
 | \|__ [TegraExplorer.bin](https://github.com/Asadayot/TegraExplorer) | TegraExplorer 페이로드 | 4.0.1 | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
 | /res/                                      |  |  | `ALL` |
 | \|__ backgraound.bmp                       | 헤카테 바탕화면 이미지 |  | `ALL` |  
-| \|__ /bootscreen                           | 런처 부팅 이미지 | 0610 | `기종별 구성 상이` |
-| \|__ /icon                                 | 런처 아이콘 이미지 | 0610 | `기종별 구성 상이` |
+| \|__ /bootscreen                           | 런처 부팅 이미지 | 0624 | `기종별 구성 상이` |
+| \|__ /icon                                 | 런처 아이콘 이미지 | 0624 | `기종별 구성 상이` |
 | /sys/                                      |  |  | `ALL` |
 | \|__ [emummc.kipm](https://github.com/Asadayot/emuMMC) | emuMMC KIP1 모듈 | 16.0.3 | `ALL` |
 | \|__ [libsys_lp0.bso](https://github.com/Asadayot/hekate) | LP0 모듈 | 1.5.4 | `ALL` |
@@ -486,7 +484,7 @@ ASAP
 | \|__ /[l4t](https://github.com/CTCaer/hekate) | LINUX for Tegra | 1.5.4 | `ALL` |  
 | <br><br>                                   |  |  |  |
 | config                                     |  |  | `ALL` |
-| /[Asano-assist](https://github.com/Asadayot/hekate) | ASAP assist 설정 | 0610 | `ALL` |
+| /[Asano-assist](https://github.com/Asadayot/hekate) | ASAP assist 설정 | 0624 | `ALL` |
 | /[MissionControl](https://github.com/Asadayot/MissionControl) | MissionControl 설정 |  | `Master` |
 | /[sys-clk-oc](https://github.com/Asadayot/sys-patch) | Switch-OC-Suite 설정 |  | `Master` |
 | /[sys-con](https://github.com/Asadayot/sys-con) | sys-con 설정 |  | `Master` |
@@ -497,7 +495,7 @@ ASAP
 | <br><br>                                   |  |  |  |
 | modchip_firmware                           |  |  | `Master` |
 | /[Hwfly-OS](https://github.com/hwfly-nx/firmware)| Hwfly 최신 펌웨어, SDloader | 0.7.2 | `Master` |
-| /[PiCoFly-OS](https://gbatemp.net/threads/picofly-a-hwfly-switch-modchip.622701/) | PiCoFly 최신 펌웨어, SDloader | 2.74 | `Master` |
+| /[PiCoFly-OS](https://gbatemp.net/threads/picofly-a-hwfly-switch-modchip.622701/) | PiCoFly 최신 펌웨어, SDloader | 2.73 | `Master` |
 | /[INSTINCT-OS](https://drive.google.com/drive/folders/16A9lhFMS_zuNKO6AZEB2QH8XLo7skx86) | INSTINCT 최신 펌웨어 | 1.0 | `Master` |
 | <br><br>                                   |  |  |  |
 | nsp                                        |  |  | `ALL` |
@@ -524,14 +522,14 @@ ASAP
 | /.overlays/                                |  |  | `ALL` |  
 | \|__ [ovlmenu.ovl](https://github.com/Asadayot/Tesla-Menu) | (한글화) 테슬라 메뉴 오버레이 | 1.2.3 | `ALL` | 
 | \|__ [01.ovlSysmodules.ovl](https://github.com/Asadayot/ovl-sysmodules) | (한글화) 시스모듈 오버레이 | 1.3.1 | `ALL` |
-| \|__ [02.ovlEdiZon.ovl](https://github.com/Asadayot/EdiZon-Overlay) | (한글화) 치트 매니저 오버레이 | 1.0.5 | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
+| \|__ [02.ovlEdiZon.ovl](https://github.com/Asadayot/EdiZon-Overlay) | (한글화) 치트 매니저 오버레이 | 1.0.6 | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
 | \|__ [03.emuiibo.ovl](https://github.com/Asadayot/emuiibo) | (한글화) 가상 아미보 관리 오버레이 | 1.0.0 | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
 | \|__ [04.FPSLocker.ovl](https://github.com/Asadayot/FPSLocker) | (한글화) FPS 관리 오버레이 | 1.2.4 | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
 | \|__ [05.ldnmitm_config.ovl](https://github.com/Asadayot/ldn_mitm) | (한글화) LAN 플레이 설정 오버레이 | 1.15.0 | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
 | \|__ [06.QuickNTP.ovl](https://github.com/Asadayot/QuickNTP) | (한글화) 네트워크 시간 동기화 오버레이 | 1.2.8 | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
 | \|__ [07.ReverseNX-RT-ovl.ovl](https://github.com/Asadayot/ReverseNX-RT) | (한글화) ReverseNX-RT 오버레이 | 1.1.1 | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
 | \|__ [08.status-monitor-overlay.ovl](https://github.com/Asadayot/Status-Monitor-Overlay) | (한글화) 상태 모니터 오버레이 | 0.9.1 | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |
-| \|__ [09.sys-clk-overlay.ovl](https://github.com/Asadayot/Switch-OC-Suite) | (한글화) Switch-OC-suite 오버레이 | 1.5.3-v1.5.1 | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |  
+| \|__ [09.sys-clk-overlay.ovl](https://github.com/Asadayot/Switch-OC-Suite) | (한글화) Switch-OC-suite 오버레이 | 1.6.2 | `지그/로더` `SX` `Hwfly` `PiCoFly` `Spacecraft/INSTINCT` `Master` |  
 | \|__ [10.sys-patch-overlay.ovl](https://github.com/Asadayot/sys-patch) | (한글화) 시스템 패치 오버레이 | 1.4.2 | `ALL` |    
 | /[appstore](https://github.com/Asadayot/hb-appstore) | (한글화) 시스모듈/오버레이, 홈브류 스토어 홈브류 | 2.3.2 | `Master` |  
 | /[Asano-updater](https://github.com/Asadayot/ASAP-updater) | (한글화) 종합 CFW 관리 홈브류 | 2.22.0_2 | `ALL` |
