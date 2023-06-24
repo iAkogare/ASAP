@@ -48,7 +48,6 @@ ASAP
    - 해결 방법 2. 테슬라 메뉴 진입 후 시스모듈 메뉴에서 emuiibo의 실행을 중지, 자동 실행을 OFF로 설정 후 재부팅 합니다.
    - 해결 방법 3. SaltyNX와 관련된 모든 파일 (`SaltyNX module`, `SaltySD`, `FPSLocker`, `ReverseNX-RT`, `Status-Monitor`)을 제거합니다.
    - 해결 방법 4. emuiibo 와 관련된 모든 파일 (`emuiibo`, `emuiibo module`, `emuiibo overlay`)을 제거합니다. 
-
 <br><br><br>
 
 · 설치/업데이트 방법
